@@ -1,0 +1,7 @@
+Lassy Small (Wikipedia section) with Universal Dependencies (UD_Dutch-LassySmall) is distributed
+under the Creative Commons Attribution-ShareAlike 4.0 International license (CC BY-SA 4.0)
+
+For informal information please see here:
+http://creativecommons.org/licenses/by-nc-sa/4.0/.
+For formal representation please see here:
+http://creativecommons.org/licenses/by-nc-sa/4.0/legalcode.

@@ -30,5 +30,5 @@ Data source: automatic
 Data available since: UD v1.3
 License: CC BY-SA 4.0 
 Genre: wiki 
-Contributors: Bouma, Gosse, van Noord, Gertjan
+Contributors: Bouma, Gosse; van Noord, Gertjan
 ===============================================================================

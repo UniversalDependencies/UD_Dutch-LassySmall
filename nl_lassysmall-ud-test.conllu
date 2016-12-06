@@ -21,7 +21,7 @@
 20	aan	aan	ADP	_	_	22	case	_	_
 21	de	de	DET	_	Definite=Def	22	det	_	_
 22	macht	macht	NOUN	_	Gender=Com|Number=Sing	10	acl	_	_
-23	kwam	komen	AUX	_	_	22	cop	_	_
+23	kwam	komen	AUX	_	Number=Sing|Tense=Past|VerbForm=Fin	22	cop	_	_
 24	na	na	ADP	_	_	26	case	_	_
 25	de	de	DET	_	Definite=Def	26	det	_	_
 26	verkiezingen	verkiezing	NOUN	_	Number=Plur	22	nmod	_	_
@@ -32,14 +32,14 @@
 # wiki-9720.p.2.s.1.xml
 1	Het	het	DET	_	Definite=Def	2	det	_	_
 2	Lam	lam	NOUN	_	Gender=Neut|Number=Sing	11	nsubj	_	_
-3	Gods	God	PROPN	_	Number=Sing	2	mwe	_	_
+3	Gods	God	PROPN	_	Number=Sing	2	name	_	_
 4	,	,	PUNCT	_	_	11	punct	_	_
 5	ook	ook	ADV	_	_	7	advmod	_	_
 6	wel	wel	ADV	_	_	7	advmod	_	_
 7	Gents	Gents	ADJ	_	Degree=Pos	8	amod	_	_
 8	altaarstuk	altaarstuk	NOUN	_	Gender=Neut|Number=Sing	2	appos	_	_
 9	,	,	PUNCT	_	_	11	punct	_	_
-10	is	zijn	AUX	_	_	11	cop	_	_
+10	is	zijn	AUX	_	Number=Sing|Tense=Pres|VerbForm=Fin	11	cop	_	_
 11	geschilderd	schilderen	VERB	_	VerbForm=Part	0	root	_	_
 12	door	door	ADP	_	_	13	case	_	_
 13	Jan	Jan	PROPN	_	_	11	nmod	_	_
@@ -74,7 +74,7 @@
 3	aanwezigheid	aanwezigheid	NOUN	_	Gender=Com|Number=Sing	9	nsubj	_	_
 4	in	in	ADP	_	_	5	case	_	_
 5	Brussel	Brussel	PROPN	_	Gender=Neut|Number=Sing	3	nmod	_	_
-6	is	zijn	AUX	_	_	9	cop	_	_
+6	is	zijn	AUX	_	Number=Sing|Tense=Pres|VerbForm=Fin	9	cop	_	_
 7	vooral	vooral	ADV	_	_	9	advmod	_	_
 8	het	het	DET	_	Definite=Def	9	det	_	_
 9	gevolg	gevolg	NOUN	_	Gender=Neut|Number=Sing	0	root	_	_
@@ -126,7 +126,7 @@
 55	1785	1785	NUM	_	_	57	nmod	_	_
 56	nog	nog	ADV	_	_	57	advmod	_	_
 57	Nederlandstalig	Nederlandstalig	ADJ	_	Degree=Pos	47	ccomp	_	_
-58	is	zijn	AUX	_	_	57	cop	_	_
+58	is	zijn	AUX	_	Number=Sing|Tense=Pres|VerbForm=Fin	57	cop	_	_
 59	,	,	PUNCT	_	_	29	punct	_	_
 60	terwijl	terwijl	SCONJ	_	_	66	mark	_	_
 61	de	de	DET	_	Definite=Def	62	det	_	_
@@ -135,7 +135,7 @@
 64	ongeveer	ongeveer	ADV	_	_	66	advmod	_	_
 65	net	net	ADV	_	_	66	advmod	_	_
 66	andersom	andersom	ADV	_	_	57	advcl	_	_
-67	is	zijn	AUX	_	_	66	cop	_	_
+67	is	zijn	AUX	_	Number=Sing|Tense=Pres|VerbForm=Fin	66	cop	_	_
 68	.	.	PUNCT	_	_	29	punct	_	_
 
 # wiki-1941.p.45.s.9.xml
@@ -148,8 +148,8 @@
 7	Handelsblad	Handelsblad	PROPN	_	_	6	name	_	_
 8	,	,	PUNCT	_	_	6	punct	_	_
 9	14	14	NUM	_	_	6	parataxis	_	_
-10	oktober	oktober	PROPN	_	Gender=Com|Number=Sing	9	mwe	_	_
-11	2003	2003	NUM	_	_	9	mwe	_	_
+10	oktober	oktober	PROPN	_	Gender=Com|Number=Sing	9	name	_	_
+11	2003	2003	NUM	_	_	9	name	_	_
 
 # wiki-1617.p.9.s.3.xml
 1	Els	Els	PROPN	_	_	15	nsubj	_	_
@@ -165,7 +165,7 @@
 11	Duurzame	duurzaam	ADJ	_	Degree=Pos	8	conj	_	_
 12	Ontwikkeling	ontwikkeling	NOUN	_	Gender=Com|Number=Sing	11	mwe	_	_
 13	,	,	PUNCT	_	_	15	punct	_	_
-14	had	hebben	AUX	_	_	15	aux	_	_
+14	had	hebben	AUX	_	Number=Sing|Tense=Past|VerbForm=Fin	15	aux	_	_
 15	aangekondigd	aankondigen	VERB	_	VerbForm=Part	0	root	_	_
 16	uit	uit	ADP	_	_	18	case	_	_
 17	de	de	DET	_	Definite=Def	18	det	_	_
@@ -173,7 +173,7 @@
 19	te	te	PART	_	_	20	mark	_	_
 20	stappen	stappen	VERB	_	VerbForm=Inf	15	ccomp	_	_
 21	als	als	SCONJ	_	_	31	mark	_	_
-22	Brussel-Halle-Vilvoorde	Brussel-Halle-Vilvoorde	PROPN	_	Gender=Neut|Number=Sing	31	nsubj	_	_
+22	Brussel-Halle-Vilvoorde	Brussel-Halle-Vilvoorde	PROPN	_	Gender=Neut|Number=Sing	31	nsubjpass	_	_
 23	niet	niet	ADV	_	_	31	nmod	_	_
 24	of	of	CONJ	_	_	23	cc	_	_
 25	tegen	tegen	ADP	_	_	30	case	_	_
@@ -183,7 +183,7 @@
 29	Vlaamse	Vlaams	ADJ	_	Degree=Pos	30	amod	_	_
 30	prijs	prijs	NOUN	_	Gender=Com|Number=Sing	23	conj	_	_
 31	gesplitst	splitsen	VERB	_	VerbForm=Part	20	advcl	_	_
-32	werd	worden	AUX	_	_	31	auxpass	_	_
+32	werd	worden	AUX	_	Number=Sing|Tense=Past|VerbForm=Fin	31	auxpass	_	_
 33	.	.	PUNCT	_	_	15	punct	_	_
 
 # wiki-866.p.34.s.2.xml
@@ -228,7 +228,7 @@
 17	zijn	zijn	DET	_	_	19	det	_	_
 18	«	«	PUNCT	_	_	9	punct	_	_
 19	Zuidoost-Vlaams	Zuidoost-Vlaams	ADJ	_	Degree=Pos	9	nmod	_	_
-20	Idioticon	Idioticon	PROPN	_	Gender=Neut|Number=Sing	19	mwe	_	_
+20	Idioticon	Idioticon	PROPN	_	Gender=Neut|Number=Sing	19	name	_	_
 21	»	»	PUNCT	_	_	9	punct	_	_
 22	.	.	PUNCT	_	_	9	punct	_	_
 
@@ -308,18 +308,18 @@
 6	te	te	ADP	_	_	7	case	_	_
 7	Dikkelvenne	Dikkelvenne	PROPN	_	Gender=Neut|Number=Sing	5	nmod	_	_
 8	,	,	PUNCT	_	_	14	punct	_	_
-9	is	zijn	AUX	_	_	14	auxpass	_	_
+9	is	zijn	AUX	_	Number=Sing|Tense=Pres|VerbForm=Fin	14	auxpass	_	_
 10	het	het	DET	_	Definite=Def	13	det	_	_
 11	oudste	oud	ADJ	_	Degree=Sup	13	amod	_	_
 12	Nederlandstalige	Nederlandstalig	ADJ	_	Degree=Pos	13	amod	_	_
-13	document	document	NOUN	_	Gender=Neut|Number=Sing	14	nsubj	_	_
+13	document	document	NOUN	_	Gender=Neut|Number=Sing	14	nsubjpass	_	_
 14	gevonden	vinden	VERB	_	VerbForm=Part	0	root	_	_
 15	.	.	PUNCT	_	_	14	punct	_	_
 
 # wiki-11.p.29.s.1.xml
 1	De	de	DET	_	Definite=Def	2	det	_	_
 2	stad	stad	NOUN	_	Gender=Com|Number=Sing	4	nsubj	_	_
-3	is	zijn	AUX	_	_	4	cop	_	_
+3	is	zijn	AUX	_	Number=Sing|Tense=Pres|VerbForm=Fin	4	cop	_	_
 4	rijk	rijk	ADJ	_	Degree=Pos	0	root	_	_
 5	aan	aan	ADP	_	_	6	case	_	_
 6	bezienswaardigheden	bezienswaardigheid	NOUN	_	Number=Plur	4	nmod	_	_
@@ -345,7 +345,7 @@
 4	)	)	PUNCT	_	_	1	punct	_	_
 5	:	:	PUNCT	_	_	1	punct	_	_
 6	Spike	Spike	PROPN	_	Gender=Com|Number=Sing	1	parataxis	_	_
-7	&amp;	&amp;	SYM	_	_	6	mwe	_	_
+7	&	&	SYM	_	_	6	name	_	_
 8	Suzy	Suzy	PROPN	_	_	6	name	_	_
 
 # wiki-832.p.43.s.3.xml
@@ -371,8 +371,8 @@
 
 # wiki-3745.p.9.s.2.xml
 1	De	de	DET	_	Definite=Def	2	det	_	_
-2	fabriek	fabriek	NOUN	_	Gender=Com|Number=Sing	4	nsubj	_	_
-3	werd	worden	AUX	_	_	4	auxpass	_	_
+2	fabriek	fabriek	NOUN	_	Gender=Com|Number=Sing	4	nsubjpass	_	_
+3	werd	worden	AUX	_	Number=Sing|Tense=Past|VerbForm=Fin	4	auxpass	_	_
 4	gevestigd	vestigen	VERB	_	VerbForm=Part	0	root	_	_
 5	aan	aan	ADP	_	_	7	case	_	_
 6	de	de	DET	_	Definite=Def	7	det	_	_
@@ -400,10 +400,10 @@
 11	rond	rond	ADP	_	_	13	case	_	_
 12	«	«	PUNCT	_	_	5	punct	_	_
 13	Piwo	Piwo	PROPN	_	Gender=Com|Number=Sing	10	nmod	_	_
-14	,	,	PUNCT	_	_	13	mwe	_	_
-15	het	het	DET	_	Definite=Def	13	mwe	_	_
-16	houten	houten	ADJ	_	Degree=Pos	13	mwe	_	_
-17	paard	paard	NOUN	_	Gender=Neut|Number=Sing	13	mwe	_	_
+14	,	,	PUNCT	_	_	13	name	_	_
+15	het	het	DET	_	Definite=Def	13	name	_	_
+16	houten	houten	ADJ	_	Degree=Pos	13	name	_	_
+17	paard	paard	NOUN	_	Gender=Neut|Number=Sing	13	name	_	_
 18	»	»	PUNCT	_	_	5	punct	_	_
 19	vol	vol	ADJ	_	Degree=Pos	5	amod	_	_
 20	.	.	PUNCT	_	_	5	punct	_	_
@@ -419,9 +419,9 @@
 8	elkaar	elkaar	PRON	_	Case=Acc|PronType=Rcp	3	advcl	_	_
 9	en	en	CONJ	_	_	3	cc	_	_
 10	er	er	ADV	_	_	14	advmod	_	_
-11	werd	worden	AUX	_	_	14	auxpass	_	_
+11	werd	worden	AUX	_	Number=Sing|Tense=Past|VerbForm=Fin	14	auxpass	_	_
 12	een	een	DET	_	Definite=Ind	13	det	_	_
-13	kind	kind	NOUN	_	Gender=Neut|Number=Sing	14	nsubj	_	_
+13	kind	kind	NOUN	_	Gender=Neut|Number=Sing	14	nsubjpass	_	_
 14	geboren	geboren	ADJ	_	Degree=Pos	3	conj	_	_
 15	:	:	PUNCT	_	_	3	punct	_	_
 16	Delphine	Delphine	PROPN	_	_	3	parataxis	_	_
@@ -472,8 +472,8 @@
 # wiki-295.p.6.s.3.xml
 1	Op	op	ADP	_	_	2	case	_	_
 2	27	27	NUM	_	_	5	nmod	_	_
-3	juni	juni	PROPN	_	Gender=Com|Number=Sing	2	mwe	_	_
-4	1912	1912	NUM	_	_	2	mwe	_	_
+3	juni	juni	PROPN	_	Gender=Com|Number=Sing	2	name	_	_
+4	1912	1912	NUM	_	_	2	name	_	_
 5	trouwt	trouwen	VERB	_	Number=Sing|Tense=Pres|VerbForm=Fin	0	root	_	_
 6	Permeke	Permeke	PROPN	_	Gender=Com|Number=Sing	5	nsubj	_	_
 7	met	met	ADP	_	_	8	case	_	_
@@ -506,22 +506,22 @@
 5	in	in	ADP	_	_	7	case	_	_
 6	de	de	DET	_	Definite=Def	7	det	_	_
 7	Abdij	abdij	NOUN	_	Gender=Com|Number=Sing	3	nmod	_	_
-8	van	van	ADP	_	_	7	mwe	_	_
-9	Maagdendale	Maagdendale	PROPN	_	Gender=Neut|Number=Sing	7	mwe	_	_
+8	van	van	ADP	_	_	7	name	_	_
+9	Maagdendale	Maagdendale	PROPN	_	Gender=Neut|Number=Sing	7	name	_	_
 10	.	.	PUNCT	_	_	3	punct	_	_
 
 # wiki-9843.p.12.s.2.xml
 1	Naar	naar	ADP	_	_	3	case	_	_
 2	Amerikaans	Amerikaans	ADJ	_	Degree=Pos	3	amod	_	_
 3	voorbeeld	voorbeeld	NOUN	_	Gender=Neut|Number=Sing	12	nmod	_	_
-4	wou	willen	AUX	_	_	12	aux	_	_
+4	wou	willen	AUX	_	Number=Sing|Tense=Past|VerbForm=Fin	12	aux	_	_
 5	hij	hij	PRON	_	Case=Nom|Person=3|PronType=Prs	12	nsubj	_	_
 6	zijn	zijn	DET	_	_	7	det	_	_
 7	strips	strip	NOUN	_	Number=Plur	12	dobj	_	_
 8	in	in	ADP	_	_	10	case	_	_
 9	de	de	DET	_	Definite=Def	10	det	_	_
 10	krant	krant	NOUN	_	Gender=Com|Number=Sing	12	nmod	_	_
-11	laten	laten	AUX	_	_	12	aux	_	_
+11	laten	laten	AUX	_	VerbForm=Inf	12	aux	_	_
 12	verschijnen	verschijnen	VERB	_	VerbForm=Inf	0	root	_	_
 13	opdat	opdat	SCONJ	_	_	20	mark	_	_
 14	ze	ze	PRON	_	Person=3|PronType=Prs	20	nsubj	_	_
@@ -529,7 +529,7 @@
 16	een	een	DET	_	Definite=Ind	18	det	_	_
 17	vast	vast	ADJ	_	Degree=Pos	18	amod	_	_
 18	publiek	publiek	NOUN	_	Gender=Neut|Number=Sing	20	dobj	_	_
-19	zouden	zullen	AUX	_	_	20	aux	_	_
+19	zouden	zullen	AUX	_	Number=Plur|Tense=Past|VerbForm=Fin	20	aux	_	_
 20	vinden	vinden	VERB	_	VerbForm=Inf	12	advcl	_	_
 21	.	.	PUNCT	_	_	12	punct	_	_
 
@@ -596,8 +596,8 @@
 
 # wiki-9844.p.1.s.1.xml
 1	Suske	Suske	PROPN	_	Gender=Com|Number=Sing	0	root	_	_
-2	en	en	CONJ	_	_	1	mwe	_	_
-3	Wiske	Wiske	PROPN	_	Gender=Com|Number=Sing	1	mwe	_	_
+2	en	en	CONJ	_	_	1	name	_	_
+3	Wiske	Wiske	PROPN	_	Gender=Com|Number=Sing	1	name	_	_
 
 # wiki-889.p.4.s.2.xml
 1	De	de	DET	_	Definite=Def	3	det	_	_
@@ -608,8 +608,8 @@
 6	dynastieke	dynastiek	ADJ	_	Degree=Pos	7	amod	_	_
 7	titel	titel	NOUN	_	Gender=Com|Number=Sing	4	dobj	_	_
 8	Prins	prins	NOUN	_	Gender=Com|Number=Sing	7	appos	_	_
-9	van	van	ADP	_	_	8	mwe	_	_
-10	Luik	Luik	PROPN	_	Gender=Neut|Number=Sing	8	mwe	_	_
+9	van	van	ADP	_	_	8	name	_	_
+10	Luik	Luik	PROPN	_	Gender=Neut|Number=Sing	8	name	_	_
 11	.	.	PUNCT	_	_	4	punct	_	_
 
 # wiki-1652.p.25.s.1.xml
@@ -637,7 +637,7 @@
 
 # wiki-135.p.45.s.3.xml
 1	België	België	PROPN	_	Gender=Neut|Number=Sing	3	nsubj	_	_
-2	is	zijn	AUX	_	_	3	cop	_	_
+2	is	zijn	AUX	_	Number=Sing|Tense=Pres|VerbForm=Fin	3	cop	_	_
 3	één	één	NUM	_	_	0	root	_	_
 4	van	van	ADP	_	_	7	case	_	_
 5	de	de	DET	_	Definite=Def	7	det	_	_
@@ -669,7 +669,7 @@
 
 # wiki-11.p.86.s.1.xml
 1	Antwerpen	Antwerpen	PROPN	_	Gender=Neut|Number=Sing	3	nsubj	_	_
-2	is	zijn	AUX	_	_	3	cop	_	_
+2	is	zijn	AUX	_	Number=Sing|Tense=Pres|VerbForm=Fin	3	cop	_	_
 3	verzusterd	verzusteren	VERB	_	VerbForm=Part	0	root	_	_
 4	met	met	ADP	_	_	7	case	_	_
 5	de	de	DET	_	Definite=Def	7	det	_	_
@@ -741,9 +741,9 @@
 9	verhaal	verhaal	NOUN	_	Gender=Neut|Number=Sing	2	nmod	_	_
 10	«	«	PUNCT	_	_	2	punct	_	_
 11	Op	op	ADP	_	_	9	appos	_	_
-12	het	het	DET	_	Definite=Def	11	mwe	_	_
-13	eiland	eiland	NOUN	_	Gender=Neut|Number=Sing	11	mwe	_	_
-14	Amoras	Amoras	PROPN	_	Gender=Neut|Number=Sing	11	mwe	_	_
+12	het	het	DET	_	Definite=Def	11	name	_	_
+13	eiland	eiland	NOUN	_	Gender=Neut|Number=Sing	11	name	_	_
+14	Amoras	Amoras	PROPN	_	Gender=Neut|Number=Sing	11	name	_	_
 15	»	»	PUNCT	_	_	2	punct	_	_
 16	.	.	PUNCT	_	_	2	punct	_	_
 
@@ -756,7 +756,7 @@
 6	450	450	NUM	_	_	7	nummod	_	_
 7	gedetineerden	detineren	VERB	_	VerbForm=Part	3	iobj	_	_
 8	en	en	CONJ	_	_	3	cc	_	_
-9	is	zijn	AUX	_	_	12	cop	_	_
+9	is	zijn	AUX	_	Number=Sing|Tense=Pres|VerbForm=Fin	12	cop	_	_
 10	de	de	DET	_	Definite=Def	12	det	_	_
 11	modernste	modern	ADJ	_	Degree=Sup	12	amod	_	_
 12	gevangenis	gevangenis	NOUN	_	Gender=Com|Number=Sing	3	conj	_	_
@@ -778,7 +778,7 @@
 
 # wiki-1823.p.13.s.1.xml
 1	Vlaanderen	Vlaanderen	PROPN	_	Gender=Neut|Number=Sing	7	nsubj	_	_
-2	is	zijn	AUX	_	_	7	cop	_	_
+2	is	zijn	AUX	_	Number=Sing|Tense=Pres|VerbForm=Fin	7	cop	_	_
 3	sinds	sinds	ADP	_	_	5	case	_	_
 4	de	de	DET	_	Definite=Def	5	det	_	_
 5	staatshervorming	staatshervorming	NOUN	_	Gender=Com|Number=Sing	7	nmod	_	_
@@ -803,7 +803,7 @@
 24	eigen	eigen	ADJ	_	Degree=Pos	25	amod	_	_
 25	inkomsten	inkomsten	NOUN	_	Number=Plur	14	conj	_	_
 26	en	en	CONJ	_	_	7	cc	_	_
-27	wordt	worden	AUX	_	_	30	auxpass	_	_
+27	wordt	worden	AUX	_	Number=Sing|Tense=Pres|VerbForm=Fin	30	auxpass	_	_
 28	bestuurskundig	bestuurskundig	ADJ	_	Degree=Pos	30	amod	_	_
 29	doorgaans	doorgaans	ADV	_	_	30	advmod	_	_
 30	aangeduid	aanduiden	VERB	_	VerbForm=Part	7	conj	_	_
@@ -820,10 +820,10 @@
 4	Opvelp	Opvelp	PROPN	_	Gender=Neut|Number=Sing	1	acl	_	_
 5	,	,	PUNCT	_	_	13	punct	_	_
 6	5	5	NUM	_	_	4	parataxis	_	_
-7	februari	februari	PROPN	_	Gender=Com|Number=Sing	6	mwe	_	_
-8	1937	1937	NUM	_	_	6	mwe	_	_
+7	februari	februari	PROPN	_	Gender=Com|Number=Sing	6	name	_	_
+8	1937	1937	NUM	_	_	6	name	_	_
 9	)	)	PUNCT	_	_	13	punct	_	_
-10	is	zijn	AUX	_	_	13	cop	_	_
+10	is	zijn	AUX	_	Number=Sing|Tense=Pres|VerbForm=Fin	13	cop	_	_
 11	een	een	DET	_	Definite=Ind	13	det	_	_
 12	voormalig	voormalig	ADJ	_	Degree=Pos	13	amod	_	_
 13	atleet	atleet	NOUN	_	Gender=Com|Number=Sing	0	root	_	_
@@ -832,7 +832,7 @@
 16	,	,	PUNCT	_	_	13	punct	_	_
 17	die	die	PRON	_	PronType=Rel	18	nsubj	_	_
 18	wereldrecordhouder	wereldrecordhouder	NOUN	_	Gender=Com|Number=Sing	13	nmod	_	_
-19	was	zijn	AUX	_	_	18	cop	_	_
+19	was	zijn	AUX	_	Number=Sing|Tense=Past|VerbForm=Fin	18	cop	_	_
 20	op	op	ADP	_	_	23	case	_	_
 21	de	de	DET	_	Definite=Def	23	det	_	_
 22	3000	3000	NUM	_	_	23	nummod	_	_
@@ -863,7 +863,7 @@
 
 # wiki-3745.p.31.s.8.xml
 1	Momenteel	momenteel	ADJ	_	Degree=Pos	5	amod	_	_
-2	wordt	worden	AUX	_	_	5	auxpass	_	_
+2	wordt	worden	AUX	_	Number=Sing|Tense=Pres|VerbForm=Fin	5	auxpass	_	_
 3	er	er	ADV	_	_	5	advmod	_	_
 4	hard	hard	ADJ	_	Degree=Pos	5	amod	_	_
 5	gewerkt	werken	VERB	_	VerbForm=Part	0	root	_	_
@@ -899,10 +899,10 @@
 8	van	van	ADP	_	_	10	case	_	_
 9	mijn	mijn	DET	_	_	10	det	_	_
 10	pen	pen	NOUN	_	Gender=Com|Number=Sing	15	nmod	_	_
-11	heb	hebben	AUX	_	_	15	aux	_	_
+11	heb	hebben	AUX	_	Number=Sing|Tense=Pres|VerbForm=Fin	15	aux	_	_
 12	ik	ik	PRON	_	Case=Nom|Person=1|PronType=Prs	15	nsubj	_	_
 13	nooit	nooit	ADV	_	_	15	advmod	_	_
-14	kunnen	kunnen	AUX	_	_	15	aux	_	_
+14	kunnen	kunnen	AUX	_	VerbForm=Inf	15	aux	_	_
 15	leven	leven	VERB	_	VerbForm=Inf	2	conj	_	_
 16	.	.	PUNCT	_	_	2	punct	_	_
 17	"	"	PUNCT	_	_	2	punct	_	_
@@ -915,8 +915,8 @@
 5	,	,	PUNCT	_	_	1	punct	_	_
 6	sinds	sinds	ADP	_	_	7	case	_	_
 7	13	13	NUM	_	_	1	nmod	_	_
-8	juni	juni	PROPN	_	Gender=Com|Number=Sing	7	mwe	_	_
-9	1997	1997	NUM	_	_	7	mwe	_	_
+8	juni	juni	PROPN	_	Gender=Com|Number=Sing	7	name	_	_
+9	1997	1997	NUM	_	_	7	name	_	_
 
 # wiki-889.p.13.s.3.xml
 1	Zijn	zijn	DET	_	_	2	det	_	_
@@ -1015,14 +1015,14 @@
 9	maar	maar	CONJ	_	_	2	cc	_	_
 10	de	de	DET	_	Definite=Def	11	det	_	_
 11	armoe	armoe	NOUN	_	Gender=Com|Number=Sing	13	nsubj	_	_
-12	is	zijn	AUX	_	_	13	cop	_	_
+12	is	zijn	AUX	_	Number=Sing|Tense=Pres|VerbForm=Fin	13	cop	_	_
 13	onhoudbaar	onhoudbaar	ADJ	_	Degree=Pos	2	conj	_	_
 14	.	.	PUNCT	_	_	2	punct	_	_
 
 # wiki-889.p.22.s.4.xml
 1	Deze	deze	DET	_	_	2	det	_	_
-2	functie	functie	NOUN	_	Gender=Com|Number=Sing	5	nsubj	_	_
-3	wordt	worden	AUX	_	_	5	auxpass	_	_
+2	functie	functie	NOUN	_	Gender=Com|Number=Sing	5	nsubjpass	_	_
+3	wordt	worden	AUX	_	Number=Sing|Tense=Pres|VerbForm=Fin	5	auxpass	_	_
 4	nu	nu	ADV	_	_	5	advmod	_	_
 5	behartigd	behartigen	VERB	_	VerbForm=Part	0	root	_	_
 6	door	door	ADP	_	_	8	case	_	_
@@ -1055,7 +1055,7 @@
 
 # wiki-11.p.82.s.1.xml
 1	Hogeschool	hogeschool	NOUN	_	Gender=Com|Number=Sing	0	root	_	_
-2	Antwerpen	Antwerpen	PROPN	_	Gender=Neut|Number=Sing	1	mwe	_	_
+2	Antwerpen	Antwerpen	PROPN	_	Gender=Neut|Number=Sing	1	name	_	_
 
 # wiki-11.p.63.s.8.xml
 1	Tuur	Tuur	PROPN	_	_	0	root	_	_
@@ -1075,7 +1075,7 @@
 
 # wiki-6983.p.21.s.3.xml
 1	Multiculturaliteit	multiculturaliteit	NOUN	_	Gender=Com|Number=Sing	5	nsubj	_	_
-2	heeft	hebben	AUX	_	_	5	aux	_	_
+2	heeft	hebben	AUX	_	Number=Sing|Tense=Pres|VerbForm=Fin	5	aux	_	_
 3	bij	bij	ADP	_	_	4	case	_	_
 4	ons	ons	PRON	_	Case=Acc|Person=1|PronType=Prs	5	nmod	_	_
 5	geleid	leiden	VERB	_	VerbForm=Part	0	root	_	_
@@ -1151,7 +1151,7 @@
 1	Het	het	DET	_	Definite=Def	3	det	_	_
 2	Belgische	Belgisch	ADJ	_	Degree=Pos	3	amod	_	_
 3	federalisme	federalisme	NOUN	_	Gender=Neut|Number=Sing	5	nsubj	_	_
-4	is	zijn	AUX	_	_	5	cop	_	_
+4	is	zijn	AUX	_	Number=Sing|Tense=Pres|VerbForm=Fin	5	cop	_	_
 5	ongewoon	ongewoon	ADJ	_	Degree=Pos	0	root	_	_
 6	in	in	ADP	_	_	8	case	_	_
 7	die	die	DET	_	_	8	det	_	_
@@ -1169,7 +1169,7 @@
 19	de	de	DET	_	Definite=Def	21	det	_	_
 20	openbare	openbaar	ADJ	_	Degree=Pos	21	amod	_	_
 21	financiering	financiering	NOUN	_	Gender=Com|Number=Sing	27	nsubj	_	_
-22	is	zijn	AUX	_	_	27	cop	_	_
+22	is	zijn	AUX	_	Number=Sing|Tense=Pres|VerbForm=Fin	27	cop	_	_
 23	voor	voor	ADP	_	_	26	case	_	_
 24	meer	veel	PRON	_	PronType=Ind	26	nmod	_	_
 25	dan	dan	SCONJ	_	_	24	mwe	_	_
@@ -1234,8 +1234,8 @@
 7	verkiezingen	verkiezing	NOUN	_	Number=Plur	12	nmod	_	_
 8	van	van	ADP	_	_	9	case	_	_
 9	13	13	NUM	_	_	7	nmod	_	_
-10	juni	juni	PROPN	_	Gender=Com|Number=Sing	9	mwe	_	_
-11	1999	1999	NUM	_	_	9	mwe	_	_
+10	juni	juni	PROPN	_	Gender=Com|Number=Sing	9	name	_	_
+11	1999	1999	NUM	_	_	9	name	_	_
 12	nam	nemen	VERB	_	Number=Sing|Tense=Past|VerbForm=Fin	0	root	_	_
 13	de	de	DET	_	Definite=Def	14	det	_	_
 14	CVP	CVP	PROPN	_	Gender=Com|Number=Sing	12	nsubj	_	_
@@ -1268,7 +1268,7 @@
 41	aan	aan	ADP	_	_	43	case	_	_
 42	de	de	DET	_	Definite=Def	43	det	_	_
 43	macht	macht	NOUN	_	Gender=Com|Number=Sing	26	acl	_	_
-44	was	zijn	AUX	_	_	43	cop	_	_
+44	was	zijn	AUX	_	Number=Sing|Tense=Past|VerbForm=Fin	43	cop	_	_
 45	.	.	PUNCT	_	_	12	punct	_	_
 
 # wiki-9844.p.58.s.1.xml
@@ -1312,7 +1312,7 @@
 8	wanneer	wanneer	SCONJ	_	_	10	mark	_	_
 9	men	men	PRON	_	Case=Nom|Person=3|PronType=Prs	10	nsubj	_	_
 10	slapen	slapen	VERB	_	VerbForm=Inf	6	advcl	_	_
-11	gaat	gaan	AUX	_	_	10	aux	_	_
+11	gaat	gaan	AUX	_	Number=Sing|Tense=Pres|VerbForm=Fin	10	aux	_	_
 12	.	.	PUNCT	_	_	6	punct	_	_
 
 # wiki-208.p.18.s.4.xml
@@ -1375,10 +1375,10 @@
 21	Antwerpen	Antwerpen	PROPN	_	Gender=Neut|Number=Sing	19	nmod	_	_
 22	sinds	sinds	ADP	_	_	23	case	_	_
 23	10	10	NUM	_	_	19	nmod	_	_
-24	juni	juni	PROPN	_	Gender=Com|Number=Sing	23	mwe	_	_
-25	2003	2003	NUM	_	_	23	mwe	_	_
+24	juni	juni	PROPN	_	Gender=Com|Number=Sing	23	name	_	_
+25	2003	2003	NUM	_	_	23	name	_	_
 26	)	)	PUNCT	_	_	4	punct	_	_
-27	was	zijn	AUX	_	_	28	auxpass	_	_
+27	was	zijn	AUX	_	Number=Sing|Tense=Past|VerbForm=Fin	28	auxpass	_	_
 28	ingezet	inzetten	VERB	_	VerbForm=Part	10	acl	_	_
 29	,	,	PUNCT	_	_	4	punct	_	_
 30	onder	onder	ADP	_	_	35	nmod	_	_
@@ -1404,7 +1404,7 @@
 50	(	(	PUNCT	_	_	4	punct	_	_
 51	«	«	PUNCT	_	_	4	punct	_	_
 52	SP	SP	PROPN	_	Gender=Com|Number=Sing	49	appos	_	_
-53	Anders	anders	ADV	_	_	52	mwe	_	_
+53	Anders	anders	ADV	_	_	52	name	_	_
 54	»	»	PUNCT	_	_	4	punct	_	_
 55	)	)	PUNCT	_	_	4	punct	_	_
 56	in	in	ADP	_	_	57	case	_	_
@@ -1421,8 +1421,8 @@
 # wiki-9844.p.6.s.4.xml
 1	De	de	DET	_	Definite=Def	3	det	_	_
 2	eerste	één	NUM	_	_	3	nummod	_	_
-3	verhalen	verhaal	NOUN	_	Number=Plur	5	nsubj	_	_
-4	werden	worden	AUX	_	_	5	auxpass	_	_
+3	verhalen	verhaal	NOUN	_	Number=Plur	5	nsubjpass	_	_
+4	werden	worden	AUX	_	Number=Plur|Tense=Past|VerbForm=Fin	5	auxpass	_	_
 5	gepubliceerd	publiceren	VERB	_	VerbForm=Part	0	root	_	_
 6	in	in	ADP	_	_	11	case	_	_
 7	wat	wat	PRON	_	Person=3|PronType=Int	12	dobj	_	_
@@ -1454,10 +1454,10 @@
 # wiki-5107.p.4.s.2.xml
 1	De	de	DET	_	Definite=Def	3	det	_	_
 2	eerste	één	NUM	_	_	3	nummod	_	_
-3	wedstrijd	wedstrijd	NOUN	_	Gender=Com|Number=Sing	7	nsubj	_	_
+3	wedstrijd	wedstrijd	NOUN	_	Gender=Com|Number=Sing	7	nsubjpass	_	_
 4	voor	voor	ADP	_	_	5	case	_	_
 5	motoren	motor	NOUN	_	Number=Plur	3	nmod	_	_
-6	werd	worden	AUX	_	_	7	auxpass	_	_
+6	werd	worden	AUX	_	Number=Sing|Tense=Past|VerbForm=Fin	7	auxpass	_	_
 7	georganiseerd	organiseren	VERB	_	VerbForm=Part	0	root	_	_
 8	in	in	ADP	_	_	9	case	_	_
 9	1921	1921	NUM	_	_	7	nmod	_	_
@@ -1586,7 +1586,7 @@
 1	De	de	DET	_	Definite=Def	3	det	_	_
 2	belangrijke	belangrijk	ADJ	_	Degree=Pos	3	amod	_	_
 3	rivieren	rivier	NOUN	_	Number=Plur	6	nsubj	_	_
-4	zijn	zijn	AUX	_	_	6	cop	_	_
+4	zijn	zijn	AUX	_	Number=Plur|Tense=Pres|VerbForm=Fin	6	cop	_	_
 5	de	de	DET	_	Definite=Def	6	det	_	_
 6	Maas	Maas	PROPN	_	Gender=Com|Number=Sing	0	root	_	_
 7	,	,	PUNCT	_	_	6	punct	_	_
@@ -1620,14 +1620,14 @@
 
 # wiki-7097.p.3.s.1.xml
 1	Vervolgens	vervolgens	ADV	_	_	18	advmod	_	_
-2	worden	worden	AUX	_	_	18	auxpass	_	_
+2	worden	worden	AUX	_	Number=Plur|Tense=Pres|VerbForm=Fin	18	auxpass	_	_
 3	naast	naast	ADP	_	_	5	case	_	_
 4	de	de	DET	_	Definite=Def	5	det	_	_
 5	marktkapitalisatie	marktkapitalisatie	NOUN	_	Gender=Com|Number=Sing	18	nmod	_	_
 6	ook	ook	ADV	_	_	7	advmod	_	_
 7	nog	nog	ADV	_	_	18	advmod	_	_
 8	andere	ander	ADJ	_	Degree=Pos	9	amod	_	_
-9	criteria	criterium	NOUN	_	Number=Plur	18	nsubj	_	_
+9	criteria	criterium	NOUN	_	Number=Plur	18	nsubjpass	_	_
 10	zoals	zoals	SCONJ	_	_	12	mark	_	_
 11	de	de	DET	_	Definite=Def	12	det	_	_
 12	liquiditeit	liquiditeit	NOUN	_	Gender=Com|Number=Sing	9	acl	_	_
@@ -1704,7 +1704,7 @@
 4	Ensor	Ensor	PROPN	_	Gender=Com|Number=Sing	6	nsubj	_	_
 5	32	32	NUM	_	_	6	nummod	_	_
 6	jaar	jaar	NOUN	_	Gender=Neut|Number=Sing	2	advcl	_	_
-7	was	zijn	AUX	_	_	6	cop	_	_
+7	was	zijn	AUX	_	Number=Sing|Tense=Past|VerbForm=Fin	6	cop	_	_
 8	,	,	PUNCT	_	_	2	punct	_	_
 9	met	met	ADP	_	_	12	case	_	_
 10	een	een	DET	_	Definite=Ind	12	det	_	_
@@ -1714,7 +1714,7 @@
 
 # wiki-1550.p.5.s.1.xml
 1	Recordhouders	recordhouder	NOUN	_	Number=Plur	4	nsubj	_	_
-2	zijn	zijn	AUX	_	_	4	cop	_	_
+2	zijn	zijn	AUX	_	Number=Plur|Tense=Pres|VerbForm=Fin	4	cop	_	_
 3	de	de	DET	_	Definite=Def	4	det	_	_
 4	Belgen	Belg	PROPN	_	Number=Plur	0	root	_	_
 5	Achiel	Achiel	PROPN	_	_	4	appos	_	_
@@ -1745,12 +1745,12 @@
 # wiki-3745.p.48.s.1.xml
 1	In	in	ADP	_	_	2	case	_	_
 2	2005	2005	NUM	_	_	9	nmod	_	_
-3	werd	worden	AUX	_	_	9	auxpass	_	_
+3	werd	worden	AUX	_	Number=Sing|Tense=Past|VerbForm=Fin	9	auxpass	_	_
 4	in	in	ADP	_	_	5	case	_	_
 5	Hasselt	Hasselt	PROPN	_	Gender=Neut|Number=Sing	9	nmod	_	_
 6	het	het	DET	_	Definite=Def	7	det	_	_
-7	Junior	Junior	PROPN	_	_	9	nsubj	_	_
-8	Eurovisiesongfestival	Eurovisiesongfestival	PROPN	_	Gender=Neut|Number=Sing	7	mwe	_	_
+7	Junior	Junior	PROPN	_	_	9	nsubjpass	_	_
+8	Eurovisiesongfestival	Eurovisiesongfestival	PROPN	_	Gender=Neut|Number=Sing	7	name	_	_
 9	gehouden	houden	VERB	_	VerbForm=Part	0	root	_	_
 10	.	.	PUNCT	_	_	9	punct	_	_
 
@@ -1759,15 +1759,15 @@
 2	Koninklijke	koninklijk	ADJ	_	Degree=Pos	1	mwe	_	_
 3	Hoogheid	hoogheid	NOUN	_	Gender=Com|Number=Sing	1	mwe	_	_
 4	Prins	prins	NOUN	_	Gender=Com|Number=Sing	1	appos	_	_
-5	Aymeric	Aymeric	PROPN	_	Gender=Com|Number=Sing	4	mwe	_	_
+5	Aymeric	Aymeric	PROPN	_	Gender=Com|Number=Sing	4	name	_	_
 6	;	;	PUNCT	_	_	1	punct	_	_
 7	Prins	prins	NOUN	_	Gender=Com|Number=Sing	4	conj	_	_
-8	van	van	ADP	_	_	7	mwe	_	_
-9	België	België	PROPN	_	Gender=Neut|Number=Sing	7	mwe	_	_
+8	van	van	ADP	_	_	7	name	_	_
+9	België	België	PROPN	_	Gender=Neut|Number=Sing	7	name	_	_
 
 # wiki-1820.p.14.s.2.xml
 1	Toerisme	toerisme	NOUN	_	Gender=Neut|Number=Sing	0	root	_	_
-2	Vlaanderen	Vlaanderen	PROPN	_	Gender=Neut|Number=Sing	1	mwe	_	_
+2	Vlaanderen	Vlaanderen	PROPN	_	Gender=Neut|Number=Sing	1	name	_	_
 
 # wiki-7543.p.21.s.1.xml
 1	Jongerenverenigingen	jongerenvereniging	NOUN	_	Number=Plur	0	root	_	_
@@ -1793,8 +1793,8 @@
 
 # wiki-9720.p.12.s.1.xml
 1	Het	het	DET	_	Definite=Def	2	det	_	_
-2	drieluik	drieluik	NOUN	_	Gender=Neut|Number=Sing	4	nsubj	_	_
-3	is	zijn	AUX	_	_	4	auxpass	_	_
+2	drieluik	drieluik	NOUN	_	Gender=Neut|Number=Sing	4	nsubjpass	_	_
+3	is	zijn	AUX	_	Number=Sing|Tense=Pres|VerbForm=Fin	4	auxpass	_	_
 4	voorzien	voorzien	VERB	_	VerbForm=Part	0	root	_	_
 5	van	van	ADP	_	_	10	case	_	_
 6	twee	twee	NUM	_	_	10	nummod	_	_
@@ -1810,7 +1810,7 @@
 16	het	het	DET	_	Definite=Def	17	det	_	_
 17	middendeel	middendeel	NOUN	_	Gender=Neut|Number=Sing	20	dobj	_	_
 18	volledig	volledig	ADJ	_	Degree=Pos	20	amod	_	_
-19	kunnen	kunnen	AUX	_	_	20	aux	_	_
+19	kunnen	kunnen	AUX	_	Number=Plur|Tense=Pres|VerbForm=Fin	20	aux	_	_
 20	bedekken	bedekken	VERB	_	VerbForm=Inf	4	advcl	_	_
 21	.	.	PUNCT	_	_	4	punct	_	_
 
@@ -1837,7 +1837,7 @@
 2	bij	bij	ADP	_	_	4	case	_	_
 3	het	het	DET	_	Definite=Def	4	det	_	_
 4	centrum	centrum	NOUN	_	Gender=Neut|Number=Sing	8	nmod	_	_
-5	is	zijn	AUX	_	_	8	aux	_	_
+5	is	zijn	AUX	_	Number=Sing|Tense=Pres|VerbForm=Fin	8	aux	_	_
 6	het	het	DET	_	Definite=Def	7	det	_	_
 7	station	station	NOUN	_	Gender=Neut|Number=Sing	8	nsubj	_	_
 8	gelegen	liggen	VERB	_	VerbForm=Part	0	root	_	_
@@ -1909,10 +1909,10 @@
 7	Internationaal	Internationaal	PROPN	_	_	5	name	_	_
 8	Regionalistisch	Regionalistisch	PROPN	_	_	5	name	_	_
 9	Integraal-democratisch	Integraal-democratisch	PROPN	_	_	5	name	_	_
-10	en	en	CONJ	_	_	5	mwe	_	_
+10	en	en	CONJ	_	_	5	name	_	_
 11	Toekomstgericht	Toekomstgericht	PROPN	_	_	5	name	_	_
 12	)	)	PUNCT	_	_	17	punct	_	_
-13	is	zijn	AUX	_	_	17	cop	_	_
+13	is	zijn	AUX	_	Number=Sing|Tense=Pres|VerbForm=Fin	17	cop	_	_
 14	een	een	DET	_	Definite=Ind	17	det	_	_
 15	Vlaamse	Vlaams	ADJ	_	Degree=Pos	17	amod	_	_
 16	links-liberale	links-liberaal	ADJ	_	Degree=Pos	17	amod	_	_
@@ -1932,7 +1932,7 @@
 2	punt	punt	NOUN	_	Gender=Neut|Number=Sing	0	root	_	_
 3	:	:	PUNCT	_	_	2	punct	_	_
 4	Signaal	Signaal	PROPN	_	_	2	parataxis	_	_
-5	van	van	ADP	_	_	4	mwe	_	_
+5	van	van	ADP	_	_	4	name	_	_
 6	Botrange	Botrange	PROPN	_	_	4	name	_	_
 7	,	,	PUNCT	_	_	2	punct	_	_
 8	694	694	NUM	_	_	9	nummod	_	_
@@ -1961,8 +1961,8 @@
 # wiki-334.p.9.s.1.xml
 1	Onder	onder	ADP	_	_	2	case	_	_
 2	Karel	Karel	PROPN	_	_	13	nmod	_	_
-3	de	de	DET	_	Definite=Def	2	mwe	_	_
-4	Kale	kaal	ADJ	_	Degree=Pos	2	mwe	_	_
+3	de	de	DET	_	Definite=Def	2	name	_	_
+4	Kale	kaal	ADJ	_	Degree=Pos	2	name	_	_
 5	,	,	PUNCT	_	_	13	punct	_	_
 6	de	de	DET	_	Definite=Def	8	det	_	_
 7	eerste	één	NUM	_	_	8	nummod	_	_
@@ -2019,7 +2019,7 @@
 
 # wiki-9720.p.40.s.8.xml
 1	Hij	hij	PRON	_	Case=Nom|Person=3|PronType=Prs	4	nsubj	_	_
-2	was	zijn	AUX	_	_	4	cop	_	_
+2	was	zijn	AUX	_	Number=Sing|Tense=Past|VerbForm=Fin	4	cop	_	_
 3	de	de	DET	_	Definite=Def	4	det	_	_
 4	zoon	zoon	NOUN	_	Gender=Com|Number=Sing	0	root	_	_
 5	van	van	ADP	_	_	6	case	_	_
@@ -2082,10 +2082,10 @@
 5	het	het	DET	_	Definite=Def	7	det	_	_
 6	progressief	progressief	ADJ	_	Degree=Pos	7	amod	_	_
 7	liberalisme	liberalisme	NOUN	_	Gender=Neut|Number=Sing	3	nmod	_	_
-8	kan	kunnen	AUX	_	_	14	aux	_	_
+8	kan	kunnen	AUX	_	Number=Sing|Tense=Pres|VerbForm=Fin	14	aux	_	_
 9	D66	D66	PROPN	_	Gender=Com|Number=Sing	14	nsubj	_	_
-10	beschouwd	beschouwen	AUX	_	_	14	cop	_	_
-11	worden	worden	AUX	_	_	14	cop	_	_
+10	beschouwd	beschouwen	AUX	_	VerbForm=Part	14	cop	_	_
+11	worden	worden	AUX	_	VerbForm=Inf	14	cop	_	_
 12	als	als	PART	_	_	14	mark	_	_
 13	de	de	DET	_	Definite=Def	14	det	_	_
 14	herleving	herleving	NOUN	_	Gender=Com|Number=Sing	0	root	_	_
@@ -2148,8 +2148,8 @@
 # wiki-384.p.29.s.1.xml
 1	Ter	te	ADP	_	_	2	case	_	_
 2	onderscheiding	onderscheiding	NOUN	_	Gender=Com|Number=Sing	7	nmod	_	_
-3	wordt	worden	AUX	_	_	7	auxpass	_	_
-4	D66	D66	PROPN	_	Gender=Com|Number=Sing	7	nsubj	_	_
+3	wordt	worden	AUX	_	Number=Sing|Tense=Pres|VerbForm=Fin	7	auxpass	_	_
+4	D66	D66	PROPN	_	Gender=Com|Number=Sing	7	nsubjpass	_	_
 5	wel	wel	ADV	_	_	7	advmod	_	_
 6	eens	eens	ADV	_	_	7	advmod	_	_
 7	ingedeeld	indelen	VERB	_	VerbForm=Part	0	root	_	_
@@ -2165,7 +2165,7 @@
 # wiki-7064.p.54.s.2.xml
 1	Deze	deze	DET	_	_	2	det	_	_
 2	wet	wet	NOUN	_	Gender=Com|Number=Sing	14	nsubj	_	_
-3	zal	zullen	AUX	_	_	14	aux	_	_
+3	zal	zullen	AUX	_	Number=Sing|Tense=Pres|VerbForm=Fin	14	aux	_	_
 4	ongetwijfeld	ongetwijfeld	ADV	_	_	14	advmod	_	_
 5	(	(	PUNCT	_	_	14	punct	_	_
 6	zoals	zoals	SCONJ	_	_	10	mark	_	_
@@ -2229,9 +2229,9 @@
 4	van	van	ADP	_	_	6	case	_	_
 5	het	het	DET	_	Definite=Def	6	det	_	_
 6	Devonshirelandschap	Devonshirelandschap	NOUN	_	Gender=Neut|Number=Sing	3	nmod	_	_
-7	wordt	worden	AUX	_	_	11	auxpass	_	_
+7	wordt	worden	AUX	_	Number=Sing|Tense=Pres|VerbForm=Fin	11	auxpass	_	_
 8	de	de	DET	_	Definite=Def	9	det	_	_
-9	kunstenaar	kunstenaar	NOUN	_	Gender=Com|Number=Sing	11	nsubj	_	_
+9	kunstenaar	kunstenaar	NOUN	_	Gender=Com|Number=Sing	11	nsubjpass	_	_
 10	nu	nu	ADV	_	_	11	advmod	_	_
 11	geconfronteerd	confronteren	VERB	_	VerbForm=Part	0	root	_	_
 12	met	met	ADP	_	_	18	case	_	_
@@ -2305,33 +2305,33 @@
 6	halve	half	ADJ	_	Degree=Pos	7	amod	_	_
 7	finale	finale	NOUN	_	Gender=Com|Number=Sing	2	nmod	_	_
 8	Clijsters	Clijsters	PROPN	_	Gender=Com|Number=Sing	2	dobj	_	_
-9	;	;	PUNCT	_	_	13	punct	_	_
+9	;	;	PUNCT	_	_	20	punct	_	_
 10	in	in	ADP	_	_	12	case	_	_
 11	de	de	DET	_	Definite=Def	12	det	_	_
 12	finale	finale	NOUN	_	Gender=Com|Number=Sing	20	nmod	_	_
-13	blijkt	blijken	VERB	_	Number=Sing|Tense=Pres|VerbForm=Fin	2	parataxis	_	_
-14	ze	ze	PRON	_	Person=3|PronType=Prs	13	nsubj	_	_
+13	blijkt	blijken	AUX	_	Number=Sing|Tense=Pres|VerbForm=Fin	20	aux	_	_
+14	ze	ze	PRON	_	Person=3|PronType=Prs	20	nsubj	_	_
 15	na	na	ADP	_	_	18	case	_	_
 16	een	een	DET	_	Definite=Ind	18	det	_	_
 17	spannende	spannend	ADJ	_	Degree=Pos	18	amod	_	_
 18	wedstrijd	wedstrijd	NOUN	_	Gender=Com|Number=Sing	20	nmod	_	_
 19	te	te	ADV	_	_	20	advmod	_	_
-20	sterk	sterk	ADJ	_	Degree=Pos	13	ccomp	_	_
+20	sterk	sterk	ADJ	_	Degree=Pos	2	parataxis	_	_
 21	te	te	PART	_	_	20	mark	_	_
-22	zijn	zijn	AUX	_	_	20	cop	_	_
+22	zijn	zijn	AUX	_	VerbForm=Inf	20	cop	_	_
 23	voor	voor	ADP	_	_	24	case	_	_
 24	Anastasia	Anastasia	PROPN	_	_	20	nmod	_	_
 25	Myskina	Myskina	PROPN	_	_	24	name	_	_
-26	:	:	PUNCT	_	_	13	punct	_	_
-27	4-6	4-6	SYM	_	_	13	parataxis	_	_
-28	,	,	PUNCT	_	_	13	punct	_	_
+26	:	:	PUNCT	_	_	20	punct	_	_
+27	4-6	4-6	SYM	_	_	20	parataxis	_	_
+28	,	,	PUNCT	_	_	20	punct	_	_
 29	6-1	6-1	SYM	_	_	27	conj	_	_
 30	en	en	CONJ	_	_	27	cc	_	_
 31	7-6	7-6	SYM	_	_	27	conj	_	_
-32	(	(	PUNCT	_	_	13	punct	_	_
+32	(	(	PUNCT	_	_	20	punct	_	_
 33	5	5	NUM	_	_	31	nummod	_	_
-34	)	)	PUNCT	_	_	13	punct	_	_
-35	.	.	PUNCT	_	_	13	punct	_	_
+34	)	)	PUNCT	_	_	20	punct	_	_
+35	.	.	PUNCT	_	_	20	punct	_	_
 
 # wiki-888.p.17.s.5.xml
 1	Tin	Tin	PROPN	_	_	0	root	_	_
@@ -2448,8 +2448,8 @@
 13	de	de	DET	_	Definite=Def	14	det	_	_
 14	titel	titel	NOUN	_	Gender=Com|Number=Sing	11	nmod	_	_
 15	De	de	DET	_	Definite=Def	14	appos	_	_
-16	Grootste	groot	ADJ	_	Degree=Sup	15	mwe	_	_
-17	Belg	Belg	PROPN	_	Gender=Com|Number=Sing	15	mwe	_	_
+16	Grootste	groot	ADJ	_	Degree=Sup	15	name	_	_
+17	Belg	Belg	PROPN	_	Gender=Com|Number=Sing	15	name	_	_
 18	in	in	ADP	_	_	21	case	_	_
 19	de	de	DET	_	Definite=Def	21	det	_	_
 20	Vlaamse	Vlaams	ADJ	_	Degree=Pos	21	amod	_	_
@@ -2464,11 +2464,11 @@
 5	start-	start-	X	_	_	15	advcl	_	_
 6	als	als	SCONJ	_	_	5	cc	_	_
 7	aankomstplaats	aankomstplaats	NOUN	_	Gender=Com|Number=Sing	5	conj	_	_
-8	was	zijn	AUX	_	_	5	cop	_	_
+8	was	zijn	AUX	_	Number=Sing|Tense=Past|VerbForm=Fin	5	cop	_	_
 9	,	,	PUNCT	_	_	15	punct	_	_
-10	is	zijn	AUX	_	_	15	auxpass	_	_
+10	is	zijn	AUX	_	Number=Sing|Tense=Pres|VerbForm=Fin	15	auxpass	_	_
 11	de	de	DET	_	Definite=Def	12	det	_	_
-12	start	start	NOUN	_	Gender=Com|Number=Sing	15	nsubj	_	_
+12	start	start	NOUN	_	Gender=Com|Number=Sing	15	nsubjpass	_	_
 13	sinds	sinds	ADP	_	_	14	case	_	_
 14	2004	2004	NUM	_	_	15	nmod	_	_
 15	verlegd	verleggen	VERB	_	VerbForm=Part	0	root	_	_
@@ -2483,8 +2483,8 @@
 # wiki-208.p.78.s.1.xml
 1	Op	op	ADP	_	_	2	case	_	_
 2	10	10	NUM	_	_	5	nmod	_	_
-3	mei	mei	PROPN	_	Gender=Com|Number=Sing	2	mwe	_	_
-4	1940	1940	NUM	_	_	2	mwe	_	_
+3	mei	mei	PROPN	_	Gender=Com|Number=Sing	2	name	_	_
+4	1940	1940	NUM	_	_	2	name	_	_
 5	vielen	vallen	VERB	_	Number=Plur|Tense=Past|VerbForm=Fin	0	root	_	_
 6	de	de	DET	_	Definite=Def	8	det	_	_
 7	Duitse	Duits	ADJ	_	Degree=Pos	8	amod	_	_
@@ -2496,7 +2496,7 @@
 13	en	en	CONJ	_	_	5	cc	_	_
 14	op	op	ADP	_	_	15	case	_	_
 15	28	28	NUM	_	_	17	nmod	_	_
-16	mei	mei	PROPN	_	Gender=Com|Number=Sing	15	mwe	_	_
+16	mei	mei	PROPN	_	Gender=Com|Number=Sing	15	name	_	_
 17	capituleerde	capituleren	VERB	_	Number=Sing|Tense=Past|VerbForm=Fin	5	conj	_	_
 18	België	België	PROPN	_	Gender=Neut|Number=Sing	17	nsubj	_	_
 19	.	.	PUNCT	_	_	5	punct	_	_
@@ -2519,12 +2519,12 @@
 
 # wiki-1941.p.12.s.2.xml
 1	Het	het	DET	_	Definite=Def	2	det	_	_
-2	dubbelwerk	dubbelwerk	NOUN	_	Gender=Neut|Number=Sing	10	nsubj	_	_
+2	dubbelwerk	dubbelwerk	NOUN	_	Gender=Neut|Number=Sing	10	nsubjpass	_	_
 3	«	«	PUNCT	_	_	10	punct	_	_
 4	Lijmen/Het	lijmen	PROPN	_	_	2	appos	_	_
 5	Been	been	PROPN	_	_	4	name	_	_
 6	»	»	PUNCT	_	_	10	punct	_	_
-7	is	zijn	AUX	_	_	10	auxpass	_	_
+7	is	zijn	AUX	_	Number=Sing|Tense=Pres|VerbForm=Fin	10	auxpass	_	_
 8	in	in	ADP	_	_	9	case	_	_
 9	2000	2000	NUM	_	_	10	nmod	_	_
 10	verfilmd	verfilmen	VERB	_	VerbForm=Part	0	root	_	_
@@ -2566,9 +2566,9 @@
 1	Op	op	ADP	_	_	2	case	_	_
 2	dinsdag	dinsdag	PROPN	_	Gender=Com|Number=Sing	9	nmod	_	_
 3	9	9	NUM	_	_	2	nmod	_	_
-4	mei	mei	PROPN	_	Gender=Com|Number=Sing	3	mwe	_	_
-5	2006	2006	NUM	_	_	3	mwe	_	_
-6	was	zijn	AUX	_	_	9	cop	_	_
+4	mei	mei	PROPN	_	Gender=Com|Number=Sing	3	name	_	_
+5	2006	2006	NUM	_	_	3	name	_	_
+6	was	zijn	AUX	_	Number=Sing|Tense=Past|VerbForm=Fin	9	cop	_	_
 7	Hotton	Hotton	PROPN	_	Gender=Neut|Number=Sing	9	nsubj	_	_
 8	de	de	DET	_	Definite=Def	9	det	_	_
 9	aankomstplaats	aankomstplaats	NOUN	_	Gender=Com|Number=Sing	0	root	_	_
@@ -2582,13 +2582,13 @@
 17	van	van	ADP	_	_	19	case	_	_
 18	de	de	DET	_	Definite=Def	19	det	_	_
 19	Ronde	ronde	NOUN	_	Gender=Com|Number=Sing	16	nmod	_	_
-20	van	van	ADP	_	_	19	mwe	_	_
-21	Italië	Italië	PROPN	_	Gender=Neut|Number=Sing	19	mwe	_	_
+20	van	van	ADP	_	_	19	name	_	_
+21	Italië	Italië	PROPN	_	Gender=Neut|Number=Sing	19	name	_	_
 22	.	.	PUNCT	_	_	9	punct	_	_
 
 # wiki-356.p.28.s.2.xml
 1	Diependaele	Diependaele	PROPN	_	Gender=Com|Number=Sing	4	nsubj	_	_
-2	was	zijn	AUX	_	_	4	cop	_	_
+2	was	zijn	AUX	_	Number=Sing|Tense=Past|VerbForm=Fin	4	cop	_	_
 3	een	een	DET	_	Definite=Ind	4	det	_	_
 4	topassisenpleiter	topassisenpleiter	NOUN	_	Gender=Com|Number=Sing	0	root	_	_
 5	,	,	PUNCT	_	_	4	punct	_	_
@@ -2602,9 +2602,9 @@
 
 # wiki-138.p.27.s.1.xml
 1	Koninklijk	koninklijk	ADJ	_	Degree=Pos	0	root	_	_
-2	Museum	museum	NOUN	_	Gender=Neut|Number=Sing	1	mwe	_	_
-3	voor	voor	ADP	_	_	1	mwe	_	_
-4	Midden-Afrika	Midden-Afrika	PROPN	_	Gender=Neut|Number=Sing	1	mwe	_	_
+2	Museum	museum	NOUN	_	Gender=Neut|Number=Sing	1	name	_	_
+3	voor	voor	ADP	_	_	1	name	_	_
+4	Midden-Afrika	Midden-Afrika	PROPN	_	Gender=Neut|Number=Sing	1	name	_	_
 
 # wiki-1823.p.31.s.6.xml
 1	Bij	bij	ADP	_	_	3	case	_	_
@@ -2720,9 +2720,9 @@
 6	de	de	DET	_	Definite=Def	8	det	_	_
 7	zestiende	zestien	NUM	_	_	8	nummod	_	_
 8	eeuw	eeuw	NOUN	_	Gender=Com|Number=Sing	4	nmod	_	_
-9	werden	worden	AUX	_	_	14	auxpass	_	_
+9	werden	worden	AUX	_	Number=Plur|Tense=Past|VerbForm=Fin	14	auxpass	_	_
 10	de	de	DET	_	Definite=Def	11	det	_	_
-11	Nederlanden	Nederland	PROPN	_	Number=Plur	14	nsubj	_	_
+11	Nederlanden	Nederland	PROPN	_	Number=Plur	14	nsubjpass	_	_
 12	vanuit	vanuit	ADP	_	_	13	case	_	_
 13	Mechelen	Mechelen	PROPN	_	Gender=Neut|Number=Sing	14	nmod	_	_
 14	geregeerd	regeren	VERB	_	VerbForm=Part	0	root	_	_
@@ -2732,7 +2732,7 @@
 1	Veel	veel	DET	_	_	3	det	_	_
 2	Belgische	Belgisch	ADJ	_	Degree=Pos	3	amod	_	_
 3	bieren	bier	NOUN	_	Number=Plur	7	nsubj	_	_
-4	zijn	zijn	AUX	_	_	7	cop	_	_
+4	zijn	zijn	AUX	_	Number=Plur|Tense=Pres|VerbForm=Fin	7	cop	_	_
 5	nog	nog	ADV	_	_	7	advmod	_	_
 6	steeds	steeds	ADV	_	_	7	advmod	_	_
 7	bovengistend	bovengistend	ADJ	_	Degree=Pos	0	root	_	_
@@ -2803,11 +2803,11 @@
 
 # wiki-208.p.29.s.2.xml
 1	Zo	zo	ADV	_	_	9	advmod	_	_
-2	werd	worden	AUX	_	_	9	auxpass	_	_
+2	werd	worden	AUX	_	Number=Sing|Tense=Past|VerbForm=Fin	9	auxpass	_	_
 3	in	in	ADP	_	_	4	case	_	_
 4	Brussel	Brussel	PROPN	_	Gender=Neut|Number=Sing	9	nmod	_	_
 5	het	het	DET	_	Definite=Def	6	det	_	_
-6	Stadhuis	stadhuis	NOUN	_	Gender=Neut|Number=Sing	9	nsubj	_	_
+6	Stadhuis	stadhuis	NOUN	_	Gender=Neut|Number=Sing	9	nsubjpass	_	_
 7	met	met	ADP	_	_	8	case	_	_
 8	belfort	belfort	NOUN	_	Gender=Neut|Number=Sing	6	nmod	_	_
 9	gebouwd	bouwen	VERB	_	VerbForm=Part	0	root	_	_
@@ -2816,20 +2816,20 @@
 # wiki-6933.p.47.s.3.xml
 1	Maria	Maria	PROPN	_	_	0	root	_	_
 2	Hendrika	Hendrika	PROPN	_	_	1	name	_	_
-3	van	van	ADP	_	_	1	mwe	_	_
-4	Oostenrijk	Oostenrijk	PROPN	_	Gender=Neut|Number=Sing	1	mwe	_	_
+3	van	van	ADP	_	_	1	name	_	_
+4	Oostenrijk	Oostenrijk	PROPN	_	Gender=Neut|Number=Sing	1	name	_	_
 5	,	,	PUNCT	_	_	1	punct	_	_
 6	Aartshertogin	aartshertogin	NOUN	_	Gender=Com|Number=Sing	1	conj	_	_
-7	van	van	ADP	_	_	6	mwe	_	_
-8	Oostenrijk	Oostenrijk	PROPN	_	Gender=Neut|Number=Sing	6	mwe	_	_
+7	van	van	ADP	_	_	6	name	_	_
+8	Oostenrijk	Oostenrijk	PROPN	_	Gender=Neut|Number=Sing	6	name	_	_
 9	,	,	PUNCT	_	_	1	punct	_	_
 10	Hertogin	hertogin	NOUN	_	Gender=Com|Number=Sing	1	conj	_	_
-11	van	van	ADP	_	_	10	mwe	_	_
-12	Brabant	Brabant	PROPN	_	Gender=Neut|Number=Sing	10	mwe	_	_
+11	van	van	ADP	_	_	10	name	_	_
+12	Brabant	Brabant	PROPN	_	Gender=Neut|Number=Sing	10	name	_	_
 13	,	,	PUNCT	_	_	1	punct	_	_
 14	Koningin	koningin	NOUN	_	Gender=Com|Number=Sing	1	conj	_	_
-15	der	de	DET	_	Definite=Def	14	mwe	_	_
-16	Belgen	Belg	PROPN	_	Number=Plur	14	mwe	_	_
+15	der	de	DET	_	Definite=Def	14	name	_	_
+16	Belgen	Belg	PROPN	_	Number=Plur	14	name	_	_
 
 # wiki-1799.p.6.s.2.xml
 1	In	in	ADP	_	_	2	case	_	_
@@ -2921,7 +2921,7 @@
 2	de	de	DET	_	Definite=Def	3	det	_	_
 3	jaren	jaar	NOUN	_	Number=Plur	11	nmod	_	_
 4	zestig	zestig	NUM	_	_	3	appos	_	_
-5	zijn	zijn	AUX	_	_	11	aux	_	_
+5	zijn	zijn	AUX	_	Number=Plur|Tense=Pres|VerbForm=Fin	11	aux	_	_
 6	veel	veel	PRON	_	PronType=Ind	11	nsubj	_	_
 7	van	van	ADP	_	_	9	case	_	_
 8	die	die	DET	_	_	9	det	_	_
@@ -2935,7 +2935,7 @@
 16	,	,	PUNCT	_	_	11	punct	_	_
 17	maar	maar	CONJ	_	_	11	cc	_	_
 18	ze	ze	PRON	_	Person=3|PronType=Prs	26	nsubj	_	_
-19	hadden	hebben	AUX	_	_	26	aux	_	_
+19	hadden	hebben	AUX	_	Number=Plur|Tense=Past|VerbForm=Fin	26	aux	_	_
 20	inmiddels	inmiddels	ADV	_	_	26	advmod	_	_
 21	zo'n	zo'n	DET	_	_	23	det	_	_
 22	eigen	eigen	ADJ	_	Degree=Pos	23	amod	_	_
@@ -2964,7 +2964,7 @@
 45	als	als	PART	_	_	46	mark	_	_
 46	erfgoed	erfgoed	NOUN	_	Gender=Neut|Number=Sing	49	advcl	_	_
 47	te	te	PART	_	_	49	mark	_	_
-48	laten	laten	AUX	_	_	49	aux	_	_
+48	laten	laten	AUX	_	VerbForm=Inf	49	aux	_	_
 49	beschermen	beschermen	VERB	_	VerbForm=Inf	40	conj	_	_
 50	.	.	PUNCT	_	_	11	punct	_	_
 
@@ -2996,12 +2996,12 @@
 25	.	.	PUNCT	_	_	2	punct	_	_
 
 # wiki-62.p.2.s.2.xml
-1	Hij	hij	PRON	_	Case=Nom|Person=3|PronType=Prs	3	nsubj	_	_
-2	wordt	worden	AUX	_	_	3	auxpass	_	_
+1	Hij	hij	PRON	_	Case=Nom|Person=3|PronType=Prs	3	nsubjpass	_	_
+2	wordt	worden	AUX	_	Number=Sing|Tense=Pres|VerbForm=Fin	3	auxpass	_	_
 3	gevierd	vieren	VERB	_	VerbForm=Part	0	root	_	_
 4	op	op	ADP	_	_	5	case	_	_
 5	2	2	NUM	_	_	3	nmod	_	_
-6	november	november	PROPN	_	Gender=Com|Number=Sing	5	mwe	_	_
+6	november	november	PROPN	_	Gender=Com|Number=Sing	5	name	_	_
 7	,	,	PUNCT	_	_	3	punct	_	_
 8	de	de	DET	_	Definite=Def	9	det	_	_
 9	dag	dag	NOUN	_	Gender=Com|Number=Sing	5	appos	_	_
@@ -3013,7 +3013,7 @@
 15	dag	dag	NOUN	_	Gender=Com|Number=Sing	17	nsubj	_	_
 16	nauw	nauw	ADJ	_	Degree=Pos	17	amod	_	_
 17	verbonden	verbinden	VERB	_	VerbForm=Part	11	acl	_	_
-18	is	zijn	AUX	_	_	17	cop	_	_
+18	is	zijn	AUX	_	Number=Sing|Tense=Pres|VerbForm=Fin	17	cop	_	_
 19	.	.	PUNCT	_	_	3	punct	_	_
 
 # wiki-8238.p.7.s.1.xml
@@ -3055,7 +3055,7 @@
 
 # wiki-866.p.27.s.3.xml
 1	Dit	dit	PRON	_	Person=3|PronType=Dem	7	nsubj	_	_
-2	is	zijn	AUX	_	_	7	cop	_	_
+2	is	zijn	AUX	_	Number=Sing|Tense=Pres|VerbForm=Fin	7	cop	_	_
 3	volgens	volgens	ADP	_	_	4	case	_	_
 4	haar	haar	PRON	_	Case=Acc|Person=3|PronType=Prs	7	nmod	_	_
 5	de	de	DET	_	Definite=Def	7	det	_	_
@@ -3154,7 +3154,7 @@
 6	de	de	DET	_	Definite=Def	7	det	_	_
 7	regering	regering	NOUN	_	Gender=Com|Number=Sing	2	nmod	_	_
 8	en	en	CONJ	_	_	2	cc	_	_
-9	werd	worden	AUX	_	_	13	cop	_	_
+9	werd	worden	AUX	_	Number=Sing|Tense=Past|VerbForm=Fin	13	cop	_	_
 10	zelfs	zelfs	ADV	_	_	13	advmod	_	_
 11	een	een	DET	_	Definite=Ind	13	det	_	_
 12	middelgrote	middelgroot	ADJ	_	Degree=Pos	13	amod	_	_
@@ -3163,9 +3163,9 @@
 
 # wiki-9843.p.16.s.1.xml
 1	Suske	Suske	PROPN	_	Gender=Com|Number=Sing	6	nsubj	_	_
-2	en	en	CONJ	_	_	1	mwe	_	_
-3	Wiske	Wiske	PROPN	_	Gender=Com|Number=Sing	1	mwe	_	_
-4	werden	worden	AUX	_	_	6	cop	_	_
+2	en	en	CONJ	_	_	1	name	_	_
+3	Wiske	Wiske	PROPN	_	Gender=Com|Number=Sing	1	name	_	_
+4	werden	worden	AUX	_	Number=Plur|Tense=Past|VerbForm=Fin	6	cop	_	_
 5	zo'n	zo'n	PRON	_	PronType=Dem	6	det	_	_
 6	succes	succes	NOUN	_	Gender=Neut|Number=Sing	0	root	_	_
 7	dat	dat	SCONJ	_	_	16	mark	_	_
@@ -3208,7 +3208,7 @@
 # wiki-135.p.21.s.3.xml
 1	Duits	Duits	PROPN	_	Gender=Neut|Number=Sing	0	root	_	_
 2	(	(	PUNCT	_	_	1	punct	_	_
-3	&lt;1%	&lt;1%	SYM	_	_	1	nmod	_	_
+3	<1%	<1%	SYM	_	_	1	nmod	_	_
 4	)	)	PUNCT	_	_	1	punct	_	_
 
 # wiki-866.p.30.s.1.xml
@@ -3237,7 +3237,7 @@
 # wiki-208.p.17.s.1.xml
 1	In	in	ADP	_	_	2	case	_	_
 2	639	639	NUM	_	_	7	nmod	_	_
-3	werd	worden	AUX	_	_	7	auxpass	_	_
+3	werd	worden	AUX	_	Number=Sing|Tense=Past|VerbForm=Fin	7	auxpass	_	_
 4	het	het	DET	_	Definite=Def	5	det	_	_
 5	rijk	rijk	ADJ	_	Degree=Pos	7	dobj	_	_
 6	echter	echter	ADV	_	_	7	advmod	_	_
@@ -3318,18 +3318,18 @@
 1	Artikel	artikel	NOUN	_	Gender=Neut|Number=Sing	0	root	_	_
 2	«	«	PUNCT	_	_	10	punct	_	_
 3	Lijmen-achtig	Lijmen-achtig	ADJ	_	Degree=Pos	1	appos	_	_
-4	toneelstuk	toneelstuk	NOUN	_	Gender=Neut|Number=Sing	3	mwe	_	_
-5	van	van	ADP	_	_	3	mwe	_	_
-6	Elsschot	Elsschot	PROPN	_	Gender=Com|Number=Sing	3	mwe	_	_
-7	ontdekt	ontdekken	VERB	_	VerbForm=Part	3	mwe	_	_
+4	toneelstuk	toneelstuk	NOUN	_	Gender=Neut|Number=Sing	3	name	_	_
+5	van	van	ADP	_	_	3	name	_	_
+6	Elsschot	Elsschot	PROPN	_	Gender=Com|Number=Sing	3	name	_	_
+7	ontdekt	ontdekken	VERB	_	VerbForm=Part	3	name	_	_
 8	»	»	PUNCT	_	_	10	punct	_	_
 9	,	,	PUNCT	_	_	10	punct	_	_
 10	NRC	NRC	PROPN	_	_	1	parataxis	_	_
 11	Handelsblad	Handelsblad	PROPN	_	_	10	name	_	_
 12	,	,	PUNCT	_	_	10	punct	_	_
 13	18	18	NUM	_	_	10	parataxis	_	_
-14	september	september	PROPN	_	Gender=Com|Number=Sing	13	mwe	_	_
-15	2003	2003	NUM	_	_	13	mwe	_	_
+14	september	september	PROPN	_	Gender=Com|Number=Sing	13	name	_	_
+15	2003	2003	NUM	_	_	13	name	_	_
 
 # wiki-7543.p.43.s.9.xml
 1	Wim	Wim	PROPN	_	_	0	root	_	_
@@ -3356,7 +3356,7 @@
 4	Jan	Jan	PROPN	_	_	2	nmod	_	_
 5	van	van	PROPN	_	_	4	name	_	_
 6	Eyck	Eyck	PROPN	_	_	4	name	_	_
-7	zijn	zijn	AUX	_	_	12	aux	_	_
+7	zijn	zijn	AUX	_	Number=Plur|Tense=Pres|VerbForm=Fin	12	aux	_	_
 8	in	in	ADP	_	_	10	case	_	_
 9	diverse	divers	ADJ	_	Degree=Pos	10	amod	_	_
 10	musea	museum	NOUN	_	Number=Plur	12	nmod	_	_
@@ -3366,9 +3366,9 @@
 
 # wiki-7543.p.12.s.1.xml
 1	Recentelijk	recentelijk	ADJ	_	Degree=Pos	14	amod	_	_
-2	werd	worden	AUX	_	_	14	auxpass	_	_
+2	werd	worden	AUX	_	Number=Sing|Tense=Past|VerbForm=Fin	14	auxpass	_	_
 3	een	een	DET	_	Definite=Ind	4	det	_	_
-4	fontein	fontein	NOUN	_	Gender=Com|Number=Sing	14	nsubj	_	_
+4	fontein	fontein	NOUN	_	Gender=Com|Number=Sing	14	nsubjpass	_	_
 5	uit	uit	ADP	_	_	7	case	_	_
 6	de	de	DET	_	Definite=Def	7	det	_	_
 7	tijd	tijd	NOUN	_	Gender=Com|Number=Sing	4	nmod	_	_
@@ -3431,10 +3431,10 @@
 11	Brugge	Brugge	PROPN	_	Gender=Neut|Number=Sing	1	acl	_	_
 12	,	,	PUNCT	_	_	20	punct	_	_
 13	11	11	NUM	_	_	11	parataxis	_	_
-14	september	september	PROPN	_	Gender=Com|Number=Sing	13	mwe	_	_
-15	1962	1962	NUM	_	_	13	mwe	_	_
+14	september	september	PROPN	_	Gender=Com|Number=Sing	13	name	_	_
+15	1962	1962	NUM	_	_	13	name	_	_
 16	)	)	PUNCT	_	_	20	punct	_	_
-17	is	zijn	AUX	_	_	20	cop	_	_
+17	is	zijn	AUX	_	Number=Sing|Tense=Pres|VerbForm=Fin	20	cop	_	_
 18	een	een	DET	_	Definite=Ind	20	det	_	_
 19	Vlaams	Vlaams	ADJ	_	Degree=Pos	20	amod	_	_
 20	politicus	politicus	NOUN	_	Gender=Com|Number=Sing	0	root	_	_
@@ -3455,7 +3455,7 @@
 5	familiejuwelen	familiejuweel	NOUN	_	Number=Plur	2	dobj	_	_
 6	,	,	PUNCT	_	_	2	punct	_	_
 7	sindsdien	sindsdien	ADV	_	_	20	advmod	_	_
-8	is	zijn	AUX	_	_	20	cop	_	_
+8	is	zijn	AUX	_	Number=Sing|Tense=Pres|VerbForm=Fin	20	cop	_	_
 9	een	een	DET	_	Definite=Ind	10	det	_	_
 10	tiara	tiara	NOUN	_	Gender=Com|Number=Sing	20	nsubj	_	_
 11	die	die	PRON	_	PronType=Rel	19	nsubj	_	_
@@ -3476,7 +3476,7 @@
 3	voor	voor	ADP	_	_	5	case	_	_
 4	de	de	DET	_	Definite=Def	5	det	_	_
 5	raad	raad	NOUN	_	Gender=Com|Number=Sing	2	nmod	_	_
-6	vallen	vallen	AUX	_	_	10	cop	_	_
+6	vallen	vallen	AUX	_	Number=Plur|Tense=Pres|VerbForm=Fin	10	cop	_	_
 7	samen	samen	ADV	_	_	10	compound	_	_
 8	met	met	ADP	_	_	10	case	_	_
 9	de	de	DET	_	Definite=Def	10	det	_	_
@@ -3514,15 +3514,15 @@
 2	legde	leggen	VERB	_	Number=Sing|Tense=Past|VerbForm=Fin	0	root	_	_
 3	op	op	ADP	_	_	4	case	_	_
 4	21	21	NUM	_	_	2	nmod	_	_
-5	juli	juli	PROPN	_	Gender=Com|Number=Sing	4	mwe	_	_
-6	1831	1831	NUM	_	_	4	mwe	_	_
+5	juli	juli	PROPN	_	Gender=Com|Number=Sing	4	name	_	_
+6	1831	1831	NUM	_	_	4	name	_	_
 7	de	de	DET	_	Definite=Def	8	det	_	_
 8	eed	eed	NOUN	_	Gender=Com|Number=Sing	2	dobj	_	_
 9	af	af	PART	_	_	2	compound	_	_
 10	als	als	PART	_	_	11	mark	_	_
 11	koning	koning	NOUN	_	Gender=Com|Number=Sing	2	advcl	_	_
-12	der	de	DET	_	Definite=Def	11	mwe	_	_
-13	Belgen	Belg	PROPN	_	Number=Plur	11	mwe	_	_
+12	der	de	DET	_	Definite=Def	11	name	_	_
+13	Belgen	Belg	PROPN	_	Number=Plur	11	name	_	_
 14	en	en	CONJ	_	_	2	cc	_	_
 15	regeerde	regeren	VERB	_	Number=Sing|Tense=Past|VerbForm=Fin	2	conj	_	_
 16	onder	onder	ADP	_	_	18	case	_	_
@@ -3549,8 +3549,8 @@
 14	.	.	PUNCT	_	_	2	punct	_	_
 
 # wiki-138.p.20.s.6.xml
-1	Het	het	PRON	_	Person=3|PronType=Prs	3	nsubj	_	_
-2	werd	worden	AUX	_	_	3	auxpass	_	_
+1	Het	het	PRON	_	Person=3|PronType=Prs	3	nsubjpass	_	_
+2	werd	worden	AUX	_	Number=Sing|Tense=Past|VerbForm=Fin	3	auxpass	_	_
 3	gebouwd	bouwen	VERB	_	VerbForm=Part	0	root	_	_
 4	ter	te	ADP	_	_	3	nmod	_	_
 5	gelegenheid	gelegenheid	NOUN	_	Gender=Com|Number=Sing	4	mwe	_	_
@@ -3568,20 +3568,20 @@
 # wiki-208.p.70.s.15.xml
 1	Op	op	ADP	_	_	2	case	_	_
 2	28	28	NUM	_	_	10	nmod	_	_
-3	november	november	PROPN	_	Gender=Com|Number=Sing	2	mwe	_	_
-4	1907	1907	NUM	_	_	2	mwe	_	_
-5	werd	worden	AUX	_	_	10	auxpass	_	_
+3	november	november	PROPN	_	Gender=Com|Number=Sing	2	name	_	_
+4	1907	1907	NUM	_	_	2	name	_	_
+5	werd	worden	AUX	_	Number=Sing|Tense=Past|VerbForm=Fin	10	auxpass	_	_
 6	de	de	DET	_	Definite=Def	7	det	_	_
-7	akte	akte	NOUN	_	Gender=Com|Number=Sing	10	nsubj	_	_
+7	akte	akte	NOUN	_	Gender=Com|Number=Sing	10	nsubjpass	_	_
 8	van	van	ADP	_	_	9	case	_	_
 9	afstand	afstand	NOUN	_	Gender=Com|Number=Sing	7	nmod	_	_
 10	getekend	tekenen	VERB	_	VerbForm=Part	0	root	_	_
 11	en	en	CONJ	_	_	10	cc	_	_
 12	op	op	ADP	_	_	13	case	_	_
 13	15	15	NUM	_	_	26	nmod	_	_
-14	november	november	PROPN	_	Gender=Com|Number=Sing	13	mwe	_	_
-15	1908	1908	NUM	_	_	13	mwe	_	_
-16	werd	worden	AUX	_	_	26	cop	_	_
+14	november	november	PROPN	_	Gender=Com|Number=Sing	13	name	_	_
+15	1908	1908	NUM	_	_	13	name	_	_
+16	werd	worden	AUX	_	Number=Sing|Tense=Past|VerbForm=Fin	26	cop	_	_
 17	de	de	DET	_	Definite=Def	18	det	_	_
 18	Kongostaat	Kongostaat	PROPN	_	Gender=Com|Number=Sing	26	nsubj	_	_
 19	onder	onder	ADP	_	_	22	case	_	_
@@ -3598,7 +3598,7 @@
 
 # wiki-1250.p.4.s.3.xml
 1	Leefbaar	leefbaar	ADJ	_	Degree=Pos	0	root	_	_
-2	Drenthe	Drenthe	PROPN	_	Gender=Neut|Number=Sing	1	mwe	_	_
+2	Drenthe	Drenthe	PROPN	_	Gender=Neut|Number=Sing	1	name	_	_
 3	(	(	PUNCT	_	_	1	punct	_	_
 4	LD	LD	X	_	_	1	nmod	_	_
 5	)	)	PUNCT	_	_	1	punct	_	_
@@ -3624,14 +3624,14 @@
 1	1982	1982	NUM	_	_	3	parataxis	_	_
 2	-	-	PUNCT	_	_	3	punct	_	_
 3	10	10	NUM	_	_	0	root	_	_
-4	jaar	jaar	NOUN	_	Gender=Neut|Number=Sing	3	mwe	_	_
-5	Urbanus	Urbanus	PROPN	_	Gender=Com|Number=Sing	3	mwe	_	_
-6	Live	live	ADJ	_	Degree=Pos	3	mwe	_	_
+4	jaar	jaar	NOUN	_	Gender=Neut|Number=Sing	3	name	_	_
+5	Urbanus	Urbanus	PROPN	_	Gender=Com|Number=Sing	3	name	_	_
+6	Live	live	ADJ	_	Degree=Pos	3	name	_	_
 
 # wiki-208.p.98.s.1.xml
-1	Premier	premier	NOUN	_	Gender=Com|Number=Sing	4	nsubj	_	_
+1	Premier	premier	NOUN	_	Gender=Com|Number=Sing	4	nsubjpass	_	_
 2	Martens	Martens	PROPN	_	Gender=Com|Number=Sing	1	appos	_	_
-3	werd	worden	AUX	_	_	4	auxpass	_	_
+3	werd	worden	AUX	_	Number=Sing|Tense=Past|VerbForm=Fin	4	auxpass	_	_
 4	opgevolgd	opvolgen	VERB	_	VerbForm=Part	0	root	_	_
 5	door	door	ADP	_	_	7	case	_	_
 6	de	de	DET	_	Definite=Def	7	det	_	_
@@ -3666,7 +3666,7 @@
 2	van	van	ADP	_	_	4	case	_	_
 3	zijn	zijn	DET	_	_	4	det	_	_
 4	medeleerlingen	medeleerling	NOUN	_	Number=Plur	1	nmod	_	_
-5	is	zijn	AUX	_	_	6	cop	_	_
+5	is	zijn	AUX	_	Number=Sing|Tense=Pres|VerbForm=Fin	6	cop	_	_
 6	Achiel	Achiel	PROPN	_	_	0	root	_	_
 7	Van	Van	PROPN	_	_	6	name	_	_
 8	Sassenbroeck	Sassenbroeck	PROPN	_	_	6	name	_	_
@@ -3679,12 +3679,12 @@
 4	doorbraak	doorbraak	NOUN	_	Gender=Com|Number=Sing	13	nmod	_	_
 5	vanuit	vanuit	ADP	_	_	6	case	_	_
 6	Normandië	Normandië	PROPN	_	Gender=Neut|Number=Sing	4	nmod	_	_
-7	werd	worden	AUX	_	_	13	auxpass	_	_
-8	Brussel	Brussel	PROPN	_	Gender=Neut|Number=Sing	13	nsubj	_	_
+7	werd	worden	AUX	_	Number=Sing|Tense=Past|VerbForm=Fin	13	auxpass	_	_
+8	Brussel	Brussel	PROPN	_	Gender=Neut|Number=Sing	13	nsubjpass	_	_
 9	op	op	ADP	_	_	10	case	_	_
 10	2	2	NUM	_	_	13	nmod	_	_
-11	september	september	PROPN	_	Gender=Com|Number=Sing	10	mwe	_	_
-12	1944	1944	NUM	_	_	10	mwe	_	_
+11	september	september	PROPN	_	Gender=Com|Number=Sing	10	name	_	_
+12	1944	1944	NUM	_	_	10	name	_	_
 13	bevrijd	bevrijden	VERB	_	VerbForm=Part	0	root	_	_
 14	en	en	CONJ	_	_	13	cc	_	_
 15	een	een	DET	_	Definite=Ind	16	det	_	_
@@ -3709,9 +3709,9 @@
 1	Bezienswaardigheden	bezienswaardigheid	NOUN	_	Number=Plur	0	root	_	_
 
 # wiki-11.p.76.s.3.xml
-1	CD&amp;V	CD&amp;V	PROPN	_	Gender=Com|Number=Sing	0	root	_	_
-2	-	-	PUNCT	_	_	1	mwe	_	_
-3	N-VA	N-VA	PROPN	_	Gender=Com|Number=Sing	1	mwe	_	_
+1	CD&V	CD&V	PROPN	_	Gender=Com|Number=Sing	0	root	_	_
+2	-	-	PUNCT	_	_	1	name	_	_
+3	N-VA	N-VA	PROPN	_	Gender=Com|Number=Sing	1	name	_	_
 4	:	:	PUNCT	_	_	1	punct	_	_
 5	6	6	NUM	_	_	1	parataxis	_	_
 
@@ -3729,7 +3729,7 @@
 
 # wiki-5318.p.12.s.3.xml
 1	Ze	ze	PRON	_	Person=3|PronType=Prs	4	nsubj	_	_
-2	stonden	staan	AUX	_	_	4	cop	_	_
+2	stonden	staan	AUX	_	Number=Plur|Tense=Past|VerbForm=Fin	4	cop	_	_
 3	zo	zo	ADV	_	_	4	advmod	_	_
 4	open	open	ADJ	_	Degree=Pos	0	root	_	_
 5	en	en	CONJ	_	_	4	cc	_	_
@@ -3770,11 +3770,11 @@
 1	Onder	onder	ADP	_	_	3	case	_	_
 2	zijn	zijn	DET	_	_	3	det	_	_
 3	bewind	bewind	NOUN	_	Gender=Neut|Number=Sing	9	nmod	_	_
-4	werd	worden	AUX	_	_	9	auxpass	_	_
+4	werd	worden	AUX	_	Number=Sing|Tense=Past|VerbForm=Fin	9	auxpass	_	_
 5	ook	ook	ADV	_	_	9	advmod	_	_
 6	een	een	DET	_	Definite=Ind	8	det	_	_
 7	mislukte	mislukken	VERB	_	VerbForm=Part	8	advmod	_	_
-8	kolonisatiepoging	kolonisatiepoging	NOUN	_	Gender=Com|Number=Sing	9	nsubj	_	_
+8	kolonisatiepoging	kolonisatiepoging	NOUN	_	Gender=Com|Number=Sing	9	nsubjpass	_	_
 9	ondernomen	ondernemen	VERB	_	VerbForm=Part	0	root	_	_
 10	in	in	ADP	_	_	11	case	_	_
 11	Santo	Santo	PROPN	_	_	9	nmod	_	_
@@ -3795,7 +3795,7 @@
 2	nieuwe	nieuw	ADJ	_	Degree=Pos	3	amod	_	_
 3	gemeente	gemeente	NOUN	_	Gender=Com|Number=Sing	9	nsubj	_	_
 4	Antwerpen	Antwerpen	PROPN	_	Gender=Neut|Number=Sing	3	appos	_	_
-5	is	zijn	AUX	_	_	9	cop	_	_
+5	is	zijn	AUX	_	Number=Sing|Tense=Pres|VerbForm=Fin	9	cop	_	_
 6	sindsdien	sindsdien	ADV	_	_	9	advmod	_	_
 7	veruit	veruit	ADV	_	_	9	advmod	_	_
 8	de	de	DET	_	Definite=Def	9	det	_	_
@@ -3809,7 +3809,7 @@
 16	(	(	PUNCT	_	_	9	punct	_	_
 17	qua	qua	ADP	_	_	18	case	_	_
 18	oppervlakte	oppervlakte	NOUN	_	Gender=Com|Number=Sing	21	nmod	_	_
-19	is	zijn	AUX	_	_	21	cop	_	_
+19	is	zijn	AUX	_	Number=Sing|Tense=Pres|VerbForm=Fin	21	cop	_	_
 20	Doornik	Doornik	PROPN	_	Gender=Neut|Number=Sing	21	nsubj	_	_
 21	groter	groot	ADJ	_	Degree=Cmp	15	acl	_	_
 22	)	)	PUNCT	_	_	9	punct	_	_
@@ -3855,7 +3855,7 @@
 1	1934	1934	NUM	_	_	16	parataxis	_	_
 2	:	:	PUNCT	_	_	16	punct	_	_
 3	de	de	DET	_	Definite=Def	4	det	_	_
-4	panelen	paneel	NOUN	_	Number=Plur	16	nsubj	_	_
+4	panelen	paneel	NOUN	_	Number=Plur	16	nsubjpass	_	_
 5	van	van	ADP	_	_	6	case	_	_
 6	De	de	DET	_	Definite=Def	4	nmod	_	_
 7	Rechtvaardige	rechtvaardig	ADJ	_	Degree=Pos	6	mwe	_	_
@@ -3866,7 +3866,7 @@
 12	Jan	Jan	PROPN	_	_	11	name	_	_
 13	de	de	PROPN	_	_	11	name	_	_
 14	Doper	Doper	PROPN	_	_	11	name	_	_
-15	worden	worden	AUX	_	_	16	auxpass	_	_
+15	worden	worden	AUX	_	Number=Plur|Tense=Pres|VerbForm=Fin	16	auxpass	_	_
 16	gestolen	stelen	VERB	_	VerbForm=Part	0	root	_	_
 
 # wiki-889.p.16.s.1.xml
@@ -3888,7 +3888,7 @@
 5	Kamerverkiezingen	Kamerverkiezing	NOUN	_	Number=Plur	4	mwe	_	_
 6	van	van	ADP	_	_	7	case	_	_
 7	2006	2006	NUM	_	_	4	nmod	_	_
-8	is	zijn	AUX	_	_	9	cop	_	_
+8	is	zijn	AUX	_	Number=Sing|Tense=Pres|VerbForm=Fin	9	cop	_	_
 9	Alexander	Alexander	PROPN	_	_	0	root	_	_
 10	Pechtold	Pechtold	PROPN	_	_	9	name	_	_
 11	.	.	PUNCT	_	_	9	punct	_	_
@@ -3905,7 +3905,7 @@
 # wiki-7585.p.50.s.1.xml
 1	«	«	PUNCT	_	_	2	punct	_	_
 2	Z	Z	PROPN	_	_	0	root	_	_
-3	17	17	NUM	_	_	2	mwe	_	_
+3	17	17	NUM	_	_	2	name	_	_
 4	»	»	PUNCT	_	_	2	punct	_	_
 5	(	(	PUNCT	_	_	2	punct	_	_
 6	1991	1991	NUM	_	_	2	acl	_	_
@@ -3918,8 +3918,8 @@
 2	1978	1978	NUM	_	_	3	nmod	_	_
 3	kregen	krijgen	VERB	_	Number=Plur|Tense=Past|VerbForm=Fin	0	root	_	_
 4	Suske	Suske	PROPN	_	Gender=Com|Number=Sing	3	nsubj	_	_
-5	en	en	CONJ	_	_	4	mwe	_	_
-6	Wiske	Wiske	PROPN	_	Gender=Com|Number=Sing	4	mwe	_	_
+5	en	en	CONJ	_	_	4	name	_	_
+6	Wiske	Wiske	PROPN	_	Gender=Com|Number=Sing	4	name	_	_
 7	een	een	DET	_	Definite=Ind	8	det	_	_
 8	standbeeld	standbeeld	NOUN	_	Gender=Neut|Number=Sing	3	dobj	_	_
 9	in	in	ADP	_	_	12	case	_	_
@@ -3935,7 +3935,7 @@
 4	de	de	DET	_	Definite=Def	6	det	_	_
 5	Vlaamse	Vlaams	ADJ	_	Degree=Pos	6	amod	_	_
 6	Uitgeversmaatschappij	uitgeversmaatschappij	NOUN	_	Gender=Com|Number=Sing	3	nsubj	_	_
-7	VUM	Vum	PROPN	_	Gender=Com|Number=Sing	6	mwe	_	_
+7	VUM	Vum	PROPN	_	Gender=Com|Number=Sing	6	name	_	_
 8	(	(	PUNCT	_	_	3	punct	_	_
 9	uitgever	uitgever	NOUN	_	Gender=Com|Number=Sing	6	nmod	_	_
 10	van	van	ADP	_	_	13	case	_	_
@@ -3956,7 +3956,7 @@
 25	later	laat	ADJ	_	Degree=Cmp	29	amod	_	_
 26	tot	tot	ADP	_	_	27	case	_	_
 27	40%	40%	SYM	_	_	29	nmod	_	_
-28	werd	worden	AUX	_	_	29	auxpass	_	_
+28	werd	worden	AUX	_	Number=Sing|Tense=Past|VerbForm=Fin	29	auxpass	_	_
 29	verhoogd	verhogen	VERB	_	VerbForm=Part	18	acl	_	_
 30	.	.	PUNCT	_	_	3	punct	_	_
 
@@ -3976,7 +3976,7 @@
 13	het	het	PRON	_	Person=3|PronType=Prs	15	nsubj	_	_
 14	geen	geen	DET	_	_	15	det	_	_
 15	pijp	pijp	NOUN	_	Gender=Com|Number=Sing	10	ccomp	_	_
-16	is	zijn	AUX	_	_	15	cop	_	_
+16	is	zijn	AUX	_	Number=Sing|Tense=Pres|VerbForm=Fin	15	cop	_	_
 17	.	.	PUNCT	_	_	4	punct	_	_
 
 # wiki-3781.p.4.s.2.xml
@@ -4031,11 +4031,11 @@
 
 # wiki-135.p.28.s.7.xml
 1	Dit	dit	PRON	_	Person=3|PronType=Dem	5	nsubj	_	_
-2	is	zijn	AUX	_	_	5	aux	_	_
+2	is	zijn	AUX	_	Number=Sing|Tense=Pres|VerbForm=Fin	5	aux	_	_
 3	mee	mee	ADP	_	_	5	advmod	_	_
 4	de	de	DET	_	Definite=Def	5	det	_	_
 5	katalysator	katalysator	NOUN	_	Gender=Com|Number=Sing	0	root	_	_
-6	geweest	zijn	AUX	_	_	5	cop	_	_
+6	geweest	zijn	AUX	_	VerbForm=Part	5	cop	_	_
 7	voor	voor	ADP	_	_	10	case	_	_
 8	een	een	DET	_	Definite=Ind	10	det	_	_
 9	centrifugale	centrifugaal	ADJ	_	Degree=Pos	10	amod	_	_
@@ -4075,14 +4075,14 @@
 26	ook	ook	ADV	_	_	31	advmod	_	_
 27	de	de	DET	_	Definite=Def	28	det	_	_
 28	Ronde	Ronde	NOUN	_	Gender=Com|Number=Sing	31	dobj	_	_
-29	van	van	ADP	_	_	28	mwe	_	_
-30	Frankrijk	Frankrijk	PROPN	_	Gender=Neut|Number=Sing	28	mwe	_	_
+29	van	van	ADP	_	_	28	name	_	_
+30	Frankrijk	Frankrijk	PROPN	_	Gender=Neut|Number=Sing	28	name	_	_
 31	organiseert	organiseren	VERB	_	Number=Sing|Tense=Pres|VerbForm=Fin	12	acl	_	_
 32	.	.	PUNCT	_	_	2	punct	_	_
 
 # wiki-887.p.18.s.4.xml
 1	Clijsters	Clijsters	PROPN	_	Gender=Com|Number=Sing	4	nsubj	_	_
-2	is	zijn	AUX	_	_	4	aux	_	_
+2	is	zijn	AUX	_	Number=Sing|Tense=Pres|VerbForm=Fin	4	aux	_	_
 3	inmiddels	inmiddels	ADV	_	_	4	advmod	_	_
 4	teruggezakt	terugzakken	VERB	_	VerbForm=Part	0	root	_	_
 5	naar	naar	ADP	_	_	8	case	_	_
@@ -4100,13 +4100,13 @@
 17	.	.	PUNCT	_	_	4	punct	_	_
 
 # wiki-1941.p.4.s.1.xml
-1	Elsschot	Elsschot	PROPN	_	Gender=Com|Number=Sing	5	nsubj	_	_
-2	is	zijn	AUX	_	_	5	auxpass	_	_
+1	Elsschot	Elsschot	PROPN	_	Gender=Com|Number=Sing	5	nsubjpass	_	_
+2	is	zijn	AUX	_	Number=Sing|Tense=Pres|VerbForm=Fin	5	auxpass	_	_
 3	in	in	ADP	_	_	4	case	_	_
 4	Antwerpen	Antwerpen	PROPN	_	Gender=Neut|Number=Sing	5	nmod	_	_
 5	geboren	geboren	ADJ	_	Degree=Pos	0	root	_	_
 6	en	en	CONJ	_	_	5	cc	_	_
-7	was	zijn	AUX	_	_	9	cop	_	_
+7	was	zijn	AUX	_	Number=Sing|Tense=Past|VerbForm=Fin	9	cop	_	_
 8	een	een	DET	_	Definite=Ind	9	det	_	_
 9	zoon	zoon	NOUN	_	Gender=Com|Number=Sing	5	conj	_	_
 10	uit	uit	ADP	_	_	12	case	_	_
@@ -4137,7 +4137,7 @@
 # wiki-8628.p.26.s.1.xml
 1	In	in	ADP	_	_	2	case	_	_
 2	principe	principe	NOUN	_	Gender=Neut|Number=Sing	5	nmod	_	_
-3	kan	kunnen	AUX	_	_	5	aux	_	_
+3	kan	kunnen	AUX	_	Number=Sing|Tense=Pres|VerbForm=Fin	5	aux	_	_
 4	alcohol	alcohol	NOUN	_	Gender=Com|Number=Sing	5	nsubj	_	_
 5	ontstaan	ontstaan	VERB	_	VerbForm=Inf	0	root	_	_
 6	uit	uit	ADP	_	_	8	case	_	_
@@ -4159,10 +4159,10 @@
 5	vandaag	vandaag	ADV	_	_	9	nmod	_	_
 6	de	de	DET	_	Definite=Def	5	mwe	_	_
 7	dag	dag	NOUN	_	Gender=Com|Number=Sing	5	mwe	_	_
-8	kan	kunnen	AUX	_	_	9	aux	_	_
+8	kan	kunnen	AUX	_	Number=Sing|Tense=Pres|VerbForm=Fin	9	aux	_	_
 9	doen	doen	VERB	_	VerbForm=Inf	2	acl	_	_
 10	,	,	PUNCT	_	_	2	punct	_	_
-11	is	zijn	AUX	_	_	2	cop	_	_
+11	is	zijn	AUX	_	Number=Sing|Tense=Pres|VerbForm=Fin	2	cop	_	_
 12	begrip	begrip	NOUN	_	Gender=Neut|Number=Sing	13	dobj	_	_
 13	tonen	tonen	VERB	_	VerbForm=Inf	2	nsubj	_	_
 14	voor	voor	ADP	_	_	16	case	_	_
@@ -4186,9 +4186,9 @@
 # wiki-295.p.13.s.3.xml
 1	Op	op	ADP	_	_	2	case	_	_
 2	8	8	NUM	_	_	8	nmod	_	_
-3	januari	januari	PROPN	_	Gender=Com|Number=Sing	2	mwe	_	_
-4	wordt	worden	AUX	_	_	8	auxpass	_	_
-5	hij	hij	PRON	_	Case=Nom|Person=3|PronType=Prs	8	nsubj	_	_
+3	januari	januari	PROPN	_	Gender=Com|Number=Sing	2	name	_	_
+4	wordt	worden	AUX	_	Number=Sing|Tense=Pres|VerbForm=Fin	8	auxpass	_	_
+5	hij	hij	PRON	_	Case=Nom|Person=3|PronType=Prs	8	nsubjpass	_	_
 6	te	te	ADP	_	_	7	case	_	_
 7	Jabbeke	Jabbeke	PROPN	_	Gender=Neut|Number=Sing	8	nmod	_	_
 8	begraven	begraven	VERB	_	VerbForm=Part	0	root	_	_
@@ -4208,7 +4208,7 @@
 6	(	(	PUNCT	_	_	13	punct	_	_
 7	UCL	UCL	X	_	_	2	nmod	_	_
 8	)	)	PUNCT	_	_	13	punct	_	_
-9	is	zijn	AUX	_	_	13	cop	_	_
+9	is	zijn	AUX	_	Number=Sing|Tense=Pres|VerbForm=Fin	13	cop	_	_
 10	de	de	DET	_	Definite=Def	13	det	_	_
 11	grootste	groot	ADJ	_	Degree=Sup	13	amod	_	_
 12	Franstalige	Franstalig	ADJ	_	Degree=Pos	13	amod	_	_
@@ -4300,7 +4300,7 @@
 44	het	het	DET	_	Definite=Def	45	det	_	_
 45	haar	haar	NOUN	_	Gender=Neut|Number=Sing	46	nsubj	_	_
 46	voller	vol	ADJ	_	Degree=Cmp	40	acl	_	_
-47	is	zijn	AUX	_	_	46	cop	_	_
+47	is	zijn	AUX	_	Number=Sing|Tense=Pres|VerbForm=Fin	46	cop	_	_
 48	.	.	PUNCT	_	_	3	punct	_	_
 
 # wiki-154.p.62.s.14.xml
@@ -4311,7 +4311,7 @@
 
 # wiki-3745.p.43.s.4.xml
 1	Het	het	PRON	_	Person=3|PronType=Prs	5	nsubj	_	_
-2	is	zijn	AUX	_	_	5	cop	_	_
+2	is	zijn	AUX	_	Number=Sing|Tense=Pres|VerbForm=Fin	5	cop	_	_
 3	het	het	DET	_	Definite=Def	5	det	_	_
 4	oudste	oud	ADJ	_	Degree=Sup	5	amod	_	_
 5	gebouw	gebouw	NOUN	_	Gender=Neut|Number=Sing	0	root	_	_
@@ -4332,7 +4332,7 @@
 3	van	van	ADP	_	_	5	case	_	_
 4	de	de	DET	_	Definite=Def	5	det	_	_
 5	Mezen	Mezen	PROPN	_	Gender=Com|Number=Sing	2	nmod	_	_
-6	is	zijn	AUX	_	_	11	cop	_	_
+6	is	zijn	AUX	_	Number=Sing|Tense=Pres|VerbForm=Fin	11	cop	_	_
 7	van	van	ADP	_	_	8	case	_	_
 8	mei	mei	PROPN	_	Gender=Com|Number=Sing	11	nmod	_	_
 9	tot	tot	ADP	_	_	10	case	_	_
@@ -4359,7 +4359,7 @@
 2	het	het	DET	_	Definite=Def	3	det	_	_
 3	academiejaar	academiejaar	NOUN	_	Gender=Neut|Number=Sing	7	nmod	_	_
 4	2007-2008	2007-2008	SYM	_	_	3	appos	_	_
-5	wordt	worden	AUX	_	_	7	auxpass	_	_
+5	wordt	worden	AUX	_	Number=Sing|Tense=Pres|VerbForm=Fin	7	auxpass	_	_
 6	er	er	ADV	_	_	7	advmod	_	_
 7	gestart	starten	VERB	_	VerbForm=Part	0	root	_	_
 8	met	met	ADP	_	_	10	case	_	_
@@ -4407,8 +4407,8 @@
 36	.	.	PUNCT	_	_	2	punct	_	_
 
 # wiki-295.p.7.s.3.xml
-1	Hij	hij	PRON	_	Case=Nom|Person=3|PronType=Prs	3	nsubj	_	_
-2	wordt	worden	AUX	_	_	3	auxpass	_	_
+1	Hij	hij	PRON	_	Case=Nom|Person=3|PronType=Prs	3	nsubjpass	_	_
+2	wordt	worden	AUX	_	Number=Sing|Tense=Pres|VerbForm=Fin	3	auxpass	_	_
 3	overgebracht	overbrengen	VERB	_	VerbForm=Part	0	root	_	_
 4	naar	naar	ADP	_	_	6	case	_	_
 5	het	het	DET	_	Definite=Def	6	det	_	_
@@ -4449,7 +4449,7 @@
 2	vroegere	vroeg	ADJ	_	Degree=Cmp	4	amod	_	_
 3	bloeiende	bloeien	VERB	_	VerbForm=Part	4	advmod	_	_
 4	wielerleven	wielerleven	NOUN	_	Gender=Neut|Number=Sing	7	nsubj	_	_
-5	is	zijn	AUX	_	_	7	aux	_	_
+5	is	zijn	AUX	_	Number=Sing|Tense=Pres|VerbForm=Fin	7	aux	_	_
 6	wat	wat	PRON	_	Person=3|PronType=Int	7	nmod	_	_
 7	weggekwijnd	wegkwijnen	VERB	_	VerbForm=Part	0	root	_	_
 8	sinds	sinds	PART	_	_	17	mark	_	_
@@ -4462,8 +4462,8 @@
 15	meer	veel	PRON	_	PronType=Ind	17	nmod	_	_
 16	een	een	DET	_	Definite=Ind	17	det	_	_
 17	evenementenhal	evenementenhal	NOUN	_	Gender=Com|Number=Sing	7	advcl	_	_
-18	is	zijn	AUX	_	_	17	aux	_	_
-19	geworden	worden	AUX	_	_	17	cop	_	_
+18	is	zijn	AUX	_	Number=Sing|Tense=Pres|VerbForm=Fin	17	aux	_	_
+19	geworden	worden	AUX	_	VerbForm=Part	17	cop	_	_
 20	.	.	PUNCT	_	_	7	punct	_	_
 
 # wiki-1550.p.18.s.17.xml
@@ -4493,9 +4493,9 @@
 1	Links-	Links-	X	_	_	7	nmod	_	_
 2	en	en	CONJ	_	_	1	cc	_	_
 3	rechtsonder	rechtsonder	ADV	_	_	1	conj	_	_
-4	zijn	zijn	AUX	_	_	7	auxpass	_	_
+4	zijn	zijn	AUX	_	Number=Plur|Tense=Pres|VerbForm=Fin	7	auxpass	_	_
 5	de	de	DET	_	Definite=Def	6	det	_	_
-6	schenkers	schenker	NOUN	_	Number=Plur	7	nsubj	_	_
+6	schenkers	schenker	NOUN	_	Number=Plur	7	nsubjpass	_	_
 7	afgebeeld	afbeelden	VERB	_	VerbForm=Part	0	root	_	_
 8	.	.	PUNCT	_	_	7	punct	_	_
 
@@ -4564,7 +4564,7 @@
 
 # wiki-7064.p.45.s.5.xml
 1	Anderzijds	anderzijds	ADV	_	_	9	advmod	_	_
-2	mogen	mogen	AUX	_	_	9	aux	_	_
+2	mogen	mogen	AUX	_	Number=Plur|Tense=Pres|VerbForm=Fin	9	aux	_	_
 3	zij	zij	PRON	_	Case=Nom|Person=3|PronType=Prs	9	nsubj	_	_
 4	zich	zich	PRON	_	Case=Acc|Person=3|PronType=Prs|Reflex=Yes	9	dobj	_	_
 5	naar	naar	ADP	_	_	7	case	_	_
@@ -4582,14 +4582,14 @@
 17	niet	niet	ADV	_	_	18	neg	_	_
 18	alle	al	PRON	_	PronType=Ind	19	det	_	_
 19	hoofdcommissarissen	hoofdcommissaris	NOUN	_	Number=Plur	22	nsubj	_	_
-20	zijn	zijn	AUX	_	_	22	cop	_	_
+20	zijn	zijn	AUX	_	Number=Plur|Tense=Pres|VerbForm=Fin	22	cop	_	_
 21	werkelijk	werkelijk	ADJ	_	Degree=Pos	22	amod	_	_
 22	hoofdcommissaris	hoofdcommissaris	NOUN	_	Gender=Com|Number=Sing	9	parataxis	_	_
 23	,	,	PUNCT	_	_	9	punct	_	_
 24	niet	niet	ADV	_	_	25	neg	_	_
 25	alle	al	PRON	_	PronType=Ind	26	det	_	_
 26	commissarissen	commissaris	NOUN	_	Number=Plur	29	nsubj	_	_
-27	zijn	zijn	AUX	_	_	29	cop	_	_
+27	zijn	zijn	AUX	_	Number=Plur|Tense=Pres|VerbForm=Fin	29	cop	_	_
 28	werkelijk	werkelijk	ADJ	_	Degree=Pos	29	amod	_	_
 29	commissaris	commissaris	NOUN	_	Gender=Com|Number=Sing	22	conj	_	_
 30	enz.	enz.	X	_	_	29	nmod	_	_
@@ -4621,9 +4621,9 @@
 2	de	de	DET	_	Definite=Def	4	det	_	_
 3	grote	groot	ADJ	_	Degree=Pos	4	amod	_	_
 4	afstand	afstand	NOUN	_	Gender=Com|Number=Sing	9	nmod	_	_
-5	werd	worden	AUX	_	_	9	auxpass	_	_
+5	werd	worden	AUX	_	Number=Sing|Tense=Past|VerbForm=Fin	9	auxpass	_	_
 6	de	de	DET	_	Definite=Def	7	det	_	_
-7	startplaats	startplaats	NOUN	_	Gender=Com|Number=Sing	9	nsubj	_	_
+7	startplaats	startplaats	NOUN	_	Gender=Com|Number=Sing	9	nsubjpass	_	_
 8	noordwaarts	noordwaarts	ADJ	_	Degree=Pos	9	amod	_	_
 9	verlegd	verleggen	VERB	_	VerbForm=Part	0	root	_	_
 10	.	.	PUNCT	_	_	9	punct	_	_
@@ -4649,9 +4649,9 @@
 6	zomermaanden	zomermaand	NOUN	_	Number=Plur	2	conj	_	_
 7	van	van	ADP	_	_	8	case	_	_
 8	1990	1990	NUM	_	_	6	nmod	_	_
-9	werden	worden	AUX	_	_	12	auxpass	_	_
+9	werden	worden	AUX	_	Number=Plur|Tense=Past|VerbForm=Fin	12	auxpass	_	_
 10	de	de	DET	_	Definite=Def	11	det	_	_
-11	afleveringen	aflevering	NOUN	_	Number=Plur	12	nsubj	_	_
+11	afleveringen	aflevering	NOUN	_	Number=Plur	12	nsubjpass	_	_
 12	herhaald	herhalen	VERB	_	VerbForm=Part	0	root	_	_
 13	.	.	PUNCT	_	_	12	punct	_	_
 
@@ -4661,8 +4661,8 @@
 3	aan	aan	ADP	_	_	5	case	_	_
 4	de	de	DET	_	Definite=Def	5	det	_	_
 5	Ronde	ronde	NOUN	_	Gender=Com|Number=Sing	2	iobj	_	_
-6	van	van	ADP	_	_	5	mwe	_	_
-7	Vlaanderen	Vlaanderen	PROPN	_	Gender=Neut|Number=Sing	5	mwe	_	_
+6	van	van	ADP	_	_	5	name	_	_
+7	Vlaanderen	Vlaanderen	PROPN	_	Gender=Neut|Number=Sing	5	name	_	_
 8	en	en	CONJ	_	_	5	cc	_	_
 9	aan	aan	ADP	_	_	11	case	_	_
 10	de	de	DET	_	Definite=Def	11	det	_	_
@@ -4775,7 +4775,7 @@
 4	tot	tot	ADP	_	_	5	case	_	_
 5	Wallonië	Wallonië	PROPN	_	Gender=Neut|Number=Sing	3	nmod	_	_
 6	en	en	CONJ	_	_	3	cc	_	_
-7	is	zijn	AUX	_	_	9	cop	_	_
+7	is	zijn	AUX	_	Number=Sing|Tense=Pres|VerbForm=Fin	9	cop	_	_
 8	dus	dus	ADV	_	_	9	advmod	_	_
 9	Franstalig	Franstalig	ADJ	_	Degree=Pos	3	conj	_	_
 10	.	.	PUNCT	_	_	3	punct	_	_
@@ -4791,10 +4791,10 @@
 # wiki-384.p.37.s.1.xml
 1	mr.	mr.	PROPN	_	_	0	root	_	_
 2	L.J.	L.J.	PROPN	_	_	1	name	_	_
-3	(	(	PUNCT	_	_	1	mwe	_	_
+3	(	(	PUNCT	_	_	1	name	_	_
 4	Laurens	Laurens	PROPN	_	_	1	name	_	_
 5	Jan	Jan	PROPN	_	_	1	name	_	_
-6	)	)	PUNCT	_	_	1	mwe	_	_
+6	)	)	PUNCT	_	_	1	name	_	_
 7	Brinkhorst	Brinkhorst	PROPN	_	_	1	name	_	_
 8	-	-	PUNCT	_	_	1	punct	_	_
 9	minister	minister	NOUN	_	Gender=Com|Number=Sing	1	appos	_	_
@@ -4817,7 +4817,7 @@
 10	'	'	PUNCT	_	_	2	punct	_	_
 11	aangesteld	aanstellen	VERB	_	VerbForm=Part	4	acl	_	_
 12	'	'	PUNCT	_	_	2	punct	_	_
-13	werden	worden	AUX	_	_	11	auxpass	_	_
+13	werden	worden	AUX	_	Number=Plur|Tense=Past|VerbForm=Fin	11	auxpass	_	_
 14	in	in	ADP	_	_	17	case	_	_
 15	een	een	DET	_	Definite=Ind	17	det	_	_
 16	hogere	hoog	ADJ	_	Degree=Cmp	17	amod	_	_
@@ -4825,22 +4825,22 @@
 18	:	:	PUNCT	_	_	2	punct	_	_
 19	bijvoorbeeld	bijvoorbeeld	ADV	_	_	23	advmod	_	_
 20	een	een	DET	_	Definite=Ind	21	det	_	_
-21	inspecteur	inspecteur	NOUN	_	Gender=Com|Number=Sing	23	nsubj	_	_
-22	werd	worden	AUX	_	_	23	auxpass	_	_
+21	inspecteur	inspecteur	NOUN	_	Gender=Com|Number=Sing	23	nsubjpass	_	_
+22	werd	worden	AUX	_	Number=Sing|Tense=Past|VerbForm=Fin	23	auxpass	_	_
 23	aangesteld	aanstellen	VERB	_	VerbForm=Part	2	parataxis	_	_
 24	tot	tot	ADP	_	_	25	case	_	_
 25	hoofdinspecteur	hoofdinspecteur	NOUN	_	Gender=Com|Number=Sing	23	nmod	_	_
 26	,	,	PUNCT	_	_	2	punct	_	_
 27	een	een	DET	_	Definite=Ind	28	det	_	_
-28	hoofdinspecteur	hoofdinspecteur	NOUN	_	Gender=Com|Number=Sing	30	nsubj	_	_
-29	werd	worden	AUX	_	_	30	auxpass	_	_
+28	hoofdinspecteur	hoofdinspecteur	NOUN	_	Gender=Com|Number=Sing	30	nsubjpass	_	_
+29	werd	worden	AUX	_	Number=Sing|Tense=Past|VerbForm=Fin	30	auxpass	_	_
 30	aangesteld	aanstellen	VERB	_	VerbForm=Part	23	conj	_	_
 31	tot	tot	ADP	_	_	32	case	_	_
 32	commissaris	commissaris	NOUN	_	Gender=Com|Number=Sing	30	nmod	_	_
 33	en	en	CONJ	_	_	23	cc	_	_
 34	een	een	DET	_	Definite=Ind	35	det	_	_
-35	commissaris	commissaris	NOUN	_	Gender=Com|Number=Sing	37	nsubj	_	_
-36	werd	worden	AUX	_	_	37	auxpass	_	_
+35	commissaris	commissaris	NOUN	_	Gender=Com|Number=Sing	37	nsubjpass	_	_
+36	werd	worden	AUX	_	Number=Sing|Tense=Past|VerbForm=Fin	37	auxpass	_	_
 37	aangesteld	aanstellen	VERB	_	VerbForm=Part	23	conj	_	_
 38	tot	tot	ADP	_	_	39	case	_	_
 39	hoofdcommissaris	hoofdcommissaris	NOUN	_	Gender=Com|Number=Sing	37	nmod	_	_
@@ -4850,7 +4850,7 @@
 1	In	in	ADP	_	_	3	case	_	_
 2	deze	deze	DET	_	_	3	det	_	_
 3	tijd	tijd	NOUN	_	Gender=Com|Number=Sing	11	nmod	_	_
-4	werden	worden	AUX	_	_	11	auxpass	_	_
+4	werden	worden	AUX	_	Number=Plur|Tense=Past|VerbForm=Fin	11	auxpass	_	_
 5	dan	dan	ADV	_	_	11	advmod	_	_
 6	ook	ook	ADV	_	_	11	advmod	_	_
 7	in	in	ADP	_	_	8	case	_	_
@@ -4876,7 +4876,7 @@
 1	"	"	PUNCT	_	_	13	punct	_	_
 2	Het	het	DET	_	Definite=Def	3	det	_	_
 3	succes	succes	NOUN	_	Gender=Neut|Number=Sing	13	nsubj	_	_
-4	was	zijn	AUX	_	_	13	aux	_	_
+4	was	zijn	AUX	_	Number=Sing|Tense=Past|VerbForm=Fin	13	aux	_	_
 5	(	(	PUNCT	_	_	13	punct	_	_
 6	...	...	PUNCT	_	_	13	punct	_	_
 7	)	)	PUNCT	_	_	13	punct	_	_
@@ -4890,11 +4890,11 @@
 
 # wiki-154.p.53.s.7.xml
 1	Vele	veel	PRON	_	PronType=Ind	2	nmod	_	_
-2	middelen	middel	NOUN	_	Number=Plur	9	nsubj	_	_
+2	middelen	middel	NOUN	_	Number=Plur	9	nsubjpass	_	_
 3	op	op	ADP	_	_	5	case	_	_
 4	hun	hun	DET	_	_	5	det	_	_
 5	cultuurbegrotingen	cultuurbegroting	NOUN	_	Number=Plur	2	nmod	_	_
-6	werden	worden	AUX	_	_	9	auxpass	_	_
+6	werden	worden	AUX	_	Number=Plur|Tense=Past|VerbForm=Fin	9	auxpass	_	_
 7	bijna	bijna	ADV	_	_	8	advmod	_	_
 8	volledig	volledig	ADJ	_	Degree=Pos	9	amod	_	_
 9	overgedragen	overdragen	VERB	_	VerbForm=Part	0	root	_	_
@@ -4911,7 +4911,7 @@
 5	collegiaal	collegiaal	ADJ	_	Degree=Pos	3	advcl	_	_
 6	,	,	PUNCT	_	_	3	punct	_	_
 7	dit	dit	PRON	_	Person=3|PronType=Dem	9	nsubj	_	_
-8	wil	willen	AUX	_	_	9	aux	_	_
+8	wil	willen	AUX	_	Number=Sing|Tense=Pres|VerbForm=Fin	9	aux	_	_
 9	zeggen	zeggen	VERB	_	VerbForm=Inf	5	acl	_	_
 10	samen	samen	ADV	_	_	9	advcl	_	_
 11	en	en	CONJ	_	_	10	cc	_	_
@@ -5010,9 +5010,9 @@
 16	zich	zich	PRON	_	Case=Acc|Person=3|PronType=Prs|Reflex=Yes	10	dobj	_	_
 17	terug	terug	ADV	_	_	10	compound	_	_
 18	en	en	CONJ	_	_	10	cc	_	_
-19	werd	worden	AUX	_	_	25	auxpass	_	_
+19	werd	worden	AUX	_	Number=Sing|Tense=Past|VerbForm=Fin	25	auxpass	_	_
 20	de	de	DET	_	Definite=Def	21	det	_	_
-21	naam	naam	NOUN	_	Gender=Com|Number=Sing	25	nsubj	_	_
+21	naam	naam	NOUN	_	Gender=Com|Number=Sing	25	nsubjpass	_	_
 22	van	van	ADP	_	_	24	case	_	_
 23	de	de	DET	_	Definite=Def	24	det	_	_
 24	SP	SP	PROPN	_	Gender=Com|Number=Sing	21	nmod	_	_
@@ -5153,7 +5153,7 @@
 
 # wiki-3823.p.2.s.2.xml
 1	Hoofdstad	hoofdstad	NOUN	_	Gender=Com|Number=Sing	5	nsubj	_	_
-2	is	zijn	AUX	_	_	5	cop	_	_
+2	is	zijn	AUX	_	Number=Sing|Tense=Pres|VerbForm=Fin	5	cop	_	_
 3	de	de	DET	_	Definite=Def	5	det	_	_
 4	gelijknamige	gelijknamig	ADJ	_	Degree=Pos	5	amod	_	_
 5	stad	stad	NOUN	_	Gender=Com|Number=Sing	0	root	_	_
@@ -5244,7 +5244,7 @@
 # wiki-11.p.42.s.2.xml
 1	De	de	DET	_	Definite=Def	2	det	_	_
 2	trofee	trofee	NOUN	_	Gender=Com|Number=Sing	6	nsubj	_	_
-3	is	zijn	AUX	_	_	6	cop	_	_
+3	is	zijn	AUX	_	Number=Sing|Tense=Pres|VerbForm=Fin	6	cop	_	_
 4	een	een	DET	_	Definite=Ind	6	det	_	_
 5	diamanten	diamant	NOUN	_	Number=Plur	6	nmod	_	_
 6	tennisracket	tennisracket	NOUN	_	Gender=Neut|Number=Sing	0	root	_	_

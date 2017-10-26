@@ -3,7 +3,7 @@
 This corpus contains sentences from the Wikipedia section of the Lassy Small Treebank.
 Universal Dependency annotation was generated automatically from the original annotation in Lassy.
 
-The [conversion script](https://github.com/gossebouma/lassy2ud) (XQuery) can be used to convert additional
+The conversion script (https://github.com/gossebouma/lassy2ud) (XQuery) can be used to convert additional
 material annotated according to Lassy/CGN guidelines or annotated automatically using the Alpino parser.
 
 The train, development, and test sections consist of 6641, 350, and 350 sentences, respectively,
@@ -13,7 +13,8 @@ References:
 
 https://www.let.rug.nl/~vannoord/Lassy/
 
-Gosse Bouma and Gertjan van Noord [Increasing Return on annotation investment: the automatic construction of a Universal Dependency treebank for Dutch](http://aclweb.org/anthology/W17-0403) in: Proceedings of the Universal Dependencies Workshop, Gothenburg, 22 May 2017
+Gosse Bouma and Gertjan van Noord, Increasing Return on annotation investment: 
+the automatic construction of a Universal Dependency treebank for Dutch (http://aclweb.org/anthology/W17-0403) in: Proceedings of the Universal Dependencies Workshop, Gothenburg, 22 May 2017
 
 @incollection{lassy,
 author = "Gertjan van Noord and Gosse Bouma and  Frank van Eynde and Daniel de Kok and  Jelmer van der Linde

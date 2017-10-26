@@ -14,7 +14,8 @@ References:
 https://www.let.rug.nl/~vannoord/Lassy/
 
 Gosse Bouma and Gertjan van Noord, Increasing Return on annotation investment: 
-the automatic construction of a Universal Dependency treebank for Dutch (http://aclweb.org/anthology/W17-0403) in: Proceedings of the Universal Dependencies Workshop, Gothenburg, 22 May 2017
+the automatic construction of a Universal Dependency treebank for Dutch (http://aclweb.org/anthology/W17-0403) 
+in: Proceedings of the Universal Dependencies Workshop, Gothenburg, 22 May 2017
 
 @incollection{lassy,
 author = "Gertjan van Noord and Gosse Bouma and  Frank van Eynde and Daniel de Kok and  Jelmer van der Linde

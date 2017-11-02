@@ -35,7 +35,7 @@
 22	Belgique	Belgique	PROPN	SPEC|deeleigen	_	17	flat:name	_	_
 23	(	(	PUNCT	LET	_	24	punct	_	SpaceAfter=No
 24	CGTB	CGTB	PROPN	N|eigen|ev|basis|zijd|stan	Gender=Com|Number=Sing	17	appos	_	SpaceAfter=No
-25	)	)	PUNCT	LET	_	24	punct	_	_
+25	)	)	PUNCT	LET	_	24	punct	_	SpaceAfter=No
 26	.	.	PUNCT	LET	_	8	punct	_	_
 
 # sent_id = wiki-889.p.12.s.1.xml
@@ -238,7 +238,7 @@
 15	meer	veel	PRON	VNW|onbep|grad|stan|vrij|zonder|comp	PronType=Ind	10	obj	_	SpaceAfter=No
 16	:	:	PUNCT	LET	_	18	punct	_	_
 17	308.898	308.898	NUM	TW|hoofd|prenom|stan	_	18	nummod	_	_
-18	kiezers	kiezer	NOUN	N|soort|mv|basis	Number=Plur	4	parataxis	_	_
+18	kiezers	kiezer	NOUN	N|soort|mv|basis	Number=Plur	4	parataxis	_	SpaceAfter=No
 19	.	.	PUNCT	LET	_	4	punct	_	_
 
 # sent_id = wiki-1652.p.13.s.4.xml
@@ -549,7 +549,7 @@
 14	,	,	PUNCT	LET	_	15	punct	_	_
 15	aan	aan	ADP	VZ|fin	_	6	compound:prt	_	_
 16	tot	tot	ADP	VZ|init	_	17	case	_	_
-17	opstand	opstand	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	6	obl	_	_
+17	opstand	opstand	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	6	obl	_	SpaceAfter=No
 18	.	.	PUNCT	LET	_	2	punct	_	_
 
 # sent_id = wiki-7218.p.7.s.6.xml
@@ -716,7 +716,7 @@
 16	de	de	DET	LID|bep|stan|rest	Definite=Def	17	det	_	_
 17	pest	pest	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	23	nsubj	_	_
 18	of	of	CCONJ	VG|neven	_	21	cc	_	_
-19	"	"	PUNCT	LET	_	21	punct	_	_
+19	"	"	PUNCT	LET	_	21	punct	_	SpaceAfter=No
 20	zwarte	zwart	ADJ	ADJ|prenom|basis|met-e|stan	Degree=Pos	21	amod	_	_
 21	dood	dood	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	17	conj	_	SpaceAfter=No
 22	"	"	PUNCT	LET	_	21	punct	_	_
@@ -729,7 +729,7 @@
 29	de	de	DET	LID|bep|stan|rest	Definite=Def	30	det	_	_
 30	bevolking	bevolking	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	26	nmod	_	_
 31	uitgeroeid	uitroeien	VERB	WW|vd|vrij|zonder	VerbForm=Part	24	ccomp	_	_
-32	werd	worden	AUX	WW|pv|verl|ev	Number=Sing|Tense=Past|VerbForm=Fin	31	aux:pass	_	_
+32	werd	worden	AUX	WW|pv|verl|ev	Number=Sing|Tense=Past|VerbForm=Fin	31	aux:pass	_	SpaceAfter=No
 33	.	.	PUNCT	LET	_	10	punct	_	_
 
 # sent_id = wiki-8628.p.26.s.2.xml
@@ -877,7 +877,7 @@
 6	zoals	zoals	SCONJ	VG|onder	_	8	mark	_	_
 7	«	«	PUNCT	LET	_	8	punct	_	SpaceAfter=No
 8	Jerom	Jerom	PROPN	N|eigen|ev|basis|zijd|stan	Gender=Com|Number=Sing	5	nmod	_	SpaceAfter=No
-9	»	»	PUNCT	LET	_	8	punct	_	_
+9	»	»	PUNCT	LET	_	8	punct	_	SpaceAfter=No
 10	,	,	PUNCT	LET	_	13	punct	_	_
 11	en	en	CCONJ	VG|neven	_	13	cc	_	_
 12	«	«	PUNCT	LET	_	13	punct	_	SpaceAfter=No
@@ -886,7 +886,7 @@
 15	/	/	PUNCT	LET	_	17	punct	_	_
 16	«	«	PUNCT	LET	_	17	punct	_	SpaceAfter=No
 17	Tits	Tits	PROPN	N|eigen|ev|basis|zijd|stan	Gender=Com|Number=Sing	8	conj	_	SpaceAfter=No
-18	»	»	PUNCT	LET	_	17	punct	_	_
+18	»	»	PUNCT	LET	_	17	punct	_	SpaceAfter=No
 19	.	.	PUNCT	LET	_	5	punct	_	_
 
 # sent_id = wiki-7543.p.28.s.1.xml
@@ -992,7 +992,7 @@
 44	van	van	ADP	VZ|init	_	46	case	_	_
 45	socialistische	socialistisch	ADJ	ADJ|prenom|basis|met-e|stan	Degree=Pos	46	amod	_	_
 46	signatuur	signatuur	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	3	ccomp	_	_
-47	zijn	zijn	AUX	WW|pv|tgw|mv	Number=Plur|Tense=Pres|VerbForm=Fin	46	cop	_	_
+47	zijn	zijn	AUX	WW|pv|tgw|mv	Number=Plur|Tense=Pres|VerbForm=Fin	46	cop	_	SpaceAfter=No
 48	.	.	PUNCT	LET	_	4	punct	_	_
 
 # sent_id = wiki-5741.p.2.s.1.xml
@@ -1404,7 +1404,7 @@
 # sent_id = wiki-349.p.13.s.1.xml
 # text = De 'Rat der Deutschsprachigen Gemeinschaft (RDG)', ook wel 'Parlament der Deutschsprachigen Gemeinschaft' genoemd, is de volksvertegenwoordiging van de Duitstalige Gemeenschap.
 1	De	de	DET	LID|bep|stan|rest	Definite=Def	3	det	_	_
-2	'	'	PUNCT	LET	_	3	punct	_	_
+2	'	'	PUNCT	LET	_	3	punct	_	SpaceAfter=No
 3	Rat	Rat	PROPN	SPEC|deeleigen	_	24	nsubj	_	_
 4	der	der	PROPN	SPEC|deeleigen	_	3	flat:name	_	_
 5	Deutschsprachigen	Deutschsprachigen	PROPN	SPEC|deeleigen	_	3	flat:name	_	_
@@ -1412,15 +1412,15 @@
 7	(	(	PUNCT	LET	_	8	punct	_	SpaceAfter=No
 8	RDG	RDG	PROPN	N|eigen|ev|basis|zijd|stan	Gender=Com|Number=Sing	3	appos	_	SpaceAfter=No
 9	)	)	PUNCT	LET	_	8	punct	_	SpaceAfter=No
-10	'	'	PUNCT	LET	_	3	punct	_	_
+10	'	'	PUNCT	LET	_	3	punct	_	SpaceAfter=No
 11	,	,	PUNCT	LET	_	15	punct	_	_
 12	ook	ook	ADV	BW	_	13	advmod	_	_
 13	wel	wel	ADV	BW	_	15	advmod	_	_
-14	'	'	PUNCT	LET	_	15	punct	_	_
+14	'	'	PUNCT	LET	_	15	punct	_	SpaceAfter=No
 15	Parlament	Parlament	PROPN	SPEC|deeleigen	_	3	acl	_	_
 16	der	der	PROPN	SPEC|deeleigen	_	15	flat:name	_	_
 17	Deutschsprachigen	Deutschsprachigen	PROPN	SPEC|deeleigen	_	15	flat:name	_	_
-18	Gemeinschaft	Gemeinschaft	PROPN	SPEC|deeleigen	_	15	flat:name	_	_
+18	Gemeinschaft	Gemeinschaft	PROPN	SPEC|deeleigen	_	15	flat:name	_	SpaceAfter=No
 19	'	'	PUNCT	LET	_	15	punct	_	_
 20	genoemd	noemen	AUX	WW|vd|vrij|zonder	VerbForm=Part	15	cop	_	SpaceAfter=No
 21	,	,	PUNCT	LET	_	3	punct	_	_
@@ -1904,7 +1904,7 @@
 31	als	als	ADP	VZ|init	_	33	mark	_	_
 32	«	«	PUNCT	LET	_	33	punct	_	SpaceAfter=No
 33	Hergé	Hergé	PROPN	N|eigen|ev|basis|zijd|stan	Gender=Com|Number=Sing	30	xcomp	_	SpaceAfter=No
-34	»	»	PUNCT	LET	_	33	punct	_	_
+34	»	»	PUNCT	LET	_	33	punct	_	SpaceAfter=No
 35	.	.	PUNCT	LET	_	22	punct	_	_
 
 # sent_id = wiki-62.p.6.s.2.xml
@@ -2068,7 +2068,7 @@
 6	Rupel	Rupel	PROPN	N|eigen|ev|basis|zijd|stan	Gender=Com|Number=Sing	4	conj	_	SpaceAfter=No
 7	,	,	PUNCT	LET	_	8	punct	_	_
 8	Grote	groot	ADJ	ADJ|prenom|basis|met-e|stan	Degree=Pos	4	conj	_	_
-9	Nete	Nete	PROPN	N|eigen|ev|basis|zijd|stan	Gender=Com|Number=Sing	8	flat:name	_	_
+9	Nete	Nete	PROPN	N|eigen|ev|basis|zijd|stan	Gender=Com|Number=Sing	8	flat:name	_	SpaceAfter=No
 10	,	,	PUNCT	LET	_	11	punct	_	_
 11	Kleine	klein	ADJ	ADJ|prenom|basis|met-e|stan	Degree=Pos	4	conj	_	_
 12	Nete	Nete	PROPN	SPEC|deeleigen	_	11	flat:name	_	_
@@ -2081,7 +2081,7 @@
 4	bleef	blijven	AUX	WW|pv|verl|ev	Number=Sing|Tense=Past|VerbForm=Fin	12	cop	_	_
 5	een	een	DET	LID|onbep|stan|agr	Definite=Ind	6	det	_	_
 6	beweging	beweging	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	12	nsubj	_	_
-7	'	'	PUNCT	LET	_	8	punct	_	_
+7	'	'	PUNCT	LET	_	8	punct	_	SpaceAfter=No
 8	Anders	anders	PROPN	SPEC|deeleigen	_	6	appos	_	_
 9	Gaan	gaan	PROPN	SPEC|deeleigen	_	8	flat:name	_	_
 10	Leven	leven	PROPN	SPEC|deeleigen	_	8	flat:name	_	SpaceAfter=No
@@ -2549,7 +2549,7 @@
 22	de	de	DET	LID|bep|stan|rest	Definite=Def	23	det	_	_
 23	partij	partij	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	25	nsubj	_	_
 24	ertegen	ertegen	ADV	BW	_	23	amod	_	_
-25	was	zijn	VERB	WW|pv|verl|ev	Number=Sing|Tense=Past|VerbForm=Fin	20	ccomp	_	_
+25	was	zijn	VERB	WW|pv|verl|ev	Number=Sing|Tense=Past|VerbForm=Fin	20	ccomp	_	SpaceAfter=No
 26	.	.	PUNCT	LET	_	3	punct	_	_
 
 # sent_id = wiki-1652.p.19.s.7.xml
@@ -2562,7 +2562,7 @@
 6	)	)	PUNCT	LET	_	5	punct	_	_
 7	(	(	PUNCT	LET	_	8	punct	_	SpaceAfter=No
 8	1947-1962	1947-1962	SYM	SPEC|symb	_	1	nmod	_	SpaceAfter=No
-9	)	)	PUNCT	LET	_	8	punct	_	_
+9	)	)	PUNCT	LET	_	8	punct	_	SpaceAfter=No
 10	;	;	PUNCT	LET	_	1	punct	_	_
 
 # sent_id = wiki-208.p.39.s.2.xml
@@ -2733,7 +2733,7 @@
 17	zijn	zijn	PRON	VNW|bez|det|stan|vol|3|ev|prenom|zonder|agr	Person=3|PronType=Prs	18	nmod:poss	_	_
 18	uitspraak	uitspraak	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	14	obj	_	SpaceAfter=No
 19	:	:	PUNCT	LET	_	22	punct	_	_
-20	"	"	PUNCT	LET	_	22	punct	_	_
+20	"	"	PUNCT	LET	_	22	punct	_	SpaceAfter=No
 21	Er	er	ADV	VNW|aanw|adv-pron|stan|red|3|getal	_	22	advmod	_	_
 22	is	zijn	VERB	WW|pv|tgw|ev	Number=Sing|Tense=Pres|VerbForm=Fin	6	parataxis	_	_
 23	maar	maar	ADV	BW	_	25	amod	_	_
@@ -3102,7 +3102,7 @@
 11	met	met	ADP	VZ|init	_	13	case	_	_
 12	zijn	zijn	PRON	VNW|bez|det|stan|vol|3|ev|prenom|zonder|agr	Person=3|PronType=Prs	13	nmod:poss	_	_
 13	lijfspreuk	lijfspreuk	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	10	nmod	_	_
-14	"	"	PUNCT	LET	_	15	punct	_	_
+14	"	"	PUNCT	LET	_	15	punct	_	SpaceAfter=No
 15	Pro	Pro	X	SPEC|vreemd	Foreign=Yes	13	appos	_	_
 16	Luce	Luce	PROPN	SPEC|deeleigen	_	15	flat:name	_	SpaceAfter=No
 17	"	"	PUNCT	LET	_	15	punct	_	_
@@ -3210,7 +3210,7 @@
 19	Williams	Williams	PROPN	SPEC|deeleigen	_	18	flat:name	_	_
 20	in	in	ADP	VZ|init	_	22	case	_	_
 21	de	de	DET	LID|bep|stan|rest	Definite=Def	22	det	_	_
-22	finale	finale	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	18	nmod	_	_
+22	finale	finale	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	18	nmod	_	SpaceAfter=No
 23	,	,	PUNCT	LET	_	26	punct	_	_
 24	de	de	DET	LID|bep|stan|rest	Definite=Def	26	det	_	_
 25	toenmalige	toenmalig	ADJ	ADJ|prenom|basis|met-e|stan	Degree=Pos	26	amod	_	_
@@ -3396,7 +3396,7 @@
 39	Groot	groot	ADJ	ADJ|prenom|basis|zonder	Degree=Pos	38	fixed	_	_
 40	Onderhoud	onderhoud	NOUN	N|soort|ev|basis|onz|stan	Gender=Neut|Number=Sing	38	fixed	_	SpaceAfter=No
 41	»	»	PUNCT	LET	_	38	punct	_	SpaceAfter=No
-42	)	)	PUNCT	LET	_	38	punct	_	_
+42	)	)	PUNCT	LET	_	38	punct	_	SpaceAfter=No
 43	,	,	PUNCT	LET	_	45	punct	_	_
 44	de	de	DET	LID|bep|stan|rest	Definite=Def	45	det	_	_
 45	naamsverandering	naamsverandering	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	35	obj	_	_
@@ -3612,7 +3612,7 @@
 4	Kim	Kim	PROPN	SPEC|deeleigen	_	2	parataxis	_	_
 5	Clijsters	Clijsters	PROPN	SPEC|deeleigen	_	4	flat:name	_	_
 6	(	(	PUNCT	LET	_	7	punct	_	SpaceAfter=No
-7	1	1	NUM	TW|hoofd|vrij	_	4	nummod	_	_
+7	1	1	NUM	TW|hoofd|vrij	_	4	nummod	_	SpaceAfter=No
 8	)	)	PUNCT	LET	_	7	punct	_	_
 9	-	-	PUNCT	LET	_	10	punct	_	_
 10	Vera	Vera	PROPN	SPEC|deeleigen	_	4	conj	_	_
@@ -3996,7 +3996,7 @@
 
 # sent_id = wiki-1400.p.16.s.1.xml
 # text = "De Dubbel"
-1	"	"	PUNCT	LET	_	3	punct	_	_
+1	"	"	PUNCT	LET	_	3	punct	_	SpaceAfter=No
 2	De	de	DET	LID|bep|stan|rest	Definite=Def	3	det	_	_
 3	Dubbel	dubbel	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	0	root	_	SpaceAfter=No
 4	"	"	PUNCT	LET	_	3	punct	_	_
@@ -4089,7 +4089,7 @@
 13	het	het	DET	LID|bep|stan|evon	Definite=Def	15	det	_	_
 14	vroegere	vroeg	ADJ	ADJ|prenom|comp|met-e|stan	Degree=Cmp	15	amod	_	_
 15	graafschap	graafschap	NOUN	N|soort|ev|basis|onz|stan	Gender=Neut|Number=Sing	11	nmod	_	_
-16	Henegouwen	Henegouwen	PROPN	N|eigen|ev|basis|onz|stan	Gender=Neut|Number=Sing	15	appos	_	_
+16	Henegouwen	Henegouwen	PROPN	N|eigen|ev|basis|onz|stan	Gender=Neut|Number=Sing	15	appos	_	SpaceAfter=No
 17	.	.	PUNCT	LET	_	8	punct	_	_
 
 # sent_id = wiki-138.p.6.s.7.xml
@@ -4723,7 +4723,7 @@
 5	etsen	ets	NOUN	N|soort|mv|basis	Number=Plur	2	obj	_	SpaceAfter=No
 6	,	,	PUNCT	LET	_	9	punct	_	_
 7	o.a.	o.a.	X	SPEC|afk	Abbr=Yes	9	nmod	_	_
-8	"	"	PUNCT	LET	_	9	punct	_	_
+8	"	"	PUNCT	LET	_	9	punct	_	SpaceAfter=No
 9	Zelfportret	zelfportret	NOUN	N|soort|ev|basis|onz|stan	Gender=Neut|Number=Sing	5	appos	_	_
 10	pas	pas	ADV	BW	_	9	flat:name	_	_
 11	fini	fini	PROPN	SPEC|deeleigen	_	9	flat:name	_	SpaceAfter=No
@@ -4734,13 +4734,13 @@
 16	en	en	CCONJ	VG|neven	_	18	cc	_	_
 17	het	het	DET	LID|bep|stan|evon	Definite=Def	18	det	_	_
 18	meesterwerk	meesterwerk	NOUN	N|soort|ev|basis|onz|stan	Gender=Neut|Number=Sing	9	conj	_	_
-19	"	"	PUNCT	LET	_	20	punct	_	_
+19	"	"	PUNCT	LET	_	20	punct	_	SpaceAfter=No
 20	De	de	DET	LID|bep|stan|rest	Definite=Def	18	appos	_	_
 21	kathedraal	kathedraal	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	20	fixed	_	SpaceAfter=No
 22	"	"	PUNCT	LET	_	20	punct	_	_
 23	(	(	PUNCT	LET	_	24	punct	_	SpaceAfter=No
 24	1886	1886	NUM	TW|hoofd|vrij	_	18	nummod	_	SpaceAfter=No
-25	)	)	PUNCT	LET	_	24	punct	_	_
+25	)	)	PUNCT	LET	_	24	punct	_	SpaceAfter=No
 26	,	,	PUNCT	LET	_	30	punct	_	_
 27	waarmee	waarmee	ADV	BW	_	30	advmod	_	_
 28	hij	hij	PRON	VNW|pers|pron|nomin|vol|3|ev|masc	Case=Nom|Person=3|PronType=Prs	30	nsubj	_	_
@@ -5259,18 +5259,18 @@
 4	de	de	DET	LID|bep|stan|rest	Definite=Def	5	det	_	_
 5	VLD	VLD	PROPN	N|eigen|ev|basis|zijd|stan	Gender=Com|Number=Sing	10	nsubj	_	_
 6	een	een	DET	LID|onbep|stan|agr	Definite=Ind	10	det	_	_
-7	"	"	PUNCT	LET	_	8	punct	_	_
+7	"	"	PUNCT	LET	_	8	punct	_	SpaceAfter=No
 8	links-liberale	links-liberaal	ADJ	ADJ|prenom|basis|met-e|stan	Degree=Pos	10	amod	_	SpaceAfter=No
 9	"	"	PUNCT	LET	_	8	punct	_	_
 10	partij	partij	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	0	root	_	_
 11	geworden	worden	AUX	WW|vd|vrij|zonder	VerbForm=Part	10	cop	_	_
 12	die	die	PRON	VNW|betr|pron|stan|vol|persoon|getal	PronType=Rel	14	nsubj	_	_
-13	"	"	PUNCT	LET	_	14	punct	_	_
+13	"	"	PUNCT	LET	_	14	punct	_	SpaceAfter=No
 14	aanschurkt	aanschurken	VERB	WW|pv|tgw|met-t	Number=Sing|Tense=Pres|VerbForm=Fin	10	acl:relcl	_	_
 15	tegen	tegen	ADP	VZ|init	_	17	case	_	_
 16	de	de	DET	LID|bep|stan|rest	Definite=Def	17	det	_	_
 17	SP.a	SP.a	PROPN	N|eigen|ev|basis|zijd|stan	Gender=Com|Number=Sing	14	obl	_	SpaceAfter=No
-18	"	"	PUNCT	LET	_	14	punct	_	_
+18	"	"	PUNCT	LET	_	14	punct	_	SpaceAfter=No
 19	.	.	PUNCT	LET	_	10	punct	_	_
 
 # sent_id = wiki-1181.p.9.s.2.xml
@@ -5406,7 +5406,7 @@
 30	solidariteit	solidariteit	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	28	obl	_	_
 31	met	met	ADP	VZ|init	_	32	case	_	_
 32	anderen	ander	ADJ	ADJ|nom|basis|met-e|mv-n	Degree=Pos	30	nmod	_	SpaceAfter=No
-33	.	.	PUNCT	LET	_	8	punct	_	_
+33	.	.	PUNCT	LET	_	8	punct	_	SpaceAfter=No
 34	"	"	PUNCT	LET	_	8	punct	_	SpaceAfter=No
 35	.	.	PUNCT	LET	_	8	punct	_	_
 
@@ -5473,7 +5473,7 @@
 37	Eau	Eau	X	SPEC|vreemd	Foreign=Yes	34	flat:name	_	_
 38	rouge	rouge	X	SPEC|vreemd	Foreign=Yes	34	flat:name	_	_
 39	naar	naar	ADP	VZ|init	_	40	case	_	_
-40	Francorchamps	Francorchamps	PROPN	N|eigen|ev|basis|onz|stan	Gender=Neut|Number=Sing	34	nmod	_	_
+40	Francorchamps	Francorchamps	PROPN	N|eigen|ev|basis|onz|stan	Gender=Neut|Number=Sing	34	nmod	_	SpaceAfter=No
 41	.	.	PUNCT	LET	_	11	punct	_	_
 
 # sent_id = wiki-1566.p.21.s.1.xml
@@ -5674,7 +5674,7 @@
 29	van	van	PROPN	SPEC|deeleigen	_	28	flat:name	_	_
 30	België	België	PROPN	N|eigen|ev|basis|onz|stan	Gender=Neut|Number=Sing	28	flat:name	_	_
 31	als	als	ADP	VZ|init	_	32	mark	_	_
-32	naam	naam	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	24	xcomp	_	_
+32	naam	naam	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	24	xcomp	_	SpaceAfter=No
 33	.	.	PUNCT	LET	_	6	punct	_	_
 
 # sent_id = wiki-3745.p.44.s.1.xml
@@ -5688,7 +5688,7 @@
 2	(	(	PUNCT	LET	_	3	punct	_	SpaceAfter=No
 3	Nederland	Nederland	PROPN	N|eigen|ev|basis|onz|stan	Gender=Neut|Number=Sing	1	nmod	_	SpaceAfter=No
 4	)	)	PUNCT	LET	_	3	punct	_	SpaceAfter=No
-5	,	,	PUNCT	LET	_	8	punct	_	_
+5	,	,	PUNCT	LET	_	8	punct	_	SpaceAfter=No
 6	,	,	PUNCT	LET	_	8	punct	_	_
 7	Nederlandse	Nederlands	ADJ	ADJ|prenom|basis|met-e|stan	Degree=Pos	8	amod	_	_
 8	provincie	provincie	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	1	appos	_	SpaceAfter=No
@@ -5745,7 +5745,7 @@
 14	het	het	PRON	VNW|pers|pron|stan|red|3|ev|onz	Person=3|PronType=Prs	16	nsubj:pass	_	_
 15	kundig	kundig	ADJ	ADJ|vrij|basis|zonder	Degree=Pos	16	advmod	_	_
 16	gerestaureerd	restaureren	VERB	WW|vd|vrij|zonder	VerbForm=Part	8	acl:relcl	_	_
-17	werd	worden	AUX	WW|pv|verl|ev	Number=Sing|Tense=Past|VerbForm=Fin	16	aux:pass	_	_
+17	werd	worden	AUX	WW|pv|verl|ev	Number=Sing|Tense=Past|VerbForm=Fin	16	aux:pass	_	SpaceAfter=No
 18	.	.	PUNCT	LET	_	5	punct	_	_
 
 # sent_id = wiki-138.p.55.s.1.xml
@@ -6219,7 +6219,7 @@
 # sent_id = wiki-7543.p.13.s.4.xml
 # text = Dit "gat" werd recentelijk met het nieuwe wielermuseum en een complex met luxe-appartementen en winkels opgevuld.
 1	Dit	dit	DET	VNW|aanw|det|stan|prenom|zonder|evon	_	3	det	_	_
-2	"	"	PUNCT	LET	_	3	punct	_	_
+2	"	"	PUNCT	LET	_	3	punct	_	SpaceAfter=No
 3	gat	gat	NOUN	N|soort|ev|basis|onz|stan	Gender=Neut|Number=Sing	18	nsubj:pass	_	SpaceAfter=No
 4	"	"	PUNCT	LET	_	3	punct	_	_
 5	werd	worden	AUX	WW|pv|verl|ev	Number=Sing|Tense=Past|VerbForm=Fin	18	aux:pass	_	_
@@ -6465,7 +6465,7 @@
 20	20	20	NUM	TW|hoofd|prenom|stan	_	23	nummod	_	_
 21	à	à	X	SPEC|vreemd	Foreign=Yes	22	cc	_	_
 22	25	25	NUM	TW|hoofd|prenom|stan	_	20	conj	_	_
-23	%	%	SYM	SPEC|symb	_	14	obl	_	_
+23	%	%	SYM	SPEC|symb	_	14	obl	_	SpaceAfter=No
 24	,	,	PUNCT	LET	_	28	punct	_	_
 25	vooral	vooral	ADV	BW	_	28	amod	_	_
 26	door	door	ADP	VZ|init	_	28	case	_	_
@@ -6486,7 +6486,7 @@
 
 # sent_id = wiki-7585.p.40.s.1.xml
 # text = «Anovlar» (uit "Verhalen", 1973) « (in "Vlaamse verhalen na 1965", 1984)
-1	«	«	PUNCT	LET	_	2	punct	_	_
+1	«	«	PUNCT	LET	_	2	punct	_	SpaceAfter=No
 2	Anovlar	Anovlar	PROPN	N|eigen|ev|basis|zijd|stan	Gender=Com|Number=Sing	0	root	_	SpaceAfter=No
 3	»	»	PUNCT	LET	_	2	punct	_	_
 4	(	(	PUNCT	LET	_	7	punct	_	SpaceAfter=No
@@ -6816,7 +6816,7 @@
 11	vrijmetselaar	vrijmetselaar	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	7	appos	_	SpaceAfter=No
 12	,	,	PUNCT	LET	_	15	punct	_	_
 13	over	over	ADP	VZ|init	_	15	case	_	_
-14	"	"	PUNCT	LET	_	15	punct	_	_
+14	"	"	PUNCT	LET	_	15	punct	_	SpaceAfter=No
 15	geloven	geloven	VERB	WW|inf|vrij|zonder	VerbForm=Inf	3	nmod	_	SpaceAfter=No
 16	"	"	PUNCT	LET	_	15	punct	_	_
 17	pastte	passen	VERB	WW|pv|verl|ev	Number=Sing|Tense=Past|VerbForm=Fin	0	root	_	_
@@ -8515,7 +8515,7 @@
 27	Bergen	Bergen	PROPN	N|eigen|ev|basis|onz|stan	Gender=Neut|Number=Sing	17	nmod	_	_
 28	(	(	PUNCT	LET	_	29	punct	_	SpaceAfter=No
 29	Mons	Mons	PROPN	N|eigen|ev|basis|onz|stan	Gender=Neut|Number=Sing	27	nmod	_	SpaceAfter=No
-30	)	)	PUNCT	LET	_	29	punct	_	_
+30	)	)	PUNCT	LET	_	29	punct	_	SpaceAfter=No
 31	.	.	PUNCT	LET	_	17	punct	_	_
 
 # sent_id = wiki-8628.p.11.s.1.xml
@@ -8594,7 +8594,7 @@
 19	stakingsrecht	stakingsrecht	NOUN	N|soort|ev|basis|onz|stan	Gender=Neut|Number=Sing	16	obl	_	_
 20	(	(	PUNCT	LET	_	21	punct	_	SpaceAfter=No
 21	1921	1921	NUM	TW|hoofd|vrij	_	19	nummod	_	SpaceAfter=No
-22	)	)	PUNCT	LET	_	21	punct	_	_
+22	)	)	PUNCT	LET	_	21	punct	_	SpaceAfter=No
 23	,	,	PUNCT	LET	_	26	punct	_	_
 24	een	een	DET	LID|onbep|stan|agr	Definite=Ind	26	det	_	_
 25	achturige	achturig	ADJ	ADJ|prenom|basis|met-e|stan	Degree=Pos	26	amod	_	_
@@ -8606,7 +8606,7 @@
 31	minimumloon	minimumloon	NOUN	N|soort|ev|basis|onz|stan	Gender=Neut|Number=Sing	19	conj	_	_
 32	(	(	PUNCT	LET	_	33	punct	_	SpaceAfter=No
 33	1936	1936	NUM	TW|hoofd|vrij	_	31	nummod	_	SpaceAfter=No
-34	)	)	PUNCT	LET	_	33	punct	_	_
+34	)	)	PUNCT	LET	_	33	punct	_	SpaceAfter=No
 35	.	.	PUNCT	LET	_	13	punct	_	_
 
 # sent_id = wiki-3745.p.39.s.7.xml
@@ -8749,7 +8749,7 @@
 8	campus	campus	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	9	obj	_	_
 9	hebben	hebben	VERB	WW|inf|vrij|zonder	VerbForm=Inf	0	root	_	_
 10	binnen	binnen	ADP	VZ|init	_	11	case	_	_
-11	Hasselt	Hasselt	PROPN	N|eigen|ev|basis|onz|stan	Gender=Neut|Number=Sing	8	nmod	_	_
+11	Hasselt	Hasselt	PROPN	N|eigen|ev|basis|onz|stan	Gender=Neut|Number=Sing	8	nmod	_	SpaceAfter=No
 12	,	,	PUNCT	LET	_	14	punct	_	_
 13	naast	naast	ADP	VZ|init	_	14	case	_	_
 14	die	die	PRON	VNW|aanw|pron|stan|vol|3|getal	Person=3|PronType=Dem	8	nmod	_	_
@@ -8863,7 +8863,7 @@
 # text = Het privé-museum "Het Schaakbord" te Tervuren bevat een vaste collectie met een 40-tal stukken uit de "School van Tervuren".
 1	Het	het	DET	LID|bep|stan|evon	Definite=Def	2	det	_	_
 2	privé-museum	privé-museum	NOUN	N|soort|ev|basis|onz|stan	Gender=Neut|Number=Sing	9	nsubj	_	_
-3	"	"	PUNCT	LET	_	4	punct	_	_
+3	"	"	PUNCT	LET	_	4	punct	_	SpaceAfter=No
 4	Het	het	DET	LID|bep|stan|evon	Definite=Def	2	appos	_	_
 5	Schaakbord	schaakbord	NOUN	N|soort|ev|basis|onz|stan	Gender=Neut|Number=Sing	4	fixed	_	SpaceAfter=No
 6	"	"	PUNCT	LET	_	4	punct	_	_
@@ -8879,11 +8879,11 @@
 16	stukken	stuk	NOUN	N|soort|mv|basis	Number=Plur	15	nmod	_	_
 17	uit	uit	ADP	VZ|init	_	20	case	_	_
 18	de	de	DET	LID|bep|stan|rest	Definite=Def	20	det	_	_
-19	"	"	PUNCT	LET	_	20	punct	_	_
+19	"	"	PUNCT	LET	_	20	punct	_	SpaceAfter=No
 20	School	school	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	15	nmod	_	_
 21	van	van	ADP	VZ|init	_	20	flat:name	_	_
-22	Tervuren	Tervuren	PROPN	N|eigen|ev|basis|onz|stan	Gender=Neut|Number=Sing	20	flat:name	_	_
-23	"	"	PUNCT	LET	_	20	punct	_	_
+22	Tervuren	Tervuren	PROPN	N|eigen|ev|basis|onz|stan	Gender=Neut|Number=Sing	20	flat:name	_	SpaceAfter=No
+23	"	"	PUNCT	LET	_	20	punct	_	SpaceAfter=No
 24	.	.	PUNCT	LET	_	9	punct	_	_
 
 # sent_id = wiki-5.p.6.s.1.xml
@@ -8930,7 +8930,7 @@
 20	13	13	NUM	TW|hoofd|prenom|stan	_	21	nummod	_	_
 21	jaar	jaar	NOUN	N|soort|ev|basis|onz|stan	Gender=Neut|Number=Sing	22	obl	_	_
 22	oud	oud	ADJ	ADJ|vrij|basis|zonder	Degree=Pos	13	advcl	_	_
-23	was	zijn	AUX	WW|pv|verl|ev	Number=Sing|Tense=Past|VerbForm=Fin	22	cop	_	_
+23	was	zijn	AUX	WW|pv|verl|ev	Number=Sing|Tense=Past|VerbForm=Fin	22	cop	_	SpaceAfter=No
 24	.	.	PUNCT	LET	_	6	punct	_	_
 
 # sent_id = wiki-866.p.40.s.1.xml
@@ -9330,7 +9330,7 @@
 14	Johannes	Johannes	PROPN	SPEC|deeleigen	_	22	obl	_	_
 15	de	de	PROPN	SPEC|deeleigen	_	14	flat:name	_	_
 16	Doper	Doper	PROPN	SPEC|deeleigen	_	14	flat:name	_	_
-17	'	'	PUNCT	LET	_	18	punct	_	_
+17	'	'	PUNCT	LET	_	18	punct	_	SpaceAfter=No
 18	het	het	DET	LID|bep|stan|evon	Definite=Def	22	xcomp	_	_
 19	Lam	lam	NOUN	N|soort|ev|basis|onz|stan	Gender=Neut|Number=Sing	18	flat:name	_	_
 20	Gods	God	PROPN	N|eigen|ev|basis|gen	Number=Sing	18	flat:name	_	SpaceAfter=No
@@ -9388,7 +9388,7 @@
 26	«	«	PUNCT	LET	_	27	punct	_	SpaceAfter=No
 27	Petrogas	Petrogas	PROPN	SPEC|deeleigen	_	3	parataxis	_	_
 28	II	II	PROPN	SPEC|deeleigen	_	27	flat:name	_	SpaceAfter=No
-29	»	»	PUNCT	LET	_	27	punct	_	_
+29	»	»	PUNCT	LET	_	27	punct	_	SpaceAfter=No
 30	,	,	PUNCT	LET	_	45	punct	_	_
 31	die	die	PRON	VNW|betr|pron|stan|vol|persoon|getal	PronType=Rel	45	nsubj	_	_
 32	thans	thans	ADV	BW	_	45	advmod	_	_
@@ -9421,7 +9421,7 @@
 6	)	)	PUNCT	LET	_	4	punct	_	_
 7	(	(	PUNCT	LET	_	8	nmod	_	SpaceAfter=No
 8	1933-1946	1933-1946	SYM	SPEC|symb	_	1	fixed	_	SpaceAfter=No
-9	)	)	PUNCT	LET	_	8	fixed	_	_
+9	)	)	PUNCT	LET	_	8	fixed	_	SpaceAfter=No
 10	;	;	PUNCT	LET	_	1	punct	_	_
 
 # sent_id = wiki-9843.p.35.s.1.xml
@@ -9810,7 +9810,7 @@
 15	in	in	ADP	VZ|init	_	17	case	_	_
 16	het	het	DET	LID|bep|stan|evon	Definite=Def	17	det	_	_
 17	arrondissement	arrondissement	NOUN	N|soort|ev|basis|onz|stan	Gender=Neut|Number=Sing	14	nmod	_	_
-18	Halle-Vilvoorde	Halle-Vilvoorde	PROPN	N|eigen|ev|basis|onz|stan	Gender=Neut|Number=Sing	17	appos	_	_
+18	Halle-Vilvoorde	Halle-Vilvoorde	PROPN	N|eigen|ev|basis|onz|stan	Gender=Neut|Number=Sing	17	appos	_	SpaceAfter=No
 19	,	,	PUNCT	LET	_	35	punct	_	_
 20	dat	dat	PRON	VNW|betr|pron|stan|vol|3|ev	Person=3|PronType=Rel	35	nsubj	_	_
 21	als	als	ADP	VZ|init	_	22	mark	_	_
@@ -10186,7 +10186,7 @@
 9	1989-1994	1989-1994	SYM	SPEC|symb	_	1	nmod	_	_
 10	en	en	CCONJ	VG|neven	_	11	cc	_	_
 11	2001-	2001-	SYM	SPEC|symb	_	9	conj	_	SpaceAfter=No
-12	)	)	PUNCT	LET	_	9	punct	_	_
+12	)	)	PUNCT	LET	_	9	punct	_	SpaceAfter=No
 13	.	.	PUNCT	LET	_	1	punct	_	_
 
 # sent_id = wiki-887.p.35.s.1.xml
@@ -10265,7 +10265,7 @@
 20	(	(	PUNCT	LET	_	21	punct	_	SpaceAfter=No
 21	stamnummer	stamnummer	NOUN	N|soort|ev|basis|onz|stan	Gender=Neut|Number=Sing	18	nmod	_	_
 22	25	25	NUM	TW|hoofd|vrij	_	21	appos	_	SpaceAfter=No
-23	)	)	PUNCT	LET	_	21	punct	_	_
+23	)	)	PUNCT	LET	_	21	punct	_	SpaceAfter=No
 24	,	,	PUNCT	LET	_	26	punct	_	_
 25	beide	beide	PRON	VNW|onbep|grad|stan|nom|met-e|zonder-n|basis	PronType=Ind	26	advmod	_	_
 26	opgericht	oprichten	VERB	WW|vd|vrij|zonder	VerbForm=Part	11	acl	_	_
@@ -10546,7 +10546,7 @@
 7	de	de	DET	LID|bep|stan|rest	Definite=Def	8	det	_	_
 8	woorden	woord	NOUN	N|soort|mv|basis	Number=Plur	3	obl	_	SpaceAfter=No
 9	:	:	PUNCT	LET	_	12	punct	_	_
-10	"	"	PUNCT	LET	_	12	punct	_	_
+10	"	"	PUNCT	LET	_	12	punct	_	SpaceAfter=No
 11	Het	het	DET	LID|bep|stan|evon	Definite=Def	12	det	_	_
 12	enige	enig	PRON	VNW|onbep|det|stan|nom|met-e|zonder-n	PronType=Ind	3	parataxis	_	_
 13	wat	wat	PRON	VNW|vb|pron|stan|vol|3o|ev	Person=3|PronType=Int	16	obj	_	_
@@ -10692,7 +10692,7 @@
 2	kan	kunnen	AUX	WW|pv|tgw|ev	Number=Sing|Tense=Pres|VerbForm=Fin	4	aux	_	_
 3	betrekking	betrekking	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	4	compound:prt	_	_
 4	hebben	hebben	VERB	WW|inf|vrij|zonder	VerbForm=Inf	0	root	_	_
-5	op	op	ADP	VZ|fin	_	4	advmod	_	_
+5	op	op	ADP	VZ|fin	_	4	advmod	_	SpaceAfter=No
 6	:	:	PUNCT	LET	_	4	punct	_	_
 
 # sent_id = wiki-7542.p.2.s.2.xml
@@ -10848,7 +10848,7 @@
 9	op	op	ADP	VZ|init	_	10	case	_	_
 10	De	de	DET	LID|bep|stan|rest	Definite=Def	8	nmod	_	_
 11	Rode	rood	ADJ	ADJ|prenom|basis|met-e|stan	Degree=Pos	10	fixed	_	_
-12	Ridder	ridder	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	10	fixed	_	_
+12	Ridder	ridder	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	10	fixed	_	SpaceAfter=No
 13	.	.	PUNCT	LET	_	8	punct	_	_
 
 # sent_id = wiki-154.p.22.s.5.xml
@@ -11536,7 +11536,7 @@
 24	tot	tot	ADP	VZ|init	_	25	cc	_	_
 25	20	20	NUM	TW|hoofd|prenom|stan	_	23	conj	_	_
 26	graden	graad	NOUN	N|soort|mv|basis	Number=Plur	21	nmod	_	SpaceAfter=No
-27	)	)	PUNCT	LET	_	26	punct	_	_
+27	)	)	PUNCT	LET	_	26	punct	_	SpaceAfter=No
 28	.	.	PUNCT	LET	_	4	punct	_	_
 
 # sent_id = wiki-356.p.24.s.1.xml
@@ -11761,7 +11761,7 @@
 25	dus	dus	ADV	BW	_	27	advmod	_	_
 26	formeel	formeel	ADJ	ADJ|vrij|basis|zonder	Degree=Pos	27	advmod	_	_
 27	Nederlandstalig	Nederlandstalig	ADJ	ADJ|vrij|basis|zonder	Degree=Pos	23	conj	_	_
-28	zijn	zijn	AUX	WW|pv|tgw|mv	Number=Plur|Tense=Pres|VerbForm=Fin	27	cop	_	_
+28	zijn	zijn	AUX	WW|pv|tgw|mv	Number=Plur|Tense=Pres|VerbForm=Fin	27	cop	_	SpaceAfter=No
 29	.	.	PUNCT	LET	_	9	punct	_	_
 
 # sent_id = wiki-342.p.5.s.9.xml
@@ -12023,14 +12023,14 @@
 4	Kim	Kim	PROPN	SPEC|deeleigen	_	2	parataxis	_	_
 5	Clijsters	Clijsters	PROPN	SPEC|deeleigen	_	4	flat:name	_	_
 6	(	(	PUNCT	LET	_	7	punct	_	SpaceAfter=No
-7	2	2	NUM	TW|hoofd|vrij	_	4	nummod	_	_
+7	2	2	NUM	TW|hoofd|vrij	_	4	nummod	_	SpaceAfter=No
 8	)	)	PUNCT	LET	_	7	punct	_	_
 9	-	-	PUNCT	LET	_	10	punct	_	_
 10	Justine	Justine	PROPN	SPEC|deeleigen	_	4	conj	_	_
 11	Henin-Hardenne	Henin-Hardenne	PROPN	SPEC|deeleigen	_	10	flat:name	_	_
 12	(	(	PUNCT	LET	_	13	punct	_	SpaceAfter=No
 13	3	3	NUM	TW|hoofd|vrij	_	10	nummod	_	SpaceAfter=No
-14	)	)	PUNCT	LET	_	13	punct	_	_
+14	)	)	PUNCT	LET	_	13	punct	_	SpaceAfter=No
 15	:	:	PUNCT	LET	_	16	punct	_	_
 16	4-6	4-6	SYM	SPEC|symb	_	2	parataxis	_	SpaceAfter=No
 17	,	,	PUNCT	LET	_	18	punct	_	_

@@ -38,6 +38,8 @@ Data source: automatic
 Data available since: UD v1.3
 License: CC BY-SA 4.0
 Genre: wiki
+Includes text: yes 
+Contributing: elsewhere
 Contributors: Bouma, Gosse; van Noord, Gertjan
 Contact: g.bouma@rug.nl
 ===============================================================================

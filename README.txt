@@ -25,6 +25,11 @@ van Noord G. et al. (2013) Large Scale Syntactic Annotation of Written Dutch: La
 
 Changelog
 
+03-11-2017
+  * data compliant with UD 2.0 guidelines 
+  * various bug fixes to ensure compatibility with UD Dutch corpus
+
+Older 
   * No changes since UD release 1.3.
 
 === Machine-readable metadata =================================================

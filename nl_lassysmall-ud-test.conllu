@@ -2516,8 +2516,8 @@
 7	manier	manier	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	2	obl	_	_
 8	waarop	waarop	ADV	BW	_	12	advmod	_	_
 9	zijn	zijn	PRON	VNW|bez|det|stan|vol|3|ev|prenom|zonder|agr	Person=3|PronType=Prs	10	nmod:poss	_	_
-10	verhalen	verhaal	NOUN	N|soort|mv|basis	Number=Plur	12	nsubj	_	_
-11	zijn	zijn	AUX	WW|pv|tgw|mv	Number=Plur|Tense=Pres|VerbForm=Fin	12	aux	_	_
+10	verhalen	verhaal	NOUN	N|soort|mv|basis	Number=Plur	12	nsubj:pass	_	_
+11	zijn	zijn	AUX	WW|pv|tgw|mv	Number=Plur|Tense=Pres|VerbForm=Fin	12	aux:pass	_	_
 12	opgebouwd	opbouwen	VERB	WW|vd|vrij|zonder	VerbForm=Part	7	acl:relcl	_	_
 13	en	en	CCONJ	VG|neven	_	14	cc	_	_
 14	uitgebeeld	uitbeelden	VERB	WW|vd|vrij|zonder	VerbForm=Part	12	conj	_	SpaceAfter=No
@@ -4175,11 +4175,11 @@
 2	bestaat	bestaan	VERB	WW|pv|tgw|met-t	Number=Sing|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	maatschappelijk	maatschappelijk	ADJ	ADJ|vrij|basis|zonder	Degree=Pos	10	advmod	_	SpaceAfter=No
 4	,	,	PUNCT	LET	_	3	punct	_	_
-5	cultureel	cultureel	ADJ	ADJ|vrij|basis|zonder	Degree=Pos	10	advmod	_	SpaceAfter=No
+5	cultureel	cultureel	ADJ	ADJ|vrij|basis|zonder	Degree=Pos	10	conj	_	SpaceAfter=No
 6	,	,	PUNCT	LET	_	5	punct	_	_
-7	politiek	politiek	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	10	obl	_	_
-8	en	en	CCONJ	VG|neven	_	10	cc	_	_
-9	sociologisch	sociologisch	ADJ	ADJ|vrij|basis|zonder	Degree=Pos	10	advmod	_	_
+7	politiek	politiek	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	10	conj	_	_
+8	en	en	CCONJ	VG|neven	_	9	cc	_	_
+9	sociologisch	sociologisch	ADJ	ADJ|vrij|basis|zonder	Degree=Pos	10	conj	_	_
 10	gezien	zien	VERB	WW|vd|vrij|zonder	VerbForm=Part	2	obl	_	_
 11	vooral	vooral	ADV	BW	_	15	amod	_	_
 12	uit	uit	ADP	VZ|init	_	15	case	_	_
@@ -4234,15 +4234,15 @@
 9	beperkte	beperken	VERB	WW|vd|prenom|met-e	VerbForm=Part	11	amod	_	_
 10	politieke	politiek	ADJ	ADJ|prenom|basis|met-e|stan	Degree=Pos	11	amod	_	_
 11	rechten	recht	NOUN	N|soort|mv|basis	Number=Plur	6	obj	_	_
-12	en	en	CCONJ	VG|neven	_	13	cc	_	_
-13	werd	worden	VERB	WW|pv|verl|ev	Number=Sing|Tense=Past|VerbForm=Fin	6	conj	_	_
+12	en	en	CCONJ	VG|neven	_	20	cc	_	_
+13	werd	worden	AUX	WW|pv|verl|ev	Number=Sing|Tense=Past|VerbForm=Fin	20	aux:pass	_	_
 14	hun	hun	PRON	VNW|bez|det|stan|vol|3|mv|prenom|zonder|agr	Person=3|PronType=Prs	15	nmod:poss	_	_
-15	taal	taal	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	13	nsubj	_	SpaceAfter=No
+15	taal	taal	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	20	nsubj:pass	_	SpaceAfter=No
 16	,	,	PUNCT	LET	_	18	punct	_	_
 17	het	het	DET	LID|bep|stan|evon	Definite=Def	18	det	_	_
 18	Nederlands	Nederlands	PROPN	N|eigen|ev|basis|onz|stan	Gender=Neut|Number=Sing	15	appos	_	SpaceAfter=No
-19	,	,	PUNCT	LET	_	20	punct	_	_
-20	gediscrimineerd	discrimineren	VERB	WW|vd|vrij|zonder	VerbForm=Part	13	ccomp	_	_
+19	,	,	PUNCT	LET	_	15	punct	_	_
+20	gediscrimineerd	discrimineren	VERB	WW|vd|vrij|zonder	VerbForm=Part	6	conj	_	_
 21	en	en	CCONJ	VG|neven	_	22	cc	_	_
 22	verboden	verbieden	VERB	WW|vd|vrij|zonder	VerbForm=Part	20	conj	_	_
 23	in	in	ADP	VZ|init	_	26	case	_	_
@@ -4300,7 +4300,7 @@
 5	zachte	zacht	ADJ	ADJ|prenom|basis|met-e|stan	Degree=Pos	6	amod	_	_
 6	lichtbron	lichtbron	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	12	nsubj	_	_
 7	achter	achter	ADP	VZ|init	_	11	case	_	_
-8	en	en	CCONJ	VG|neven	_	11	cc	_	_
+8	en	en	CCONJ	VG|neven	_	9	cc	_	_
 9	door	door	ADP	VZ|init	_	11	case	_	_
 10	het	het	DET	LID|bep|stan|evon	Definite=Def	11	det	_	_
 11	schilderij	schilderij	NOUN	N|soort|ev|basis|onz|stan	Gender=Neut|Number=Sing	12	obl	_	_
@@ -6551,7 +6551,7 @@
 16	zeker	zeker	ADJ	ADJ|vrij|basis|zonder	Degree=Pos	19	advmod	_	_
 17	de	de	DET	LID|bep|stan|rest	Definite=Def	18	det	_	_
 18	moeite	moeite	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	19	obj	_	_
-19	waard	waard	ADJ	ADJ|vrij|basis|zonder	Degree=Pos	5	xcomp	_	_
+19	waard	waard	ADJ	ADJ|vrij|basis|zonder	Degree=Pos	5	conj	_	_
 20	om	om	ADP	VZ|init	_	22	mark	_	_
 21	te	te	ADP	VZ|init	_	22	mark	_	_
 22	bezoeken	bezoeken	VERB	WW|inf|vrij|zonder	VerbForm=Inf	19	advcl	_	SpaceAfter=No
@@ -7074,7 +7074,7 @@
 5	en	en	CCONJ	VG|neven	_	4	flat:name	_	_
 6	Wiske	Wiske	PROPN	N|eigen|ev|basis|zijd|stan	Gender=Com|Number=Sing	4	flat:name	_	_
 7	vaak	vaak	ADJ	ADJ|vrij|basis|zonder	Degree=Pos	9	advmod	_	_
-8	mee	mee	ADP	VZ|fin	_	3	case	_	_
+8	mee	mee	ADP	VZ|fin	_	9	case	_	_
 9	rondtoeren	rondtoeren	VERB	WW|pv|tgw|mv	Number=Plur|Tense=Pres|VerbForm=Fin	2	acl:relcl	_	_
 
 # sent_id = wiki-208.p.29.s.2.xml
@@ -7787,9 +7787,9 @@
 7	van	van	ADP	VZ|init	_	9	case	_	_
 8	de	de	DET	LID|bep|stan|rest	Definite=Def	9	det	_	_
 9	Lambermontstraat	Lambermontstraat	PROPN	N|eigen|ev|basis|zijd|stan	Gender=Com|Number=Sing	6	nmod	_	_
-10	en	en	CCONJ	VG|neven	_	6	cc	_	_
+10	en	en	CCONJ	VG|neven	_	12	cc	_	_
 11	de	de	DET	LID|bep|stan|rest	Definite=Def	12	det	_	_
-12	Hertogstraat	Hertogstraat	PROPN	N|eigen|ev|basis|zijd|stan	Gender=Com|Number=Sing	6	nmod	_	_
+12	Hertogstraat	Hertogstraat	PROPN	N|eigen|ev|basis|zijd|stan	Gender=Com|Number=Sing	6	conj	_	_
 13	te	te	ADP	VZ|init	_	14	case	_	_
 14	Brussel	Brussel	PROPN	N|eigen|ev|basis|onz|stan	Gender=Neut|Number=Sing	12	nmod	_	SpaceAfter=No
 15	,	,	PUNCT	LET	_	17	punct	_	_
@@ -7840,9 +7840,9 @@
 10	eerste	één	ADJ	TW|rang|prenom|stan	_	11	amod	_	_
 11	drie	drie	NUM	TW|hoofd|prenom|stan	_	16	conj	_	_
 12	kwart	kwart	NOUN	N|soort|ev|basis|onz|stan	Gender=Neut|Number=Sing	11	fixed	_	_
-13	van	van	ADP	VZ|init	_	16	case	_	_
-14	de	de	DET	LID|bep|stan|rest	Definite=Def	16	det	_	_
-15	20ste	20	ADJ	TW|rang|prenom|stan	_	16	amod	_	_
+13	van	van	ADP	VZ|init	_	15	case	_	_
+14	de	de	DET	LID|bep|stan|rest	Definite=Def	15	nmod	_	_
+15	20ste	20	ADJ	TW|rang|prenom|stan	_	11	nmod	_	_
 16	eeuw	eeuw	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	18	nmod	_	_
 17	een	een	DET	LID|onbep|stan|agr	Definite=Ind	18	det	_	_
 18	bloeiperiode	bloeiperiode	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	2	obj	_	SpaceAfter=No
@@ -8689,12 +8689,12 @@
 # sent_id = wiki-7543.p.4.s.2.xml
 # text = De stad werd van haar versterkingen ontdaan na de slag bij Bouvines in 1214, ingenomen door de Gentenaren in 1383 en veroverd door Alexander Farnese in 1582.
 1	De	de	DET	LID|bep|stan|rest	Definite=Def	2	det	_	_
-2	stad	stad	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	3	nsubj	_	_
-3	werd	worden	VERB	WW|pv|verl|ev	Number=Sing|Tense=Past|VerbForm=Fin	0	root	_	_
+2	stad	stad	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	7	nsubj:pass	_	_
+3	werd	worden	AUX	WW|pv|verl|ev	Number=Sing|Tense=Past|VerbForm=Fin	7	aux:pass	_	_
 4	van	van	ADP	VZ|init	_	6	case	_	_
 5	haar	haar	PRON	VNW|bez|det|stan|vol|3|ev|prenom|zonder|agr	Person=3|PronType=Prs	6	nmod:poss	_	_
 6	versterkingen	versterking	NOUN	N|soort|mv|basis	Number=Plur	7	obl	_	_
-7	ontdaan	ontdoen	VERB	WW|vd|vrij|zonder	VerbForm=Part	3	ccomp	_	_
+7	ontdaan	ontdoen	VERB	WW|vd|vrij|zonder	VerbForm=Part	0	root	_	_
 8	na	na	ADP	VZ|init	_	9	case	_	_
 9	de	de	DET	LID|bep|stan|rest	Definite=Def	7	obl	_	_
 10	slag	slag	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	9	flat:name	_	_
@@ -8716,7 +8716,7 @@
 26	Farnese	Farnese	PROPN	SPEC|deeleigen	_	25	flat:name	_	_
 27	in	in	ADP	VZ|init	_	28	case	_	_
 28	1582	1582	NUM	TW|hoofd|vrij	_	23	obl	_	SpaceAfter=No
-29	.	.	PUNCT	LET	_	3	punct	_	_
+29	.	.	PUNCT	LET	_	7	punct	_	_
 
 # sent_id = wiki-6984.p.3.s.1.xml
 # text = Annemans studeerde rechten, en haalde zijn licentiaatsdiploma in 1982.
@@ -11437,7 +11437,7 @@
 5	met	met	ADP	VZ|init	_	6	case	_	_
 6	Lutgarde	Lutgarde	PROPN	N|eigen|ev|basis|zijd|stan	Gender=Com|Number=Sing	4	obl	_	_
 7	en	en	CCONJ	VG|neven	_	8	cc	_	_
-8	vader	vader	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	4	xcomp	_	_
+8	vader	vader	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	4	conj	_	_
 9	van	van	ADP	VZ|init	_	11	case	_	_
 10	drie	drie	NUM	TW|hoofd|prenom|stan	_	11	nummod	_	_
 11	dochters	dochter	NOUN	N|soort|mv|basis	Number=Plur	8	nmod	_	SpaceAfter=No

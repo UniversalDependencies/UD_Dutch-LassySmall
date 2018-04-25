@@ -39,6 +39,11 @@ Data available since: UD v1.3
 License: CC BY-SA 4.0
 Genre: wiki
 Includes text: yes 
+Lemmas: converted from manual
+UPOS: converted from manual
+XPOS: manual native
+Features: converted from manual
+Relations: converted from manual
 Contributing: elsewhere
 Contributors: Bouma, Gosse; van Noord, Gertjan
 Contact: g.bouma@rug.nl

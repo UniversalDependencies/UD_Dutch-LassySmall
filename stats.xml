@@ -13,9 +13,9 @@
   <!-- Statistics of universal POS tags. The comments show the most frequent lemmas. -->
   <tags unique="16">
     <tag name="ADJ">7107</tag><!-- één, Vlaams, Belgisch, groot, ander, laat, nieuw, bekend, belangrijk, extern -->
-    <tag name="ADP">12159</tag><!-- van, in, op, met, voor, te, door, aan, als, uit -->
+    <tag name="ADP">12160</tag><!-- van, in, op, met, voor, te, door, aan, als, uit -->
     <tag name="ADV">3528</tag><!-- ook, er, niet, nog, zo, echter, al, vooral, waar, dan -->
-    <tag name="AUX">2795</tag><!-- zijn, worden, hebben, kunnen, zullen, moeten, blijven, mogen, heten, blijken -->
+    <tag name="AUX">2794</tag><!-- zijn, worden, hebben, kunnen, zullen, moeten, blijven, mogen, heten, blijken -->
     <tag name="CCONJ">2658</tag><!-- en, maar, of, ofwel, want, doch, noch, alsmede, en/of, alsook -->
     <tag name="DET">10498</tag><!-- de, het, een, deze, dit, die, veel, geen, al, enkel -->
     <tag name="INTJ">8</tag><!-- ja, he, hiep, hé, neen, rahoe -->
@@ -24,9 +24,9 @@
     <tag name="PRON">3337</tag><!-- hij, zijn, die, ze, veel, het, zich, haar, dat, hun -->
     <tag name="PROPN">13395</tag><!-- België, van, de, Brussel, Antwerpen, Vlaanderen, Hasselt, Vlaams, Nederland, en -->
     <tag name="PUNCT">14670</tag><!-- ., ,, ), (, :, -, ", «, », ; -->
-    <tag name="SCONJ">685</tag><!-- dat, als, dan, zoals, omdat, toen, hoewel, terwijl, nadat, doordat -->
+    <tag name="SCONJ">684</tag><!-- dat, als, dan, zoals, omdat, toen, hoewel, terwijl, nadat, doordat -->
     <tag name="SYM">686</tag><!-- (, 6-2, %, ), 7-5, ,, 6-4, km², 6-3, km -->
-    <tag name="VERB">6496</tag><!-- zijn, hebben, komen, zien, gaan, maken, staan, nemen, krijgen, bestaan -->
+    <tag name="VERB">6497</tag><!-- zijn, hebben, komen, zien, gaan, maken, staan, nemen, krijgen, bestaan -->
     <tag name="X">467</tag><!-- o.a., de, la, les, the, Vive, of, art, cordon, des -->
   </tags>
   <!-- Statistics of features and values. The comments show the most frequent word forms. -->
@@ -36,8 +36,8 @@
     <feat name="Case" value="Nom" upos="PRON">621</feat><!-- hij, zij, men, ik, je, we, wij, u, Zijzelf, jij -->
     <feat name="Definite" value="Def" upos="DET">8070</feat><!-- de, het, der, 't, 's, des, dé -->
     <feat name="Definite" value="Ind" upos="DET">1666</feat><!-- een -->
-    <feat name="Degree" value="Cmp" upos="ADJ">263</feat><!-- later, verder, beter, hogere, vroegere, jongeren, latere, oudere, verdere, groter -->
-    <feat name="Degree" value="Pos" upos="ADJ">6125</feat><!-- Vlaamse, belgische, andere, grote, nieuwe, externe, eigen, federale, politieke, verschillende -->
+    <feat name="Degree" value="Cmp" upos="ADJ">264</feat><!-- later, verder, beter, hogere, vroegere, jongeren, latere, oudere, verdere, groter -->
+    <feat name="Degree" value="Pos" upos="ADJ">6124</feat><!-- Vlaamse, belgische, andere, grote, nieuwe, externe, eigen, federale, politieke, verschillende -->
     <feat name="Degree" value="Sup" upos="ADJ">252</feat><!-- grootste, laatste, belangrijkste, hoogste, oudste, beste, bekendste, best, kleinste, mooiste -->
     <feat name="Foreign" value="Yes" upos="X">340</feat><!-- de, la, les, the, Vive, of, art, cordon, des, design -->
     <feat name="Gender" value="Com" upos="NOUN,PROPN">10919</feat><!-- partij, stad, eeuw, naam, regering, koning, finale, provincie, politie, reeks -->
@@ -65,33 +65,33 @@
   <deps unique="35">
     <dep name="acl">464</dep>
     <dep name="acl:relcl">643</dep>
-    <dep name="advcl">750</dep>
-    <dep name="advmod">3212</dep>
-    <dep name="amod">5843</dep>
+    <dep name="advcl">749</dep>
+    <dep name="advmod">3379</dep>
+    <dep name="amod">5676</dep>
     <dep name="appos">1613</dep>
     <dep name="aux">601</dep>
     <dep name="aux:pass">958</dep>
     <dep name="case">10082</dep>
     <dep name="cc">2600</dep>
-    <dep name="ccomp">186</dep>
+    <dep name="ccomp">185</dep>
     <dep name="compound:prt">682</dep>
-    <dep name="conj">3852</dep>
-    <dep name="cop">1236</dep>
-    <dep name="csubj">53</dep>
+    <dep name="conj">3851</dep>
+    <dep name="cop">1235</dep>
+    <dep name="csubj">54</dep>
     <dep name="det">10109</dep>
     <dep name="expl">47</dep>
     <dep name="expl:pv">148</dep>
     <dep name="fixed">2208</dep>
-    <dep name="flat:name">5722</dep>
-    <dep name="iobj">67</dep>
+    <dep name="flat">5722</dep>
+    <dep name="iobj">66</dep>
     <dep name="mark">1630</dep>
-    <dep name="nmod">6252</dep>
+    <dep name="nmod">6249</dep>
     <dep name="nmod:poss">760</dep>
-    <dep name="nsubj">4669</dep>
-    <dep name="nsubj:pass">875</dep>
+    <dep name="nsubj">4672</dep>
+    <dep name="nsubj:pass">876</dep>
     <dep name="nummod">1037</dep>
     <dep name="obj">2092</dep>
-    <dep name="obl">5239</dep>
+    <dep name="obl">5242</dep>
     <dep name="obl:agent">185</dep>
     <dep name="orphan">101</dep>
     <dep name="parataxis">1647</dep>

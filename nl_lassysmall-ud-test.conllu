@@ -1261,7 +1261,7 @@
 15	Vlaanderen	Vlaanderen	PROPN	N|eigen|ev|basis|onz|stan	Gender=Neut|Number=Sing	13	nmod	13:nmod:voor	_
 16	met	met	ADP	VZ|init	_	21	case	21:case	_
 17	beide	beide	ADV	VNW|onbep|grad|stan|prenom|met-e|mv|basis	_	21	amod	21:amod	_
-18	meer	veel	PRON	VNW|onbep|grad|stan|vrij|zonder|comp	PronType=Ind	20	amod	20:amod	_
+18	meer	veel	PRON	VNW|onbep|grad|stan|vrij|zonder|comp	PronType=Ind	20	advmod	20:advmod	_
 19	dan	dan	SCONJ	VG|onder	_	18	fixed	18:fixed	_
 20	25.000	25.000	NUM	TW|hoofd|prenom|stan	_	21	nummod	21:nummod	_
 21	studenten	student	NOUN	N|soort|mv|basis	Number=Plur	9	nmod	9:nmod:met|11:nmod:met	SpaceAfter=No
@@ -2549,18 +2549,18 @@
 30	en	en	CCONJ	VG|neven	_	31	cc	30.1:cc	_
 30.1	vertoont	vertonen	VERB	WW|pv|tgw|met-t	Number=Sing|Tense=Pres|VerbForm=Fin	_	_	17:conj:en	CopiedFrom=17
 31	ook	ook	ADV	BW	_	17	conj	30.1:amod	_
-32	tweeledig-confederalistische	tweeledig-confederalistisch	ADJ	ADJ|prenom|basis|met-e|stan	Degree=Pos	31	orphan	30.1:amod	_
+32	tweeledig-confederalistische	tweeledig-confederalistisch	ADJ	ADJ|prenom|basis|met-e|stan	Degree=Pos	31	amod	30.1:amod	_
 33	(	(	PUNCT	LET	_	37	punct	37:punct	SpaceAfter=No
 34	de	de	DET	LID|bep|stan|rest	Definite=Def	36	det	36:det	_
 35	politieke	politiek	ADJ	ADJ|prenom|basis|met-e|stan	Degree=Pos	36	amod	36:amod	_
 36	partijen	partij	NOUN	N|soort|mv|basis	Number=Plur	37	nsubj	37:nsubj	_
-37	richten	richten	VERB	WW|pv|tgw|mv	Number=Plur|Tense=Pres|VerbForm=Fin	31	orphan	30.1:nmod	_
+37	richten	richten	VERB	WW|pv|tgw|mv	Number=Plur|Tense=Pres|VerbForm=Fin	31	nmod	30.1:nmod	_
 38	zich	zich	PRON	VNW|refl|pron|obl|red|3|getal	Case=Acc|Person=3|PronType=Prs|Reflex=Yes	37	expl:pv	37:expl:pv	_
 39	quasi	quasi	ADV	BW	_	40	advmod	40:advmod	_
 40	uitsluitend	uitsluitend	ADJ	ADJ|vrij|basis|zonder	Degree=Pos	37	advcl	37:advcl	_
 41	tot	tot	ADP	VZ|init	_	44	case	44.1:case	_
 42	of	of	CCONJ	VG|neven	_	44	cc	44.1:cc	_
-43	de	de	DET	LID|bep|stan|rest	Definite=Def	44	orphan	44.1:det	_
+43	de	de	DET	LID|bep|stan|rest	Definite=Def	44	det	44.1:det	_
 44	Vlaamse	Vlaams	ADJ	ADJ|nom|basis|met-e|zonder-n|stan	Degree=Pos	37	obl	44.1:amod	_
 44.1	gemeenschap	gemeenschap	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	_	_	37:obl:tot	CopiedFrom=48
 45	of	of	CCONJ	VG|neven	_	48	cc	48:cc	_
@@ -2569,7 +2569,7 @@
 48	gemeenschap	gemeenschap	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	44	conj	37:amod|44.1:conj:of	SpaceAfter=No
 49	;	;	PUNCT	LET	_	51	punct	51:punct	_
 50	er	er	ADV	VNW|aanw|adv-pron|stan|red|3|getal	_	51	advmod	51:advmod	_
-51	bestaan	bestaan	VERB	WW|pv|tgw|mv	Number=Plur|Tense=Pres|VerbForm=Fin	37	conj	37:conj	_
+51	bestaan	bestaan	VERB	WW|pv|tgw|mv	Number=Plur|Tense=Pres|VerbForm=Fin	37	conj	31:nmod|37:conj	_
 52	slechts	slechts	ADV	BW	_	57	amod	57:amod	_
 53	enkele	enkel	DET	VNW|onbep|det|stan|prenom|met-e|rest	_	57	det	57:det	_
 54	zeer	zeer	ADV	BW	_	55	advmod	55:advmod	_
@@ -3799,7 +3799,7 @@
 4	zelf	zelf	ADV	BW	_	3	amod	3:amod	_
 5	wordt	worden	AUX	WW|pv|tgw|met-t	Number=Sing|Tense=Pres|VerbForm=Fin	12	aux:pass	12:aux:pass	_
 6	door	door	ADP	VZ|init	_	11	case	11:case	_
-7	zowel	zowel	ADV	BW	_	8	cc	8:cc	_
+7	zowel	zowel	CCONJ	BW	_	8	cc	8:cc	_
 8	Nederlandstalige	Nederlandstalig	ADJ	ADJ|prenom|basis|met-e|stan	Degree=Pos	11	nmod	11:nmod	_
 9	als	als	SCONJ	VG|onder	_	10	cc	10:cc	_
 10	Franstalige	Franstalig	ADJ	ADJ|prenom|basis|met-e|stan	Degree=Pos	8	conj	8:conj:zowel|11:nmod	_
@@ -4278,7 +4278,7 @@
 12	in	in	ADP	VZ|init	_	13	case	13:case	_
 13	Europa	Europa	PROPN	N|eigen|ev|basis|onz|stan	Gender=Neut|Number=Sing	11	nmod	11:nmod:in	_
 14	(	(	PUNCT	LET	_	18	punct	18:punct	SpaceAfter=No
-15	zowel	zowel	ADV	BW	_	18	cc	18:cc	_
+15	zowel	zowel	CCONJ	BW	_	18	cc	18:cc	_
 16	op	op	ADP	VZ|init	_	18	case	18:case	_
 17	het	het	DET	LID|bep|stan|evon	Definite=Def	18	det	18:det	_
 18	land	land	NOUN	N|soort|ev|basis|onz|stan	Gender=Neut|Number=Sing	7	nmod	7:nmod:op	_
@@ -4550,7 +4550,7 @@
 # auto = ALUD2.4.0-alpha003
 1	Dit	dit	PRON	VNW|aanw|pron|stan|vol|3o|ev	Person=3|PronType=Dem	2	nsubj	2:nsubj	_
 2	komt	komen	VERB	WW|pv|tgw|met-t	Number=Sing|Tense=Pres|VerbForm=Fin	0	root	0:root	_
-3	mede	mede	ADV	BW	_	8	amod	8:amod	_
+3	mede	mede	ADV	BW	_	8	advmod	8:advmod	_
 4	omdat	omdat	SCONJ	VG|onder	_	8	mark	8:mark	_
 5	de	de	DET	LID|bep|stan|rest	Definite=Def	6	det	6:det	_
 6	bevolkingsdichtheid	bevolkingsdichtheid	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	8	nsubj	8:nsubj	_
@@ -4710,7 +4710,7 @@
 9	Wallonië	Wallonië	PROPN	N|eigen|ev|basis|onz|stan	Gender=Neut|Number=Sing	3	nmod	3:nmod:in	_
 10	(	(	PUNCT	LET	_	14	punct	14:punct	SpaceAfter=No
 11	behalve	behalve	SCONJ	VG|onder	_	14	mark	14:mark	_
-12	dan	dan	ADV	BW	_	14	amod	14:amod	_
+12	dan	dan	ADV	BW	_	14	advmod	14:advmod	_
 13	de	de	DET	LID|bep|stan|rest	Definite=Def	14	det	14:det	_
 14	gebieden	gebied	NOUN	N|soort|mv|basis	Number=Plur	9	nmod	9:nmod	_
 15	rond	rond	ADP	VZ|init	_	16	case	16:case	_
@@ -6379,8 +6379,8 @@
 4	de	de	DET	LID|bep|stan|rest	Definite=Def	5	det	5:det	_
 5	periode	periode	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	2	obl	2:obl	_
 6	waarin	waarin	ADV	BW	_	12	advmod	5:ref	_
-7	heel	heel	ADJ	ADJ|vrij|basis|zonder	Degree=Pos	8	amod	8:amod	_
-8	wat	wat	PRON	VNW|onbep|pron|stan|vol|3o|ev	Person=3|PronType=Ind	10	det	10:det	_
+7	heel	heel	ADJ	ADJ|vrij|basis|zonder	Degree=Pos	8	advmod	8:advmod	_
+8	wat	wat	DET	VNW|onbep|pron|stan|vol|3o|ev	_	10	det	10:det	_
 9	liberale	liberaal	ADJ	ADJ|prenom|basis|met-e|stan	Degree=Pos	10	amod	10:amod	_
 10	scheurlijsten	scheurlijst	NOUN	N|soort|mv|basis	Number=Plur	12	nsubj:pass	12:nsubj:pass	_
 11	werden	worden	AUX	WW|pv|verl|mv	Number=Plur|Tense=Past|VerbForm=Fin	12	aux:pass	12:aux:pass	_
@@ -6464,7 +6464,7 @@
 22	hij	hij	PRON	VNW|pers|pron|nomin|vol|3|ev|masc	Case=Nom|Person=3|PronType=Prs	23	nsubj	23:nsubj	_
 23	zorgde	zorgen	VERB	WW|pv|verl|ev	Number=Sing|Tense=Past|VerbForm=Fin	19	advcl	19:advcl:omdat	_
 24	voor	voor	ADP	VZ|init	_	27	case	27:case	_
-25	te	te	ADV	BW	_	26	advmod	26:advmod	_
+25	te	te	DET	BW	_	26	advmod	26:advmod	_
 26	veel	veel	PRON	VNW|onbep|grad|stan|prenom|zonder|agr|basis	PronType=Ind	27	nmod	27:nmod	_
 27	onrust	onrust	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	23	obl	23:obl:voor	_
 28	binnen	binnen	ADP	VZ|init	_	30	case	30:case	_
@@ -7510,7 +7510,7 @@
 6	partij	partij	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	7	nsubj:pass	7:nsubj:pass	_
 7	opgesplitst	opsplitsen	VERB	WW|vd|vrij|zonder	VerbForm=Part	0	root	0:root	_
 8	in	in	ADP	VZ|init	_	10	case	10.1:case	_
-9	een	een	DET	LID|onbep|stan|agr	Definite=Ind	10	orphan	10.1:det	_
+9	een	een	DET	LID|onbep|stan|agr	Definite=Ind	10	det	10.1:det	_
 10	Vlaamse	Vlaams	ADJ	ADJ|prenom|basis|met-e|stan	Degree=Pos	7	obl	10.1:amod	_
 10.1	partij	partij	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	_	_	7:obl:in	CopiedFrom=14
 11	en	en	CCONJ	VG|neven	_	14	cc	14:cc	_
@@ -9847,7 +9847,7 @@
 4	wordt	worden	AUX	WW|pv|tgw|met-t	Number=Sing|Tense=Pres|VerbForm=Fin	14	aux:pass	14:aux:pass	_
 5	sinds	sinds	ADP	VZ|init	_	6	case	6:case	_
 6	1984	1984	NUM	TW|hoofd|vrij	_	14	obl	14:obl:sinds	_
-7	net	net	ADV	BW	_	10	amod	10:amod	_
+7	net	net	ADV	BW	_	10	advmod	10:advmod	_
 8	als	als	SCONJ	VG|onder	_	10	mark	10:mark	_
 9	de	de	DET	LID|bep|stan|rest	Definite=Def	10	det	10:det	_
 10	VVD	VVD	PROPN	N|eigen|ev|basis|zijd|stan	Gender=Com|Number=Sing	14	advcl	14:advcl:als	_
@@ -10342,7 +10342,7 @@
 7	Europees	Europees	PROPN	SPEC|deeleigen	_	2	nmod	2:nmod:in	_
 8	Parlement	Parlement	PROPN	SPEC|deeleigen	_	7	flat	7:flat	_
 9	maakt	maken	VERB	WW|pv|tgw|met-t	Number=Sing|Tense=Pres|VerbForm=Fin	0	root	0:root	_
-10	net	net	ADV	BW	_	13	amod	13:amod	_
+10	net	net	ADV	BW	_	13	advmod	13:advmod	_
 11	als	als	SCONJ	VG|onder	_	13	mark	13:mark	_
 12	de	de	DET	LID|bep|stan|rest	Definite=Def	13	det	13:det	_
 13	VVD	VVD	PROPN	N|eigen|ev|basis|zijd|stan	Gender=Com|Number=Sing	9	advcl	9:advcl:als	_
@@ -11720,7 +11720,7 @@
 11	2009	2009	NUM	TW|hoofd|vrij	_	9	obj	9:obj	_
 12	van	van	ADP	VZ|init	_	18	case	18:case	_
 13	de	de	DET	LID|bep|stan|rest	Definite=Def	18	det	18:det	_
-14	meer	veel	PRON	VNW|onbep|grad|stan|vrij|zonder|comp	PronType=Ind	16	amod	16:amod	_
+14	meer	veel	PRON	VNW|onbep|grad|stan|vrij|zonder|comp	PronType=Ind	16	advmod	16:advmod	_
 15	dan	dan	SCONJ	VG|onder	_	14	fixed	14:fixed	_
 16	3800	3800	NUM	TW|hoofd|prenom|stan	_	18	nummod	18:nummod	_
 17	uitgebrachte	uitbrengen	VERB	WW|vd|prenom|met-e	VerbForm=Part	18	amod	18:amod	_
@@ -12309,7 +12309,7 @@
 8	werkwoord	werkwoord	NOUN	N|soort|ev|basis|onz|stan	Gender=Neut|Number=Sing	0	root	0:root	_
 9	en	en	CCONJ	VG|neven	_	10	cc	10:cc	_
 10	betekent	betekenen	VERB	WW|pv|tgw|met-t	Number=Sing|Tense=Pres|VerbForm=Fin	8	conj	8:conj:en	_
-11	zowel	zowel	ADV	BW	_	13	cc	13:cc	_
+11	zowel	zowel	CCONJ	BW	_	13	cc	13:cc	_
 12	het	het	DET	LID|bep|stan|evon	Definite=Def	13	det	13:det	_
 13	zingen	zingen	VERB	WW|inf|nom|zonder|zonder-n	VerbForm=Inf	10	obj	10:obj	_
 14	van	van	ADP	VZ|init	_	15	case	15:case	_
@@ -12448,7 +12448,7 @@
 29	1972	1972	NUM	TW|hoofd|vrij	_	30	obl	30:obl:in	_
 30	opgesplitst	opsplitsen	VERB	WW|vd|vrij|zonder	VerbForm=Part	0	root	0:root	_
 31	in	in	ADP	VZ|init	_	33	case	33.1:case	_
-32	een	een	DET	LID|onbep|stan|agr	Definite=Ind	33	orphan	33.1:det	_
+32	een	een	DET	LID|onbep|stan|agr	Definite=Ind	33	det	33.1:det	_
 33	Vlaamse	Vlaams	ADJ	ADJ|prenom|basis|met-e|stan	Degree=Pos	30	obl	33.1:amod	_
 33.1	partij	partij	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	_	_	30:obl:in	CopiedFrom=37
 34	en	en	CCONJ	VG|neven	_	37	cc	37:cc	_
@@ -12903,7 +12903,7 @@
 14	de	de	DET	LID|bep|stan|rest	Definite=Def	15	det	15:det	_
 15	oppositie	oppositie	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	4	obl	4:obl:in	SpaceAfter=No
 16	,	,	PUNCT	LET	_	19	punct	19:punct	_
-17	zowel	zowel	ADV	BW	_	19	cc	19.1:cc	_
+17	zowel	zowel	CCONJ	BW	_	19	cc	19.1:cc	_
 18	op	op	ADP	VZ|init	_	19	case	19.1:case	_
 19	federaal	federaal	ADJ	ADJ|prenom|basis|zonder	Degree=Pos	4	parataxis	19.1:amod	_
 19.1	bestuursniveau	bestuursniveau	NOUN	N|soort|ev|basis|onz|stan	Gender=Neut|Number=Sing	_	_	4:parataxis	CopiedFrom=23
@@ -14837,7 +14837,7 @@
 12	Gazet	Gazet	PROPN	SPEC|deeleigen	_	11	iobj	11:iobj	_
 13	van	van	PROPN	SPEC|deeleigen	_	12	flat	12:flat	_
 14	Antwerpen	Antwerpen	PROPN	SPEC|deeleigen	_	12	flat	12:flat	_
-15	een	een	DET	LID|onbep|stan|agr	Definite=Ind	16	orphan	16.1:det|23:det	_
+15	een	een	DET	LID|onbep|stan|agr	Definite=Ind	16	det	16.1:det|23:det	_
 16	jonger	jong	ADJ	ADJ|vrij|comp|zonder	Degree=Cmp	11	obj	16.1:amod	SpaceAfter=No
 16.1	imago	imago	NOUN	N|soort|ev|basis|onz|stan	Gender=Neut|Number=Sing	_	_	11:obj	CopiedFrom=23
 17	,	,	PUNCT	LET	_	23	punct	23:punct	_
@@ -15368,8 +15368,8 @@
 1	De	de	DET	LID|bep|stan|rest	Definite=Def	2	det	2:det	_
 2	werf	werf	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	8	nsubj:pass	8:nsubj:pass	_
 3	was	zijn	AUX	WW|pv|verl|ev	Number=Sing|Tense=Past|VerbForm=Fin	8	aux:pass	8:aux:pass	_
-4	al	al	ADV	BW	_	5	amod	5:amod	_
-5	die	die	PRON	VNW|aanw|det|stan|prenom|zonder|rest	PronType=Dem	6	det	6:det	_
+4	al	al	DET	BW	_	5	advmod	5:advmod	_
+5	die	die	DET	VNW|aanw|det|stan|prenom|zonder|rest	_	6	det	6:det	_
 6	tijd	tijd	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	8	obl	8:obl	_
 7	overeind	overeind	ADV	BW	_	8	compound:prt	8:compound:prt	_
 8	gehouden	houden	VERB	WW|vd|vrij|zonder	VerbForm=Part	0	root	0:root	_
@@ -15476,7 +15476,7 @@
 2	curator	curator	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	13	nsubj	13:nsubj	SpaceAfter=No
 3	,	,	PUNCT	LET	_	5	punct	5:punct	_
 3.1	curator	curator	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	_	_	2:appos	CopiedFrom=2
-4	een	een	DET	LID|onbep|stan|agr	Definite=Ind	5	orphan	3.1:det	_
+4	een	een	DET	LID|onbep|stan|agr	Definite=Ind	5	det	3.1:det	_
 5	andere	ander	ADJ	ADJ|nom|basis|met-e|zonder-n|stan	Degree=Pos	2	appos	3.1:amod	_
 6	dan	dan	SCONJ	VG|onder	_	7	mark	7:mark	_
 7	die	die	PRON	VNW|aanw|pron|stan|vol|3|getal	Person=3|PronType=Dem	5	advcl	3.1:advcl:dan	_
@@ -15681,7 +15681,7 @@
 1	De	de	DET	LID|bep|stan|rest	Definite=Def	2	det	2:det	_
 2	ACLVB	ACLVB	PROPN	N|eigen|ev|basis|zijd|stan	Gender=Com|Number=Sing	3	nsubj	3:nsubj	_
 3	vindt	vinden	VERB	WW|pv|tgw|met-t	Number=Sing|Tense=Pres|VerbForm=Fin	0	root	0:root	_
-4	net	net	ADV	BW	_	9	amod	9:amod	_
+4	net	net	ADV	BW	_	9	advmod	9:advmod	_
 5	als	als	SCONJ	VG|onder	_	9	mark	9:mark	_
 6	de	de	DET	LID|bep|stan|rest	Definite=Def	9	det	9:det	_
 7	andere	ander	ADJ	ADJ|prenom|basis|met-e|stan	Degree=Pos	9	amod	9:amod	_

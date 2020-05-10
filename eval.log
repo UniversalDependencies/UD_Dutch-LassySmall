@@ -3,9 +3,9 @@ commit d71d1b63fd448a8b098d4b5a0329f8da3f7413b0
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
 Date:   Sat Apr 21 19:02:58 2018 +0200
 Evaluating the following revision of UD_Dutch-LassySmall:
-commit a7f02fb5b388d84f453080d9731c09a18f15e980
-Merge: ade10b1 882e055
+commit a1437e75b5679207580f78cf5d978d404425f74c
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
+Date:   Tue Nov 12 16:55:49 2019 +0100
 Size: counted 98033 of 98033 words (nodes).
 Size: min(0, log((N/1000)**2)) = 9.17060831336409.
 Size: maximum value 13.815511 is for 1000000 words or more.

@@ -3,9 +3,9 @@ commit d71d1b63fd448a8b098d4b5a0329f8da3f7413b0
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
 Date:   Sat Apr 21 19:02:58 2018 +0200
 Evaluating the following revision of UD_Dutch-LassySmall:
-commit a1437e75b5679207580f78cf5d978d404425f74c
+commit 12f515e0d6eaefee9da895084c5362a0b2e77460
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Tue Nov 12 16:55:49 2019 +0100
+Date:   Sun May 10 17:51:12 2020 +0200
 Size: counted 98033 of 98033 words (nodes).
 Size: min(0, log((N/1000)**2)) = 9.17060831336409.
 Size: maximum value 13.815511 is for 1000000 words or more.
@@ -30,18 +30,18 @@ Exit code: 1
 validate.py --lang nl --max-err=10 UD_Dutch-LassySmall/nl_lassysmall-ud-test.conllu
 *** PASSED ***
 validate.py --lang nl --max-err=10 UD_Dutch-LassySmall/nl_lassysmall-ud-train.conllu
-[Line 4472 Sent wiki-11.p.70.s.1 Node 42]: [L3 Syntax punct-causes-nonproj] Punctuation must not cause non-projectivity of nodes [13]
 [Line 4472 Sent wiki-11.p.70.s.1 Node 42]: [L3 Syntax punct-is-nonproj] Punctuation must not be attached non-projectively over nodes [11, 12, 13, 14, 15]
-[Line 8044 Sent wiki-138.p.3.s.2 Node 11]: [L3 Syntax punct-causes-nonproj] Punctuation must not cause non-projectivity of nodes [13]
 [Line 8044 Sent wiki-138.p.3.s.2 Node 11]: [L3 Syntax punct-is-nonproj] Punctuation must not be attached non-projectively over nodes [13]
 [Line 18622 Sent wiki-154.p.8.s.6 Node 12]: [L3 Syntax punct-causes-nonproj] Punctuation must not cause non-projectivity of nodes [11]
-[Line 25325 Sent wiki-1635.p.16.s.1 Node 16]: [L3 Syntax punct-causes-nonproj] Punctuation must not cause non-projectivity of nodes [20]
-[Line 25325 Sent wiki-1635.p.16.s.1 Node 16]: [L3 Syntax punct-is-nonproj] Punctuation must not be attached non-projectively over nodes [19]
+[Line 25325 Sent wiki-1635.p.16.s.1 Node 16]: [L3 Syntax punct-is-nonproj] Punctuation must not be attached non-projectively over nodes [19, 20]
 [Line 36984 Sent wiki-204.p.2.s.1 Node 12]: [L3 Syntax leaf-mark-case] 'case' not expected to have children (12:ten:case --> 13:zuid-westen:flat)
 [Line 36985 Sent wiki-204.p.2.s.1 Node 12]: [L3 Syntax leaf-mark-case] 'case' not expected to have children (12:ten:case --> 14:van:flat)
+[Line 37035 Sent wiki-204.p.2.s.3 Node 11]: [L3 Syntax leaf-mark-case] 'case' not expected to have children (11:ten:case --> 12:zuid-oosten:flat)
+[Line 37036 Sent wiki-204.p.2.s.3 Node 11]: [L3 Syntax leaf-mark-case] 'case' not expected to have children (11:ten:case --> 13:van:flat)
+[Line 65126 Sent wiki-5.p.29.s.5 Node 20]: [L3 Syntax orphan-parent] The parent of 'orphan' should normally be 'conj' but it is 'nsubj'.
 ...suppressing further errors regarding Syntax
-Syntax errors: 15
-*** FAILED *** with 15 errors
+Syntax errors: 11
+*** FAILED *** with 11 errors
 Exit code: 1
 Validity: 0.01
 (weight=0.0769230769230769) * (score{features}=0.8) = 0.0615384615384615

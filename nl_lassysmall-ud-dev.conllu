@@ -5409,7 +5409,7 @@
 10	(	(	PUNCT	LET	_	16	punct	16:punct	SpaceAfter=No
 11	met	met	ADP	VZ|init	_	16	case	16:case	_
 12	een	een	DET	LID|onbep|stan|agr	Definite=Ind	16	det	16:det	_
-13	behoorlijk	behoorlijk	ADJ	ADJ|vrij|basis|zonder	Degree=Pos	15	advmod	15:advmod	_
+13	behoorlijk	behoorlijk	ADJ	ADJ|vrij|basis|zonder	Degree=Pos	16	advmod	16:advmod	_
 14	'	'	PUNCT	LET	_	16	punct	16:punct	SpaceAfter=No
 15	Joodse	Joods	ADJ	ADJ|prenom|basis|met-e|stan	Degree=Pos	16	amod	16:amod	_
 16	neus	neus	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	9	nmod	9:nmod:met	SpaceAfter=No

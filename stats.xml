@@ -81,7 +81,7 @@
     <dep name="conj">3862</dep>
     <dep name="cop">1012</dep>
     <dep name="csubj">56</dep>
-    <dep name="det">10062</dep>
+    <dep name="det">10063</dep>
     <dep name="expl">47</dep>
     <dep name="expl:pv">148</dep>
     <dep name="fixed">2164</dep>
@@ -97,7 +97,7 @@
     <dep name="obl">5266</dep>
     <dep name="obl:agent">186</dep>
     <dep name="orphan">50</dep>
-    <dep name="parataxis">1653</dep>
+    <dep name="parataxis">1652</dep>
     <dep name="punct">14671</dep>
     <dep name="root">7341</dep>
     <dep name="xcomp">754</dep>

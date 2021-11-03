@@ -1,10 +1,10 @@
 Running the following version of UD tools:
-commit ca3b862e9e2871c76cd91bf78ffb089c0c60184d
+commit 3478a99bb195eb8749c367af4f7b3fd357a12a4c
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Thu May 6 20:16:19 2021 +0200
+Date:   Tue Nov 2 22:17:19 2021 +0100
 Evaluating the following revision of UD_Dutch-LassySmall:
-commit 91f03cfe4a07ce5a4caf1cd70a30197820c3877a
-Merge: 5d1de33 e065fec
+commit a7f06d90a4bb679a1c121288042ea97ec52adbb3
+Merge: a99f734 a93907c
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
 Size: counted 98107 of 98107 words (nodes).
 Size: min(0, log((N/1000)**2)) = 9.17211743957009.
@@ -20,26 +20,17 @@ Features: source of annotation (from README) factor is 0.8.
 Universal relations: 29 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 0.8.
 Udapi:
-               TOTAL      20580
-Udapi: found 20580 bugs.
+               TOTAL      20575
+Udapi: found 20575 bugs.
 Udapi: worst expected case (threshold) is one bug per 10 words. There are 98107 words.
 Genres: found 1 out of 17 known.
 validate.py --lang nl --max-err=10 UD_Dutch-LassySmall/nl_lassysmall-ud-dev.conllu
-[Line 5413 Sent wiki-737.p.10.s.3 Node 14]: [L3 Syntax punct-causes-nonproj] Punctuation must not cause non-projectivity of nodes [13]
-Syntax errors: 1
-*** FAILED *** with 1 errors
-Exit code: 1
+*** PASSED ***
 validate.py --lang nl --max-err=10 UD_Dutch-LassySmall/nl_lassysmall-ud-test.conllu
 *** PASSED ***
 validate.py --lang nl --max-err=10 UD_Dutch-LassySmall/nl_lassysmall-ud-train.conllu
-[Line 4472 Sent wiki-11.p.70.s.1 Node 42]: [L3 Syntax punct-is-nonproj] Punctuation must not be attached non-projectively over nodes [11, 12, 13, 14, 15]
-[Line 8044 Sent wiki-138.p.3.s.2 Node 11]: [L3 Syntax punct-is-nonproj] Punctuation must not be attached non-projectively over nodes [13]
-[Line 18642 Sent wiki-154.p.8.s.6 Node 12]: [L3 Syntax punct-causes-nonproj] Punctuation must not cause non-projectivity of nodes [11]
-[Line 103064 Sent wiki-9844.p.48.s.1 Node 48]: [L3 Syntax punct-is-nonproj] Punctuation must not be attached non-projectively over nodes [45]
-Syntax errors: 4
-*** FAILED *** with 4 errors
-Exit code: 1
-Validity: 0.01
+*** PASSED ***
+Validity: 1
 (weight=0.0769230769230769) * (score{features}=0.8) = 0.0615384615384615
 (weight=0.0769230769230769) * (score{genres}=0.0588235294117647) = 0.00452488687782805
 (weight=0.0769230769230769) * (score{lemmas}=0.8) = 0.0615384615384615
@@ -48,6 +39,6 @@ Validity: 0.01
 (weight=0.0769230769230769) * (score{tags}=0.752941176470588) = 0.0579185520361991
 (weight=0.307692307692308) * (score{udapi}=0.01) = 0.00307692307692308
 (weight=0.0769230769230769) * (score{udeprels}=0.627027027027027) = 0.0482328482328482
-(TOTAL score=0.458342953444904) * (availability=1) * (validity=0.01) = 0.00458342953444904
-STARS = 0
-UD_Dutch-LassySmall	0.00458342953444904	0
+(TOTAL score=0.458342953444904) * (availability=1) * (validity=1) = 0.458342953444904
+STARS = 2.5
+UD_Dutch-LassySmall	0.458342953444904	2.5

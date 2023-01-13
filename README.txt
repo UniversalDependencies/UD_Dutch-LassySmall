@@ -6,7 +6,7 @@ Universal Dependency annotation was generated automatically from the original an
 
 # Introduction
 
-The Lassy Small Treebank (https://www.let.rug.nl/~vannoord/Lassy/) is a manually verified treebank for Dutch, annotated with both phrasal nodes and dependency labels (as in the German Tiger treebanks and as in earlier treebank efforts for Dutch). The annotation was converted automatically to UD.  The (XQuery) conversion script is available for download at https://github.com/gossebouma/lassy2ud. It can be used to convert additional material annotated according to Lassy/CGN guidelines or annotated automatically using the Alpino parser.
+The Lassy Small Treebank (https://www.let.rug.nl/~vannoord/Lassy/) is a manually verified treebank for Dutch, annotated with both phrasal nodes and dependency labels (as in the German Tiger treebanks and as in earlier treebank efforts for Dutch). The annotation was converted automatically to UD.  The (Go and XQuery) conversion script is available for download at https://github.com/rug-compling/alud. It can be used to convert additional material annotated according to Lassy/CGN guidelines or annotated automatically using the Alpino parser.
 
 As not all material in the Lassy Small Treebank can be made freely available, only the material from the Wikipedia (wiki) section is included in UD_Dutch-LassySmall. The train, development, and test sections consist of 6641, 350, and 350 sentences, respectively, taken from a random shuffle of the original dataset.
 
@@ -22,6 +22,7 @@ in: Proceedings of the Universal Dependencies Workshop, Gothenburg, 22 May 2017
 
 van Noord G. et al. (2013) Large Scale Syntactic Annotation of Written Dutch: Lassy. In: Spyns P., Odijk J. (eds) Essential Speech and Language Technology for Dutch. Theory and Applications of Natural Language Processing. Springer, Berlin, Heidelberg https://doi.org/10.1007/978-3-642-30910-6_9
 
+Bouma, Gosse. "Comparing two methods for adding Enhanced Dependencies to UD treebanks." Proceedings of the 17th International Workshop on Treebanks and Linguistic Theories (TLT 2018), December 13–14, 2018, Oslo University, Norway. No. 155. Linköping University Electronic Press, 2018. https://ep.liu.se/ecp/155/ecp18155.pdf#page=25
 
 Changelog
 

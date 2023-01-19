@@ -2119,7 +2119,7 @@
 # sent_id = wiki-3781.p.6.s.1
 # text = Provinciehoofdplaats: Leuven
 # auto = ALUD2.8.1
-1	Provinciehoofdplaats	provincie_hoofdplaats	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	0	root	0:root	SpaceAfter=No
+1	Provinciehoofdplaats	provincie_hoofd_plaats	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	0	root	0:root	SpaceAfter=No
 2	:	:	PUNCT	LET	_	3	punct	3:punct	_
 3	Leuven	Leuven	PROPN	N|eigen|ev|basis|onz|stan	Gender=Neut|Number=Sing	1	appos	1:appos	_
 
@@ -10817,9 +10817,9 @@
 # sent_id = wiki-9843.p.11.s.1
 # text = Suske en Wiske
 # auto = ALUD2.8.1
-1	Suske	Suske	PROPN	SPEC|deeleigen	_	0	root	0:root	_
-2	en	en	PROPN	SPEC|deeleigen	_	1	flat	1:flat	_
-3	Wiske	Wiske	PROPN	SPEC|deeleigen	_	1	flat	1:flat	_
+1	Suske	Suske	PROPN	N|eigen|ev|basis|zijd|stan	Gender=Com|Number=Sing	0	root	0:root	_
+2	en	en	CCONJ	VG|neven	_	1	flat	1:flat	_
+3	Wiske	Wiske	PROPN	N|eigen|ev|basis|zijd|stan	Gender=Com|Number=Sing	1	flat	1:flat	_
 
 # source = LassyDevelop/wiki-9843/wiki-9843.p.12.s.1.xml
 # sent_id = wiki-9843.p.12.s.1
@@ -10851,9 +10851,9 @@
 24	figuren	figuur	NOUN	N|soort|mv|basis	Number=Plur	20	nmod	20:nmod:rond	SpaceAfter=No
 25	;	;	PUNCT	LET	_	27	punct	27:punct	_
 26	«	«	PUNCT	LET	_	27	punct	27:punct	_
-27	Suske	Suske	PROPN	SPEC|deeleigen	_	24	appos	24:appos	_
-28	en	en	PROPN	SPEC|deeleigen	_	27	flat	27:flat	_
-29	Wiske	Wiske	PROPN	SPEC|deeleigen	_	27	flat	27:flat	_
+27	Suske	Suske	PROPN	N|eigen|ev|basis|zijd|stan	Gender=Com|Number=Sing	24	appos	24:appos	_
+28	en	en	CCONJ	VG|neven	_	27	flat	27:flat	_
+29	Wiske	Wiske	PROPN	N|eigen|ev|basis|zijd|stan	Gender=Com|Number=Sing	27	flat	27:flat	_
 30	»	»	PUNCT	LET	_	27	punct	27:punct	SpaceAfter=No
 31	.	.	PUNCT	LET	_	9	punct	9:punct	_
 
@@ -11140,9 +11140,9 @@
 3	tweede	twee	ADJ	TW|rang|prenom|stan	_	4	amod	4:amod	_
 4	plaats	plaats	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	5	obl	5:obl:in	_
 5	kregen	mee_krijgen	VERB	WW|pv|verl|mv	Number=Plur|Tense=Past|VerbForm=Fin	0	root	0:root	_
-6	Suske	Suske	PROPN	SPEC|deeleigen	_	5	nsubj	5:nsubj	_
-7	en	en	PROPN	SPEC|deeleigen	_	6	flat	6:flat	_
-8	Wiske	Wiske	PROPN	SPEC|deeleigen	_	6	flat	6:flat	_
+6	Suske	Suske	PROPN	N|eigen|ev|basis|zijd|stan	Gender=Com|Number=Sing	5	nsubj	5:nsubj	_
+7	en	en	CCONJ	VG|neven	_	6	flat	6:flat	_
+8	Wiske	Wiske	PROPN	N|eigen|ev|basis|zijd|stan	Gender=Com|Number=Sing	6	flat	6:flat	_
 9	een	een	DET	LID|onbep|stan|agr	Definite=Ind	11	det	11:det	_
 10	eigen	eigen	ADJ	ADJ|prenom|basis|zonder	Degree=Pos	11	amod	11:amod	_
 11	volksaard	volk_aard	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	5	obj	5:obj	_
@@ -11454,9 +11454,9 @@
 # sent_id = wiki-9843.p.16.s.1
 # text = Suske en Wiske werden zo'n succes dat mensen enkel de kranten waarin de strips verschenen kochten.
 # auto = ALUD2.8.1
-1	Suske	Suske	PROPN	SPEC|deeleigen	_	4	nsubj	4:nsubj	_
-2	en	en	PROPN	SPEC|deeleigen	_	1	flat	1:flat	_
-3	Wiske	Wiske	PROPN	SPEC|deeleigen	_	1	flat	1:flat	_
+1	Suske	Suske	PROPN	N|eigen|ev|basis|zijd|stan	Gender=Com|Number=Sing	4	nsubj	4:nsubj	_
+2	en	en	CCONJ	VG|neven	_	1	flat	1:flat	_
+3	Wiske	Wiske	PROPN	N|eigen|ev|basis|zijd|stan	Gender=Com|Number=Sing	1	flat	1:flat	_
 4	werden	worden	VERB	WW|pv|verl|mv	Number=Plur|Tense=Past|VerbForm=Fin	0	root	0:root	_
 5	zo'n	zo'n	DET	VNW|aanw|det|stan|prenom|zonder|agr	_	6	det	6:det	_
 6	succes	succes	NOUN	N|soort|ev|basis|onz|stan	Gender=Neut|Number=Sing	4	xcomp	4:xcomp	_
@@ -11536,9 +11536,9 @@
 6	die	die	DET	VNW|aanw|det|stan|prenom|zonder|rest	_	7	det	7:det	_
 7	dag	dag	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	12	obl	12:obl	_
 8	met	met	ADP	VZ|init	_	9	case	9:case	_
-9	Suske	Suske	PROPN	SPEC|deeleigen	_	12	obl	12:obl:met	_
-10	en	en	PROPN	SPEC|deeleigen	_	9	flat	9:flat	_
-11	Wiske	Wiske	PROPN	SPEC|deeleigen	_	9	flat	9:flat	_
+9	Suske	Suske	PROPN	N|eigen|ev|basis|zijd|stan	Gender=Com|Number=Sing	12	obl	12:obl:met	_
+10	en	en	CCONJ	VG|neven	_	9	flat	9:flat	_
+11	Wiske	Wiske	PROPN	N|eigen|ev|basis|zijd|stan	Gender=Com|Number=Sing	9	flat	9:flat	_
 12	gebeurd	gebeuren	VERB	WW|vd|vrij|zonder	VerbForm=Part	2	obj	2:obj	_
 13	was	zijn	AUX	WW|pv|verl|ev	Number=Sing|Tense=Past|VerbForm=Fin	12	aux	12:aux	_
 14	voor	voor	ADP	VZ|init	_	19	mark	19:mark	_
@@ -11611,9 +11611,9 @@
 6	de	de	DET	LID|bep|stan|rest	Definite=Def	7	det	7:det	_
 7	albums	album	NOUN	N|soort|mv|basis	Number=Plur	5	nsubj	5:nsubj	_
 8	van	van	ADP	VZ|init	_	9	case	9:case	_
-9	Suske	Suske	PROPN	SPEC|deeleigen	_	7	nmod	7:nmod:van	_
-10	en	en	PROPN	SPEC|deeleigen	_	9	flat	9:flat	_
-11	Wiske	Wiske	PROPN	SPEC|deeleigen	_	9	flat	9:flat	_
+9	Suske	Suske	PROPN	N|eigen|ev|basis|zijd|stan	Gender=Com|Number=Sing	7	nmod	7:nmod:van	_
+10	en	en	CCONJ	VG|neven	_	9	flat	9:flat	_
+11	Wiske	Wiske	PROPN	N|eigen|ev|basis|zijd|stan	Gender=Com|Number=Sing	9	flat	9:flat	_
 12	in	in	ADP	VZ|init	_	14	case	14:case	_
 13	twee	twee	NUM	TW|hoofd|prenom|stan	_	14	nummod	14:nummod	_
 14	kleuren	kleur	NOUN	N|soort|mv|basis	Number=Plur	5	obl	5:obl:in	SpaceAfter=No
@@ -11722,9 +11722,9 @@
 # text = In Suske en Wiske werden zelfs de namen van enkele hoofdpersonages veranderd: Tante Sidonie werd Sidonia en Wiske's pop Schabolleke (in sommige albums Schalulleke) werd Schanulleke.
 # auto = ALUD2.8.1
 1	In	in	ADP	VZ|init	_	2	case	2:case	_
-2	Suske	Suske	PROPN	SPEC|deeleigen	_	12	obl	12:obl:in	_
-3	en	en	PROPN	SPEC|deeleigen	_	2	flat	2:flat	_
-4	Wiske	Wiske	PROPN	SPEC|deeleigen	_	2	flat	2:flat	_
+2	Suske	Suske	PROPN	N|eigen|ev|basis|zijd|stan	Gender=Com|Number=Sing	12	obl	12:obl:in	_
+3	en	en	CCONJ	VG|neven	_	2	flat	2:flat	_
+4	Wiske	Wiske	PROPN	N|eigen|ev|basis|zijd|stan	Gender=Com|Number=Sing	2	flat	2:flat	_
 5	werden	worden	AUX	WW|pv|verl|mv	Number=Plur|Tense=Past|VerbForm=Fin	12	aux:pass	12:aux:pass	_
 6	zelfs	zelfs	ADV	BW	_	12	advmod	12:advmod	_
 7	de	de	DET	LID|bep|stan|rest	Definite=Def	8	det	8:det	_
@@ -11807,9 +11807,9 @@
 2	1974	1974	NUM	TW|hoofd|vrij	_	3	obl	3:obl:in	_
 3	gaf	geven	VERB	WW|pv|verl|ev	Number=Sing|Tense=Past|VerbForm=Fin	0	root	0:root	_
 4	hij	hij	PRON	VNW|pers|pron|nomin|vol|3|ev|masc	Case=Nom|Person=3|PronType=Prs	3	nsubj	3:nsubj	_
-5	Suske	Suske	PROPN	SPEC|deeleigen	_	3	obj	3:obj	_
-6	en	en	PROPN	SPEC|deeleigen	_	5	flat	5:flat	_
-7	Wiske	Wiske	PROPN	SPEC|deeleigen	_	5	flat	5:flat	_
+5	Suske	Suske	PROPN	N|eigen|ev|basis|zijd|stan	Gender=Com|Number=Sing	3	obj	3:obj	_
+6	en	en	CCONJ	VG|neven	_	5	flat	5:flat	_
+7	Wiske	Wiske	PROPN	N|eigen|ev|basis|zijd|stan	Gender=Com|Number=Sing	5	flat	5:flat	_
 8	uit	uit	ADP	VZ|init	_	9	case	9:case	_
 9	handen	hand	NOUN	N|soort|mv|basis	Number=Plur	3	xcomp	3:xcomp	SpaceAfter=No
 10	.	.	PUNCT	LET	_	3	punct	3:punct	_
@@ -11983,9 +11983,9 @@
 10	verscheidene	verscheiden	ADJ	ADJ|prenom|basis|met-e|stan	Degree=Pos	11	amod	11:amod	_
 11	verhalen	verhaal	NOUN	N|soort|mv|basis	Number=Plur	16	obj	16:obj|25:nsubj:pass	_
 12	rond	rond	ADP	VZ|init	_	13	case	13:case	_
-13	Suske	Suske	PROPN	SPEC|deeleigen	_	11	nmod	11:nmod:rond	_
-14	en	en	PROPN	SPEC|deeleigen	_	13	flat	13:flat	_
-15	Wiske	Wiske	PROPN	SPEC|deeleigen	_	13	flat	13:flat	_
+13	Suske	Suske	PROPN	N|eigen|ev|basis|zijd|stan	Gender=Com|Number=Sing	11	nmod	11:nmod:rond	_
+14	en	en	CCONJ	VG|neven	_	13	flat	13:flat	_
+15	Wiske	Wiske	PROPN	N|eigen|ev|basis|zijd|stan	Gender=Com|Number=Sing	13	flat	13:flat	_
 16	tekenen	tekenen	VERB	WW|inf|vrij|zonder	VerbForm=Inf	0	root	0:root	_
 17	die	die	PRON	VNW|betr|pron|stan|vol|persoon|getal	PronType=Rel	25	nsubj:pass	11:ref	_
 18	later	laat	ADJ	ADJ|vrij|comp|zonder	Degree=Cmp	25	advmod	25:advmod	_
@@ -12670,13 +12670,13 @@
 21	gelezen	lezen	VERB	WW|vd|vrij|zonder	VerbForm=Part	15	nmod	15:nmod	_
 22	had	hebben	AUX	WW|pv|verl|ev	Number=Sing|Tense=Past|VerbForm=Fin	21	aux	21:aux	_
 23	en	en	CCONJ	VG|neven	_	31	cc	31:cc	_
-24	waar	waar	ADV	VNW|vb|adv-pron|obl|vol|3o|getal	_	31	obj	31:obj	_
+24	waar	waar	ADV	VNW|vb|adv-pron|obl|vol|3o|getal	_	31	obl	31:obl:rond	_
 25	hij	hij	PRON	VNW|pers|pron|nomin|vol|3|ev|masc	Case=Nom|Person=3|PronType=Prs	31	nsubj	31:nsubj	_
 26	dan	dan	ADV	BW	_	31	advmod	31:advmod	_
 27	zijn	zijn	PRON	VNW|bez|det|stan|vol|3|ev|prenom|zonder|agr	Person=3|Poss=Yes|PronType=Prs	29	nmod:poss	29:nmod:poss	_
 28	eigen	eigen	ADJ	ADJ|prenom|basis|zonder	Degree=Pos	29	amod	29:amod	_
 29	verhalen	verhaal	NOUN	N|soort|mv|basis	Number=Plur	31	obj	31:obj	_
-30	rond	rond	ADP	VZ|fin	_	24	obl	24:obl	_
+30	rond	rond	ADP	VZ|fin	_	24	case	24:case	_
 31	bedacht	bedenken	VERB	WW|pv|verl|ev	Number=Sing|Tense=Past|VerbForm=Fin	21	conj	15:nmod|21:conj:en	_
 32	(	(	PUNCT	LET	_	38	punct	38:punct	SpaceAfter=No
 33	«	«	PUNCT	LET	_	34	punct	34:punct	_
@@ -12816,10 +12816,10 @@
 13	,	,	PUNCT	LET	_	15	punct	15:punct	_
 14	een	een	DET	LID|onbep|stan|agr	Definite=Ind	15	det	15:det	_
 15	serie	serie	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	9	appos	9:appos	_
-16	waar	waar	ADV	VNW|vb|adv-pron|obl|vol|3o|getal	_	20	obj	20:obj	_
+16	waar	waar	ADV	VNW|vb|adv-pron|obl|vol|3o|getal	_	20	obl	20:obl:van	_
 17	tien	tien	NUM	TW|hoofd|prenom|stan	_	18	nummod	18:nummod	_
 18	albums	album	NOUN	N|soort|mv|basis	Number=Plur	20	nsubj	20:nsubj	_
-19	van	van	ADP	VZ|fin	_	16	obl	16:obl	_
+19	van	van	ADP	VZ|fin	_	16	case	16:case	_
 20	verschenen	verschijnen	VERB	WW|pv|verl|mv	Number=Plur|Tense=Past|VerbForm=Fin	15	nmod	15:nmod	_
 21	en	en	CCONJ	VG|neven	_	27	cc	27:cc	_
 22	die	die	PRON	VNW|betr|pron|stan|vol|persoon|getal	PronType=Rel	28	obj	28:obj	_
@@ -12931,9 +12931,9 @@
 16	geworden	worden	VERB	WW|vd|vrij|zonder	VerbForm=Part	4	acl	4:acl:dat	_
 17	en	en	CCONJ	VG|neven	_	25	cc	25:cc	_
 18	vooral	vooral	ADV	BW	_	19	amod	19:amod	_
-19	Suske	Suske	PROPN	SPEC|deeleigen	_	25	nsubj	25:nsubj	_
-20	en	en	PROPN	SPEC|deeleigen	_	19	flat	19:flat	_
-21	Wiske	Wiske	PROPN	SPEC|deeleigen	_	19	flat	19:flat	_
+19	Suske	Suske	PROPN	N|eigen|ev|basis|zijd|stan	Gender=Com|Number=Sing	25	nsubj	25:nsubj	_
+20	en	en	CCONJ	VG|neven	_	19	flat	19:flat	_
+21	Wiske	Wiske	PROPN	N|eigen|ev|basis|zijd|stan	Gender=Com|Number=Sing	19	flat	19:flat	_
 22	niet	niet	ADV	BW	_	25	advmod	25:advmod	_
 23	meer	veel	ADV	VNW|onbep|grad|stan|vrij|zonder|comp	_	22	advmod	22:advmod	_
 24	zo	zo	ADV	BW	_	25	advmod	25:advmod|27:advmod	_
@@ -12966,9 +12966,9 @@
 9	Rode	rood	ADJ	ADJ|prenom|basis|met-e|stan	Degree=Pos	8	fixed	8:fixed	_
 10	Ridder	ridder	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	8	fixed	8:fixed	_
 11	en	en	CCONJ	VG|neven	_	12	cc	12:cc	_
-12	Suske	Suske	PROPN	SPEC|deeleigen	_	8	conj	5:nsubj|8:conj:en	_
-13	en	en	PROPN	SPEC|deeleigen	_	12	flat	12:flat	_
-14	Wiske	Wiske	PROPN	SPEC|deeleigen	_	12	flat	12:flat	_
+12	Suske	Suske	PROPN	N|eigen|ev|basis|zijd|stan	Gender=Com|Number=Sing	8	conj	5:nsubj|8:conj:en	_
+13	en	en	CCONJ	VG|neven	_	12	flat	12:flat	_
+14	Wiske	Wiske	PROPN	N|eigen|ev|basis|zijd|stan	Gender=Com|Number=Sing	12	flat	12:flat	_
 15	zich	zich	PRON	VNW|refl|pron|obl|red|3|getal	Case=Acc|Person=3|PronType=Prs|Reflex=Yes	19	obj	19:obj	_
 16	nog	nog	ADV	BW	_	5	advmod	5:advmod	_
 17	staande	staan	VERB	WW|od|vrij|zonder	VerbForm=Part	19	compound:prt	19:compound:prt	_
@@ -13003,9 +13003,9 @@
 21	van	van	ADP	VZ|init	_	23	case	23:case	_
 22	de	de	DET	LID|bep|stan|rest	Definite=Def	23	det	23:det	_
 23	stripreeks	strip_reeks	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	20	obl	20:obl:van	_
-24	Suske	Suske	PROPN	SPEC|deeleigen	_	23	appos	23:appos	_
-25	en	en	PROPN	SPEC|deeleigen	_	24	flat	24:flat	_
-26	Wiske	Wiske	PROPN	SPEC|deeleigen	_	24	flat	24:flat	SpaceAfter=No
+24	Suske	Suske	PROPN	N|eigen|ev|basis|zijd|stan	Gender=Com|Number=Sing	23	appos	23:appos	_
+25	en	en	CCONJ	VG|neven	_	24	flat	24:flat	_
+26	Wiske	Wiske	PROPN	N|eigen|ev|basis|zijd|stan	Gender=Com|Number=Sing	24	flat	24:flat	SpaceAfter=No
 27	.	.	PUNCT	LET	_	17	punct	17:punct	_
 
 # source = LassyDevelop/wiki-9843/wiki-9843.p.30.s.1.xml
@@ -13294,9 +13294,9 @@
 6	er	er	ADV	VNW|aanw|adv-pron|stan|red|3|getal	_	20	advmod	20:advmod	_
 7	in	in	ADP	VZ|init	_	9	case	9:case	_
 8	"	"	PUNCT	LET	_	9	punct	9:punct	SpaceAfter=No
-9	Suske	Suske	PROPN	SPEC|deeleigen	_	20	obl	20:obl:in	_
-10	en	en	PROPN	SPEC|deeleigen	_	9	flat	9:flat	_
-11	Wiske	Wiske	PROPN	SPEC|deeleigen	_	9	flat	9:flat	SpaceAfter=No
+9	Suske	Suske	PROPN	N|eigen|ev|basis|zijd|stan	Gender=Com|Number=Sing	20	obl	20:obl:in	_
+10	en	en	CCONJ	VG|neven	_	9	flat	9:flat	_
+11	Wiske	Wiske	PROPN	N|eigen|ev|basis|zijd|stan	Gender=Com|Number=Sing	9	flat	9:flat	SpaceAfter=No
 12	"	"	PUNCT	LET	_	9	punct	9:punct	_
 13	ook	ook	ADV	BW	_	14	advmod	14:advmod	_
 14	af	af	ADP	VZ|fin	_	20	advmod	20:advmod	_
@@ -13349,9 +13349,9 @@
 1	Zeker	zeker	ADJ	ADJ|vrij|basis|zonder	Degree=Pos	4	amod	4:amod	_
 2	in	in	ADP	VZ|init	_	4	case	4:case	_
 3	"	"	PUNCT	LET	_	4	punct	4:punct	SpaceAfter=No
-4	Suske	Suske	PROPN	SPEC|deeleigen	_	8	obl	8:obl:in	_
-5	en	en	PROPN	SPEC|deeleigen	_	4	flat	4:flat	_
-6	Wiske	Wiske	PROPN	SPEC|deeleigen	_	4	flat	4:flat	SpaceAfter=No
+4	Suske	Suske	PROPN	N|eigen|ev|basis|zijd|stan	Gender=Com|Number=Sing	8	obl	8:obl:in	_
+5	en	en	CCONJ	VG|neven	_	4	flat	4:flat	_
+6	Wiske	Wiske	PROPN	N|eigen|ev|basis|zijd|stan	Gender=Com|Number=Sing	4	flat	4:flat	SpaceAfter=No
 7	"	"	PUNCT	LET	_	4	punct	4:punct	_
 8	speelde	spelen	VERB	WW|pv|verl|ev	Number=Sing|Tense=Past|VerbForm=Fin	0	root	0:root	_
 9	Vandersteen	Vandersteen	PROPN	N|eigen|ev|basis|zijd|stan	Gender=Com|Number=Sing	8	nsubj	8:nsubj	_
@@ -13385,7 +13385,7 @@
 2	rijm	rijm	NOUN	N|soort|ev|basis|onz|stan	Gender=Neut|Number=Sing	20	nsubj	20:nsubj	SpaceAfter=No
 3	,	,	PUNCT	LET	_	4	punct	4:punct	_
 4	pseudo	pseudo	ADJ	ADJ|prenom|basis|zonder	Degree=Pos	2	conj	2:conj:en|20:nsubj	_
-5	oud-Nederlands	oud-Nederlands	PROPN	N|eigen|ev|basis|onz|stan	Gender=Neut|Number=Sing	4	nmod	4:nmod	SpaceAfter=No
+5	oud-Nederlands	oud_Nederlands	PROPN	N|eigen|ev|basis|onz|stan	Gender=Neut|Number=Sing	4	nmod	4:nmod	SpaceAfter=No
 6	,	,	PUNCT	LET	_	9	punct	9:punct	_
 7	achterstevoren	achterstevoren	ADV	BW	_	8	advmod	8:advmod	_
 8	uitgesproken	uit_spreken	VERB	WW|vd|prenom|zonder	VerbForm=Part	9	acl	9:acl	_
@@ -13503,9 +13503,9 @@
 1	In	in	ADP	VZ|init	_	2	case	2:case	_
 2	1978	1978	NUM	TW|hoofd|vrij	_	3	obl	3:obl:in	_
 3	kregen	krijgen	VERB	WW|pv|verl|mv	Number=Plur|Tense=Past|VerbForm=Fin	0	root	0:root	_
-4	Suske	Suske	PROPN	SPEC|deeleigen	_	3	nsubj	3:nsubj	_
-5	en	en	PROPN	SPEC|deeleigen	_	4	flat	4:flat	_
-6	Wiske	Wiske	PROPN	SPEC|deeleigen	_	4	flat	4:flat	_
+4	Suske	Suske	PROPN	N|eigen|ev|basis|zijd|stan	Gender=Com|Number=Sing	3	nsubj	3:nsubj	_
+5	en	en	CCONJ	VG|neven	_	4	flat	4:flat	_
+6	Wiske	Wiske	PROPN	N|eigen|ev|basis|zijd|stan	Gender=Com|Number=Sing	4	flat	4:flat	_
 7	een	een	DET	LID|onbep|stan|agr	Definite=Ind	8	det	8:det	_
 8	standbeeld	stand_beeld	NOUN	N|soort|ev|basis|onz|stan	Gender=Neut|Number=Sing	3	obj	3:obj	_
 9	in	in	ADP	VZ|init	_	12	case	12:case	_
@@ -13523,9 +13523,9 @@
 3	'80	'80	NUM	TW|hoofd|vrij	_	2	appos	2:appos	_
 4	werden	worden	AUX	WW|pv|verl|mv	Number=Plur|Tense=Past|VerbForm=Fin	12	aux:pass	12:aux:pass	_
 5	enkele	enkel	DET	VNW|onbep|det|stan|prenom|met-e|rest	_	9	det	9:det	_
-6	Suske	Suske	PROPN	SPEC|deeleigen	_	9	nmod	9:nmod	_
-7	en	en	PROPN	SPEC|deeleigen	_	6	flat	6:flat	_
-8	Wiske	Wiske	PROPN	SPEC|deeleigen	_	6	flat	6:flat	_
+6	Suske	Suske	PROPN	N|eigen|ev|basis|zijd|stan	Gender=Com|Number=Sing	9	nmod	9:nmod	_
+7	en	en	CCONJ	VG|neven	_	6	flat	6:flat	_
+8	Wiske	Wiske	PROPN	N|eigen|ev|basis|zijd|stan	Gender=Com|Number=Sing	6	flat	6:flat	_
 9	albums	album	NOUN	N|soort|mv|basis	Number=Plur	12	nsubj:pass	12:nsubj:pass	_
 10	tot	tot	ADP	VZ|init	_	11	case	11:case	_
 11	tekenfilms	teken_film	NOUN	N|soort|mv|basis	Number=Plur	12	obl	12:obl:tot	_
@@ -13585,9 +13585,9 @@
 7	ook	ook	ADV	BW	_	19	advmod	19:advmod	_
 8	de	de	DET	LID|bep|stan|rest	Definite=Def	13	det	13:det	_
 9	oude	oud	ADJ	ADJ|prenom|basis|met-e|stan	Degree=Pos	13	amod	13:amod	_
-10	Suske	Suske	PROPN	SPEC|deeleigen	_	13	nmod	13:nmod	_
-11	en	en	PROPN	SPEC|deeleigen	_	10	flat	10:flat	_
-12	Wiske	Wiske	PROPN	SPEC|deeleigen	_	10	flat	10:flat	_
+10	Suske	Suske	PROPN	N|eigen|ev|basis|zijd|stan	Gender=Com|Number=Sing	13	nmod	13:nmod	_
+11	en	en	CCONJ	VG|neven	_	10	flat	10:flat	_
+12	Wiske	Wiske	PROPN	N|eigen|ev|basis|zijd|stan	Gender=Com|Number=Sing	10	flat	10:flat	_
 13	verhalen	verhaal	NOUN	N|soort|mv|basis	Number=Plur	19	nsubj:pass	19:nsubj:pass	_
 14	in	in	ADP	VZ|init	_	17	case	17:case	_
 15	hun	hun	PRON	VNW|bez|det|stan|vol|3|mv|prenom|zonder|agr	Person=3|Poss=Yes|PronType=Prs	17	nmod:poss	17:nmod:poss	_
@@ -13701,9 +13701,9 @@
 10	later	laat	ADJ	ADJ|vrij|comp|zonder	Degree=Cmp	8	conj	8:conj:of|17:obl:in	_
 11	minstens	minstens	ADV	BW	_	17	advmod	17:advmod	_
 12	"	"	PUNCT	LET	_	13	punct	13:punct	SpaceAfter=No
-13	Suske	Suske	PROPN	SPEC|deeleigen	_	17	obj	17:obj	_
-14	en	en	PROPN	SPEC|deeleigen	_	13	flat	13:flat	_
-15	Wiske	Wiske	PROPN	SPEC|deeleigen	_	13	flat	13:flat	SpaceAfter=No
+13	Suske	Suske	PROPN	N|eigen|ev|basis|zijd|stan	Gender=Com|Number=Sing	17	obj	17:obj	_
+14	en	en	CCONJ	VG|neven	_	13	flat	13:flat	_
+15	Wiske	Wiske	PROPN	N|eigen|ev|basis|zijd|stan	Gender=Com|Number=Sing	13	flat	13:flat	SpaceAfter=No
 16	"	"	PUNCT	LET	_	13	punct	13:punct	_
 17	gelezen	lezen	VERB	WW|vd|vrij|zonder	VerbForm=Part	0	root	0:root	SpaceAfter=No
 18	.	.	PUNCT	LET	_	17	punct	17:punct	_
@@ -13804,19 +13804,19 @@
 5	een	een	DET	LID|onbep|stan|agr	Definite=Ind	8	det	8:det	_
 6	beruchte	berucht	ADJ	ADJ|prenom|basis|met-e|stan	Degree=Pos	8	amod	8:amod	_
 7	pornografische	pornografisch	ADJ	ADJ|prenom|basis|met-e|stan	Degree=Pos	8	amod	8:amod	_
-8	parodie	parodie	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	3	nsubj	3:nsubj|21:obj	_
+8	parodie	parodie	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	3	nsubj	3:nsubj|21:obl	_
 9	rond	rond	ADP	VZ|init	_	10	case	10:case	_
-10	Suske	Suske	PROPN	SPEC|deeleigen	_	8	nmod	8:nmod:rond	_
-11	en	en	PROPN	SPEC|deeleigen	_	10	flat	10:flat	_
-12	Wiske	Wiske	PROPN	SPEC|deeleigen	_	10	flat	10:flat	_
-13	waar	waar	ADV	VNW|vb|adv-pron|obl|vol|3o|getal	_	21	obj	8:ref	_
+10	Suske	Suske	PROPN	N|eigen|ev|basis|zijd|stan	Gender=Com|Number=Sing	8	nmod	8:nmod:rond	_
+11	en	en	CCONJ	VG|neven	_	10	flat	10:flat	_
+12	Wiske	Wiske	PROPN	N|eigen|ev|basis|zijd|stan	Gender=Com|Number=Sing	10	flat	10:flat	_
+13	waar	waar	ADV	VNW|vb|adv-pron|obl|vol|3o|getal	_	21	obl	8:ref	_
 14	Vandersteen	Vandersteen	PROPN	N|eigen|ev|basis|zijd|stan	Gender=Com|Number=Sing	21	nsubj	21:nsubj	_
 15	naar	naar	ADP	VZ|init	_	16	mark	16:mark	_
 16	verluid	verluiden	VERB	WW|vd|vrij|zonder	VerbForm=Part	21	advcl	21:advcl:naar	_
 17	ook	ook	ADV	BW	_	21	advmod	21:advmod	_
 18	een	een	DET	LID|onbep|stan|agr	Definite=Ind	19	det	19:det	_
 19	exemplaar	exemplaar	NOUN	N|soort|ev|basis|onz|stan	Gender=Neut|Number=Sing	21	obj	21:obj	_
-20	van	van	ADP	VZ|fin	_	13	obl	13:obl	_
+20	van	van	ADP	VZ|fin	_	13	case	13:case	_
 21	gekocht	kopen	VERB	WW|vd|vrij|zonder	VerbForm=Part	8	acl:relcl	8:acl:relcl	_
 22	zou	zullen	AUX	WW|pv|verl|ev	Number=Sing|Tense=Past|VerbForm=Fin	21	aux	21:aux	_
 23	hebben	hebben	AUX	WW|inf|vrij|zonder	VerbForm=Inf	21	aux	21:aux	SpaceAfter=No
@@ -13999,9 +13999,9 @@
 # text = « Suske en Wiske » 1945-heden
 # auto = ALUD2.8.1
 1	«	«	PUNCT	LET	_	2	punct	2:punct	_
-2	Suske	Suske	PROPN	SPEC|deeleigen	_	0	root	0:root	_
-3	en	en	PROPN	SPEC|deeleigen	_	2	flat	2:flat	_
-4	Wiske	Wiske	PROPN	SPEC|deeleigen	_	2	flat	2:flat	_
+2	Suske	Suske	PROPN	N|eigen|ev|basis|zijd|stan	Gender=Com|Number=Sing	0	root	0:root	_
+3	en	en	CCONJ	VG|neven	_	2	flat	2:flat	_
+4	Wiske	Wiske	PROPN	N|eigen|ev|basis|zijd|stan	Gender=Com|Number=Sing	2	flat	2:flat	_
 5	»	»	PUNCT	LET	_	2	punct	2:punct	_
 6	1945-heden	1945-heden	SYM	SPEC|symb	_	2	parataxis	2:parataxis	_
 
@@ -14754,7 +14754,6 @@
 # source = LassyDevelop/wiki-737/wiki-737.p.10.s.3.xml
 # sent_id = wiki-737.p.10.s.3
 # text = Hergé wou de Joods klinkende naam van de schurk (met een behoorlijk 'Joodse neus') vervangen, maar de vervanging - wat gewoon Brussels is voor een soort snoepwinkel - bleek ook Joods te zijn.
-# auto = ALUD2.8.1
 1	Hergé	Hergé	PROPN	N|eigen|ev|basis|zijd|stan	Gender=Com|Number=Sing	2	nsubj	2:nsubj|19:nsubj:xsubj	_
 2	wou	willen	VERB	WW|pv|verl|ev	Number=Sing|Tense=Past|VerbForm=Fin	0	root	0:root	_
 3	de	de	DET	LID|bep|stan|rest	Definite=Def	6	det	6:det	_

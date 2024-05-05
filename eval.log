@@ -1,13 +1,13 @@
 Running the following version of UD tools:
-commit e9726a6a7d6913193d90edb45a4cb549235c5b16
+commit 78ce4b21495c6e4c17a7b07925bec1267d833d14
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Sat Nov 4 17:10:55 2023 +0100
+Date:   Sun May 5 09:21:16 2024 +0200
 Evaluating the following revision of UD_Dutch-LassySmall:
-commit c18b7641f0b9ac6c54b247a0f8192528a151ec4e
+commit a09ae2d55fe02d32c8c73959dcf3ab5821c6dcc0
+Merge: 0592c5d d66d1f2
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Tue May 9 09:53:31 2023 +0200
-Size: counted 98107 of 98107 words (nodes).
-Size: min(0, log((N/1000)**2)) = 9.17211743957009.
+Size: counted 297065 of 297065 words (nodes).
+Size: min(0, log((N/1000)**2)) = 11.3879019401525.
 Size: maximum value 13.815511 is for 1000000 words or more.
 Split: Found more than 10000 training words.
 Split: Found at least 10000 development words.
@@ -15,30 +15,38 @@ Split: Found at least 10000 test words.
 Lemmas: source of annotation (from README) factor is 0.8.
 Universal POS tags: 16 out of 17 found in the corpus.
 Universal POS tags: source of annotation (from README) factor is 0.8.
-Features: 50914 out of 98107 total words have one or more features.
+Features: 167926 out of 297065 total words have one or more features.
 Features: source of annotation (from README) factor is 0.8.
 Universal relations: 29 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 0.8.
 Udapi:
-               TOTAL      20569
-Udapi: found 20569 bugs.
-Udapi: worst expected case (threshold) is one bug per 10 words. There are 98107 words.
+               TOTAL      65333
+Udapi: found 65333 bugs.
+Udapi: worst expected case (threshold) is one bug per 10 words. There are 297065 words.
 Genres: found 1 out of 17 known.
 /net/work/people/zeman/unidep/tools/validate.py --lang nl --max-err=10 UD_Dutch-LassySmall/nl_lassysmall-ud-dev.conllu
 *** PASSED ***
 /net/work/people/zeman/unidep/tools/validate.py --lang nl --max-err=10 UD_Dutch-LassySmall/nl_lassysmall-ud-test.conllu
 *** PASSED ***
 /net/work/people/zeman/unidep/tools/validate.py --lang nl --max-err=10 UD_Dutch-LassySmall/nl_lassysmall-ud-train.conllu
+[Line 111121 Sent WR-P-E-I-0000000006.p.2.s.1 Node 5]: [L3 Warning fixed-gap] Gaps in fixed expression [5, 8] '10 * * duizend'
+[Line 111840 Sent WR-P-E-I-0000000008.p.3.s.1 Node 19]: [L3 Warning fixed-gap] Gaps in fixed expression [19, 22] 'vijf * * uur'
+[Line 119031 Sent WR-P-E-I-0000000332.p.4.s.286 Node 14]: [L3 Warning fixed-gap] Gaps in fixed expression [14, 17, 18] 'wat * * voor een'
+[Line 256644 Sent WR-P-E-I-0000044854.p.3.s.102 Node 1]: [L3 Warning fixed-gap] Gaps in fixed expression [1, 2, 6] 'Ten zuiden * * * van'
+[Line 270388 Sent WR-P-E-I-0000049645.p.1.s.160.2 Node 6]: [L3 Warning fixed-gap] Gaps in fixed expression [6, 7, 8, 14] '8 - 12 * * * * * u'
+[Line 280044 Sent WR-P-E-I-0000050381.p.1.s.274 Node 8]: [L3 Warning fixed-gap] Gaps in fixed expression [8, 11] 'wat * * voor'
+[Line 322736 Sent WR-P-E-I-0000108667.p.3.s.8 Node 13]: [L3 Warning fixed-gap] Gaps in fixed expression [13, 14, 16] 'in tegenstelling * tot'
+Warnings: 7
 *** PASSED ***
 Validity: 1
 (weight=0.0769230769230769) * (score{features}=0.8) = 0.0615384615384615
 (weight=0.0769230769230769) * (score{genres}=0.0588235294117647) = 0.00452488687782805
 (weight=0.0769230769230769) * (score{lemmas}=0.8) = 0.0615384615384615
-(weight=0.256410256410256) * (score{size}=0.663899998562312) = 0.170230768862131
+(weight=0.256410256410256) * (score{size}=0.824283828843927) = 0.211354827908699
 (weight=0.0512820512820513) * (score{split}=1) = 0.0512820512820513
 (weight=0.0769230769230769) * (score{tags}=0.752941176470588) = 0.0579185520361991
 (weight=0.307692307692308) * (score{udapi}=0.01) = 0.00307692307692308
 (weight=0.0769230769230769) * (score{udeprels}=0.627027027027027) = 0.0482328482328482
-(TOTAL score=0.458342953444904) * (availability=1) * (validity=1) = 0.458342953444904
+(TOTAL score=0.499467012491472) * (availability=1) * (validity=1) = 0.499467012491472
 STARS = 2.5
-UD_Dutch-LassySmall	0.458342953444904	2.5
+UD_Dutch-LassySmall	0.499467012491472	2.5

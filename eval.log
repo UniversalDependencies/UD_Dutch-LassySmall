@@ -1,11 +1,11 @@
 Running the following version of UD tools:
-commit 78ce4b21495c6e4c17a7b07925bec1267d833d14
+commit c1984d97df0ecdcc1b50fbeaa8c96419c6321432
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Sun May 5 09:21:16 2024 +0200
+Date:   Sun Nov 10 10:33:45 2024 +0100
 Evaluating the following revision of UD_Dutch-LassySmall:
-commit a09ae2d55fe02d32c8c73959dcf3ab5821c6dcc0
-Merge: 0592c5d d66d1f2
+commit 88c1ff4e64ab766e520cacb6ca6b9fe684274fbf
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
+Date:   Sun May 5 12:08:39 2024 +0200
 Size: counted 297065 of 297065 words (nodes).
 Size: min(0, log((N/1000)**2)) = 11.3879019401525.
 Size: maximum value 13.815511 is for 1000000 words or more.
@@ -25,18 +25,39 @@ Udapi: found 65333 bugs.
 Udapi: worst expected case (threshold) is one bug per 10 words. There are 297065 words.
 Genres: found 1 out of 17 known.
 /net/work/people/zeman/unidep/tools/validate.py --lang nl --max-err=10 UD_Dutch-LassySmall/nl_lassysmall-ud-dev.conllu
+[Line 237 Sent wiki-1181.p.13.s.3 Node 12]: [L3 Warning leaf-det] 'det' not expected to have children (12:meer:det --> 11:iets:amod)
+[Line 241 Sent wiki-1181.p.13.s.3 Node 12]: [L3 Warning leaf-det] 'det' not expected to have children (12:meer:det --> 15:miljoen:advcl)
+[Line 679 Sent wiki-1181.p.3.s.3 Node 3]: [L3 Warning leaf-det] 'det' not expected to have children (3:geen:det --> 2:net:amod)
+[Line 3213 Sent wiki-5107.p.7.s.4 Node 43]: [L3 Warning leaf-det] 'det' not expected to have children (43:wat:det --> 42:behoorlijk:amod)
+[Line 12005 Sent wiki-9843.p.16.s.1 Node 5]: [L3 Warning leaf-det] 'det' not expected to have children (5:zo'n:det --> 16:kochten:advcl)
+[Line 12969 Sent wiki-9843.p.23.s.6 Node 4]: [L3 Warning leaf-det] 'det' not expected to have children (4:deze:det --> 3:al:amod)
+[Line 12995 Sent wiki-9843.p.23.s.7 Node 5]: [L3 Warning leaf-det] 'det' not expected to have children (5:de:det --> 4:al:amod)
+[Line 15555 Sent WR-P-E-I-0000000001.p.18.s.1 Node 4]: [L3 Warning leaf-det] 'det' not expected to have children (4:veel:det --> 3:zeer:amod)
+[Line 16412 Sent WR-P-E-I-0000000001.p.7.s.5 Node 5]: [L3 Warning leaf-det] 'det' not expected to have children (5:alle:det --> 4:nagenoeg:amod)
+[Line 16750 Sent WR-P-E-I-0000000014.p.13.s.4 Node 23]: [L3 Warning leaf-det] 'det' not expected to have children (23:genoeg:det --> 22:net:amod)
+...suppressing further errors regarding Warning
+Warnings: 15
 *** PASSED ***
 /net/work/people/zeman/unidep/tools/validate.py --lang nl --max-err=10 UD_Dutch-LassySmall/nl_lassysmall-ud-test.conllu
+[Line 6767 Sent wiki-1808.p.17.s.6 Node 8]: [L3 Warning leaf-det] 'det' not expected to have children (8:wat:det --> 7:heel:amod)
+[Line 16248 Sent wiki-7298.p.5.s.6 Node 5]: [L3 Warning leaf-det] 'det' not expected to have children (5:die:det --> 4:al:amod)
+[Line 34791 Sent WR-P-E-I-0000051419.p.16.s.1 Node 13]: [L3 Warning leaf-det] 'det' not expected to have children (13:de:det --> 12:vier:amod)
+[Line 37506 Sent WR-P-E-I-0000051419.p.35.s.8 Node 17]: [L3 Warning leaf-det] 'det' not expected to have children (17:welke:det --> 14:om:amod)
+Warnings: 4
 *** PASSED ***
 /net/work/people/zeman/unidep/tools/validate.py --lang nl --max-err=10 UD_Dutch-LassySmall/nl_lassysmall-ud-train.conllu
-[Line 111121 Sent WR-P-E-I-0000000006.p.2.s.1 Node 5]: [L3 Warning fixed-gap] Gaps in fixed expression [5, 8] '10 * * duizend'
-[Line 111840 Sent WR-P-E-I-0000000008.p.3.s.1 Node 19]: [L3 Warning fixed-gap] Gaps in fixed expression [19, 22] 'vijf * * uur'
-[Line 119031 Sent WR-P-E-I-0000000332.p.4.s.286 Node 14]: [L3 Warning fixed-gap] Gaps in fixed expression [14, 17, 18] 'wat * * voor een'
-[Line 256644 Sent WR-P-E-I-0000044854.p.3.s.102 Node 1]: [L3 Warning fixed-gap] Gaps in fixed expression [1, 2, 6] 'Ten zuiden * * * van'
-[Line 270388 Sent WR-P-E-I-0000049645.p.1.s.160.2 Node 6]: [L3 Warning fixed-gap] Gaps in fixed expression [6, 7, 8, 14] '8 - 12 * * * * * u'
-[Line 280044 Sent WR-P-E-I-0000050381.p.1.s.274 Node 8]: [L3 Warning fixed-gap] Gaps in fixed expression [8, 11] 'wat * * voor'
-[Line 322736 Sent WR-P-E-I-0000108667.p.3.s.8 Node 13]: [L3 Warning fixed-gap] Gaps in fixed expression [13, 14, 16] 'in tegenstelling * tot'
-Warnings: 7
+[Line 910 Sent wiki-1058.p.31.s.1 Node 15]: [L3 Warning leaf-det] 'det' not expected to have children (15:wat:det --> 14:heel:amod)
+[Line 9855 Sent wiki-1400.p.10.s.1 Node 21]: [L3 Warning leaf-det] 'det' not expected to have children (21:zo'n:det --> 33:doet:advcl)
+[Line 10451 Sent wiki-1400.p.17.s.3 Node 12]: [L3 Warning leaf-det] 'det' not expected to have children (12:wat:det --> 11:heel:amod)
+[Line 10821 Sent wiki-1400.p.22.s.3 Node 27]: [L3 Warning leaf-det] 'det' not expected to have children (27:alle:det --> 26:haast:amod)
+[Line 16683 Sent wiki-154.p.20.s.2 Node 2]: [L3 Warning leaf-det] 'det' not expected to have children (2:alle:det --> 1:Vrijwel:amod)
+[Line 32353 Sent wiki-1823.p.28.s.7 Node 11]: [L3 Warning leaf-det] 'det' not expected to have children (11:alle:det --> 10:bijna:amod)
+[Line 33158 Sent wiki-1823.p.36.s.4 Node 8]: [L3 Warning leaf-det] 'det' not expected to have children (8:deze:det --> 7:al:amod)
+[Line 51669 Sent wiki-349.p.38.s.2 Node 2]: [L3 Warning leaf-det] 'det' not expected to have children (2:deze:det --> 1:Al:amod)
+[Line 63904 Sent wiki-5318.p.15.s.1 Node 18]: [L3 Warning leaf-det] 'det' not expected to have children (18:16:det --> 17:zo'n:amod)
+[Line 68836 Sent wiki-5.p.29.s.6 Node 5]: [L3 Warning leaf-det] 'det' not expected to have children (5:wat:det --> 4:heel:amod)
+...suppressing further errors regarding Warning
+Warnings: 73
 *** PASSED ***
 Validity: 1
 (weight=0.0769230769230769) * (score{features}=0.8) = 0.0615384615384615

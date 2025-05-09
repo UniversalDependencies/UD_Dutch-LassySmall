@@ -1,11 +1,11 @@
 Running the following version of UD tools:
-commit c1984d97df0ecdcc1b50fbeaa8c96419c6321432
+commit ecbbdff44b15c9b6de4a691e3499c1286459ab2e
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Sun Nov 10 10:33:45 2024 +0100
+Date:   Fri May 9 21:07:42 2025 +0200
 Evaluating the following revision of UD_Dutch-LassySmall:
-commit 88c1ff4e64ab766e520cacb6ca6b9fe684274fbf
+commit 30e88dd6c258bef457e30e1c6f44c1f1f47491b6
+Merge: e578aa1 c8c1dce
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Sun May 5 12:08:39 2024 +0200
 Size: counted 297065 of 297065 words (nodes).
 Size: min(0, log((N/1000)**2)) = 11.3879019401525.
 Size: maximum value 13.815511 is for 1000000 words or more.
@@ -15,59 +15,66 @@ Split: Found at least 10000 test words.
 Lemmas: source of annotation (from README) factor is 0.8.
 Universal POS tags: 16 out of 17 found in the corpus.
 Universal POS tags: source of annotation (from README) factor is 0.8.
-Features: 167926 out of 297065 total words have one or more features.
+Features: 169883 out of 297065 total words have one or more features.
 Features: source of annotation (from README) factor is 0.8.
 Universal relations: 29 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 0.8.
 Udapi:
-               TOTAL      65333
-Udapi: found 65333 bugs.
+               TOTAL      65125
+Udapi: found 65125 bugs.
 Udapi: worst expected case (threshold) is one bug per 10 words. There are 297065 words.
-Genres: found 1 out of 17 known.
+Genres: found 1 out of 18 known.
 /net/work/people/zeman/unidep/tools/validate.py --lang nl --max-err=10 UD_Dutch-LassySmall/nl_lassysmall-ud-dev.conllu
-[Line 237 Sent wiki-1181.p.13.s.3 Node 12]: [L3 Warning leaf-det] 'det' not expected to have children (12:meer:det --> 11:iets:amod)
-[Line 241 Sent wiki-1181.p.13.s.3 Node 12]: [L3 Warning leaf-det] 'det' not expected to have children (12:meer:det --> 15:miljoen:advcl)
-[Line 679 Sent wiki-1181.p.3.s.3 Node 3]: [L3 Warning leaf-det] 'det' not expected to have children (3:geen:det --> 2:net:amod)
-[Line 3213 Sent wiki-5107.p.7.s.4 Node 43]: [L3 Warning leaf-det] 'det' not expected to have children (43:wat:det --> 42:behoorlijk:amod)
-[Line 12005 Sent wiki-9843.p.16.s.1 Node 5]: [L3 Warning leaf-det] 'det' not expected to have children (5:zo'n:det --> 16:kochten:advcl)
-[Line 12969 Sent wiki-9843.p.23.s.6 Node 4]: [L3 Warning leaf-det] 'det' not expected to have children (4:deze:det --> 3:al:amod)
-[Line 12995 Sent wiki-9843.p.23.s.7 Node 5]: [L3 Warning leaf-det] 'det' not expected to have children (5:de:det --> 4:al:amod)
-[Line 15555 Sent WR-P-E-I-0000000001.p.18.s.1 Node 4]: [L3 Warning leaf-det] 'det' not expected to have children (4:veel:det --> 3:zeer:amod)
-[Line 16412 Sent WR-P-E-I-0000000001.p.7.s.5 Node 5]: [L3 Warning leaf-det] 'det' not expected to have children (5:alle:det --> 4:nagenoeg:amod)
-[Line 16750 Sent WR-P-E-I-0000000014.p.13.s.4 Node 23]: [L3 Warning leaf-det] 'det' not expected to have children (23:genoeg:det --> 22:net:amod)
+[Line 1141 Sent wiki-1181.p.6.s.2 Node 6]: [L3 Warning fixed-without-extpos] Fixed expression 'centrum- rechts' does not have the 'ExtPos' feature
+[Line 2397 Sent wiki-3781.p.3.s.4 Node 14]: [L3 Warning fixed-without-extpos] Fixed expression '( 1 )' does not have the 'ExtPos' feature
+[Line 2417 Sent wiki-3781.p.3.s.4 Node 34]: [L3 Warning fixed-without-extpos] Fixed expression '( 2 )' does not have the 'ExtPos' feature
+[Line 2432 Sent wiki-3781.p.3.s.4 Node 48]: [L3 Warning fixed-without-extpos] Fixed expression '( 3 )' does not have the 'ExtPos' feature
+[Line 2455 Sent wiki-3781.p.3.s.4 Node 71]: [L3 Warning fixed-without-extpos] Fixed expression '( 4 )' does not have the 'ExtPos' feature
+[Line 4451 Sent wiki-6983.p.13.s.2 Node 2]: [L3 Warning fixed-without-extpos] Fixed expression 'Weg met ons' does not have the 'ExtPos' feature
+[Line 4700 Sent wiki-6983.p.16.s.4 Node 3]: [L3 Warning fixed-without-extpos] Fixed expression 'Vlaams Blok-meeting' does not have the 'ExtPos' feature
+[Line 6099 Sent wiki-6984.p.3.s.3 Node 12]: [L3 Warning fixed-without-extpos] Fixed expression 'raad van beheer' does not have the 'ExtPos' feature
+[Line 6600 Sent wiki-737.p.11.s.2 Node 7]: [L3 Warning fixed-without-extpos] Fixed expression 'De geheimzinnige ster' does not have the 'ExtPos' feature
+[Line 7828 Sent wiki-832.p.13.s.1 Node 15]: [L3 Warning fixed-without-extpos] Fixed expression 'Naakte jongen' does not have the 'ExtPos' feature
 ...suppressing further errors regarding Warning
-Warnings: 15
+Warnings: 52
 *** PASSED ***
 /net/work/people/zeman/unidep/tools/validate.py --lang nl --max-err=10 UD_Dutch-LassySmall/nl_lassysmall-ud-test.conllu
-[Line 6767 Sent wiki-1808.p.17.s.6 Node 8]: [L3 Warning leaf-det] 'det' not expected to have children (8:wat:det --> 7:heel:amod)
-[Line 16248 Sent wiki-7298.p.5.s.6 Node 5]: [L3 Warning leaf-det] 'det' not expected to have children (5:die:det --> 4:al:amod)
-[Line 34791 Sent WR-P-E-I-0000051419.p.16.s.1 Node 13]: [L3 Warning leaf-det] 'det' not expected to have children (13:de:det --> 12:vier:amod)
-[Line 37506 Sent WR-P-E-I-0000051419.p.35.s.8 Node 17]: [L3 Warning leaf-det] 'det' not expected to have children (17:welke:det --> 14:om:amod)
-Warnings: 4
+[Line 12657 Sent wiki-384.p.44.s.1 Node 2]: [L3 Warning fixed-without-extpos] Fixed expression 'Eerste Kamerfractie' does not have the 'ExtPos' feature
+[Line 13971 Sent wiki-384.p.68.s.3 Node 4]: [L3 Warning fixed-without-extpos] Fixed expression 'Tweede Kamerverkiezingen' does not have the 'ExtPos' feature
+[Line 14432 Sent wiki-384.p.8.s.10 Node 4]: [L3 Warning fixed-without-extpos] Fixed expression 'Tweede Kamerverkiezingen' does not have the 'ExtPos' feature
+[Line 14882 Sent wiki-5090.p.4.s.12 Node 7]: [L3 Warning fixed-without-extpos] Fixed expression 'Ballade der onzekerheden' does not have the 'ExtPos' feature
+[Line 14899 Sent wiki-5090.p.4.s.13 Node 6]: [L3 Warning fixed-without-extpos] Fixed expression 'Zangen van onmacht' does not have the 'ExtPos' feature
+[Line 14925 Sent wiki-5090.p.4.s.2 Node 4]: [L3 Warning fixed-without-extpos] Fixed expression 'De bomen zijn paars en de hemel' does not have the 'ExtPos' feature
+[Line 14997 Sent wiki-5090.p.4.s.6 Node 6]: [L3 Warning fixed-without-extpos] Fixed expression 'De droefheid is in handbereik' does not have the 'ExtPos' feature
+[Line 15046 Sent wiki-5090.p.4.s.9 Node 6]: [L3 Warning fixed-without-extpos] Fixed expression 'De zomer staat hoog en rijp' does not have the 'ExtPos' feature
+[Line 19709 Sent WR-P-E-I-0000004258.p.2.s.2 Node 16]: [L3 Warning fixed-without-extpos] Fixed expression 'op zoek' does not have the 'ExtPos' feature
+[Line 19897 Sent WR-P-E-I-0000004258.p.4.s.2 Node 1]: [L3 Warning fixed-without-extpos] Fixed expression 'Als gevolg hiervan' does not have the 'ExtPos' feature
+...suppressing further errors regarding Warning
+Warnings: 36
 *** PASSED ***
 /net/work/people/zeman/unidep/tools/validate.py --lang nl --max-err=10 UD_Dutch-LassySmall/nl_lassysmall-ud-train.conllu
-[Line 910 Sent wiki-1058.p.31.s.1 Node 15]: [L3 Warning leaf-det] 'det' not expected to have children (15:wat:det --> 14:heel:amod)
-[Line 9855 Sent wiki-1400.p.10.s.1 Node 21]: [L3 Warning leaf-det] 'det' not expected to have children (21:zo'n:det --> 33:doet:advcl)
-[Line 10451 Sent wiki-1400.p.17.s.3 Node 12]: [L3 Warning leaf-det] 'det' not expected to have children (12:wat:det --> 11:heel:amod)
-[Line 10821 Sent wiki-1400.p.22.s.3 Node 27]: [L3 Warning leaf-det] 'det' not expected to have children (27:alle:det --> 26:haast:amod)
-[Line 16683 Sent wiki-154.p.20.s.2 Node 2]: [L3 Warning leaf-det] 'det' not expected to have children (2:alle:det --> 1:Vrijwel:amod)
-[Line 32353 Sent wiki-1823.p.28.s.7 Node 11]: [L3 Warning leaf-det] 'det' not expected to have children (11:alle:det --> 10:bijna:amod)
-[Line 33158 Sent wiki-1823.p.36.s.4 Node 8]: [L3 Warning leaf-det] 'det' not expected to have children (8:deze:det --> 7:al:amod)
-[Line 51669 Sent wiki-349.p.38.s.2 Node 2]: [L3 Warning leaf-det] 'det' not expected to have children (2:deze:det --> 1:Al:amod)
-[Line 63904 Sent wiki-5318.p.15.s.1 Node 18]: [L3 Warning leaf-det] 'det' not expected to have children (18:16:det --> 17:zo'n:amod)
-[Line 68836 Sent wiki-5.p.29.s.6 Node 5]: [L3 Warning leaf-det] 'det' not expected to have children (5:wat:det --> 4:heel:amod)
+[Line 4442 Sent wiki-11.p.47.s.7 Node 12]: [L3 Warning fixed-without-extpos] Fixed expression 'art deco' does not have the 'ExtPos' feature
+[Line 6903 Sent wiki-1250.p.6.s.2 Node 9]: [L3 Warning fixed-without-extpos] Fixed expression 'Eerste Kamerlid' does not have the 'ExtPos' feature
+[Line 6971 Sent wiki-1250.p.7.s.1 Node 13]: [L3 Warning fixed-without-extpos] Fixed expression 'Eerste Kamerlid' does not have the 'ExtPos' feature
+[Line 9621 Sent wiki-138.p.33.s.1 Node 5]: [L3 Warning fixed-without-extpos] Fixed expression '18de eeuws' does not have the 'ExtPos' feature
+[Line 14505 Sent wiki-1400.p.3.s.3 Node 9]: [L3 Warning fixed-without-extpos] Fixed expression 'hel van het noorden' does not have the 'ExtPos' feature
+[Line 14549 Sent wiki-1400.p.3.s.4 Node 4]: [L3 Warning fixed-without-extpos] Fixed expression 'hel van het noorden' does not have the 'ExtPos' feature
+[Line 16223 Sent wiki-1532.p.9.s.2 Node 2]: [L3 Warning fixed-without-extpos] Fixed expression 'Het zotte geweld' does not have the 'ExtPos' feature
+[Line 16229 Sent wiki-1532.p.9.s.2 Node 8]: [L3 Warning fixed-without-extpos] Fixed expression 'Huiselijke zorgen' does not have the 'ExtPos' feature
+[Line 16942 Sent wiki-1541.p.20.s.1 Node 19]: [L3 Warning fixed-without-extpos] Fixed expression 'Het verraad van de voorstelling' does not have the 'ExtPos' feature
+[Line 19702 Sent wiki-154.p.20.s.4 Node 5]: [L3 Warning fixed-without-extpos] Fixed expression 'lingua franca' does not have the 'ExtPos' feature
 ...suppressing further errors regarding Warning
-Warnings: 73
+Warnings: 354
 *** PASSED ***
 Validity: 1
 (weight=0.0769230769230769) * (score{features}=0.8) = 0.0615384615384615
-(weight=0.0769230769230769) * (score{genres}=0.0588235294117647) = 0.00452488687782805
+(weight=0.0769230769230769) * (score{genres}=0.0555555555555556) = 0.00427350427350427
 (weight=0.0769230769230769) * (score{lemmas}=0.8) = 0.0615384615384615
 (weight=0.256410256410256) * (score{size}=0.824283828843927) = 0.211354827908699
 (weight=0.0512820512820513) * (score{split}=1) = 0.0512820512820513
 (weight=0.0769230769230769) * (score{tags}=0.752941176470588) = 0.0579185520361991
 (weight=0.307692307692308) * (score{udapi}=0.01) = 0.00307692307692308
 (weight=0.0769230769230769) * (score{udeprels}=0.627027027027027) = 0.0482328482328482
-(TOTAL score=0.499467012491472) * (availability=1) * (validity=1) = 0.499467012491472
+(TOTAL score=0.499215629887148) * (availability=1) * (validity=1) = 0.499215629887148
 STARS = 2.5
-UD_Dutch-LassySmall	0.499467012491472	2.5
+UD_Dutch-LassySmall	0.499215629887148	2.5

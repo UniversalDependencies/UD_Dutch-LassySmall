@@ -37,6 +37,7 @@ Older
 Data available since: UD v1.3
 License: CC BY-SA 4.0
 Includes text: yes
+Parallel: no
 Genre: wiki
 Lemmas: converted from manual
 UPOS: converted from manual

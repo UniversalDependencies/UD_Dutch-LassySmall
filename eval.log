@@ -1,11 +1,11 @@
 Running the following version of UD tools:
-commit 26e6c87a2f518322d15901a351199b6be6569062
+commit b39dc4111bb13658bc0c204b48bb78b492e45d2b
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Fri Nov 7 15:39:58 2025 +0100
+Date:   Tue May 5 17:01:41 2026 +0200
 Evaluating the following revision of UD_Dutch-LassySmall:
-commit 76303f1837bc1f75e73efaf8c3e4ae3c4ba1812e
-Merge: 7880e0b b8cdca9
+commit 4fec7234055b93df1ffe9e9b254f545aa6e647eb
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
+Date:   Tue Nov 11 19:17:51 2025 +0100
 CoNLL-U data file regular expression = '(.+)-ud-(train|dev|test)\.conllu'
 Language-treebank code (from CoNLL-U file name) = 'nl_lassysmall'
 Language code (from CoNLL-U file name) = 'nl'
@@ -25,46 +25,79 @@ Universal relations: 29 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 0.8.
 Genres: found 1 out of 18 known.
 /net/work/people/zeman/unidep/tools/validate.py --lang nl --max-err=10 UD_Dutch-LassySmall/nl_lassysmall-ud-dev.conllu
-[Line 106 Sent wiki-1181.p.12.s.2]: [L3 Warning pron-det-without-prontype] The word 'hetzelfde' is tagged 'DET' but it lacks the 'PronType' feature
-[Line 909 Sent wiki-1181.p.5.s.2]: [L3 Warning pron-det-without-prontype] The word 'hetzelfde' is tagged 'DET' but it lacks the 'PronType' feature
-[Line 1141 Sent wiki-1181.p.6.s.2]: [L3 Warning fixed-without-extpos] Fixed expression 'centrum- rechts' does not have the 'ExtPos' feature
-[Line 2397 Sent wiki-3781.p.3.s.4]: [L3 Warning fixed-without-extpos] Fixed expression '( 1 )' does not have the 'ExtPos' feature
-[Line 2417 Sent wiki-3781.p.3.s.4]: [L3 Warning fixed-without-extpos] Fixed expression '( 2 )' does not have the 'ExtPos' feature
-[Line 2432 Sent wiki-3781.p.3.s.4]: [L3 Warning fixed-without-extpos] Fixed expression '( 3 )' does not have the 'ExtPos' feature
-[Line 2455 Sent wiki-3781.p.3.s.4]: [L3 Warning fixed-without-extpos] Fixed expression '( 4 )' does not have the 'ExtPos' feature
-[Line 3698 Sent wiki-5107.p.7.s.4]: [L3 Warning pron-det-without-prontype] The word 'wat' is tagged 'DET' but it lacks the 'PronType' feature
-[Line 4007 Sent wiki-5716.p.4.s.1]: [L3 Warning pron-det-without-prontype] The word 'dezelfde' is tagged 'DET' but it lacks the 'PronType' feature
-[Line 4451 Sent wiki-6983.p.13.s.2]: [L3 Warning fixed-without-extpos] Fixed expression 'Weg met ons' does not have the 'ExtPos' feature
-...suppressing further errors regarding Warning
+[Line 106 Sent wiki-1181.p.12.s.2]: [L3 WARNING pron-det-without-prontype] The word 'hetzelfde' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 909 Sent wiki-1181.p.5.s.2]: [L3 WARNING pron-det-without-prontype] The word 'hetzelfde' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 1141 Sent wiki-1181.p.6.s.2]: [L3 WARNING fixed-without-extpos] Fixed expression 'centrum- rechts' does not have the 'ExtPos' feature
+[Line 2397 Sent wiki-3781.p.3.s.4]: [L3 WARNING fixed-without-extpos] Fixed expression '( 1 )' does not have the 'ExtPos' feature
+[Line 2417 Sent wiki-3781.p.3.s.4]: [L3 WARNING fixed-without-extpos] Fixed expression '( 2 )' does not have the 'ExtPos' feature
+[Line 2432 Sent wiki-3781.p.3.s.4]: [L3 WARNING fixed-without-extpos] Fixed expression '( 3 )' does not have the 'ExtPos' feature
+[Line 2455 Sent wiki-3781.p.3.s.4]: [L3 WARNING fixed-without-extpos] Fixed expression '( 4 )' does not have the 'ExtPos' feature
+[Line 3698 Sent wiki-5107.p.7.s.4]: [L3 WARNING pron-det-without-prontype] The word 'wat' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 4007 Sent wiki-5716.p.4.s.1]: [L3 WARNING pron-det-without-prontype] The word 'dezelfde' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 4451 Sent wiki-6983.p.13.s.2]: [L3 WARNING fixed-without-extpos] Fixed expression 'Weg met ons' does not have the 'ExtPos' feature
+[Line 4534 Sent wiki-6983.p.13.s.6]: [L3 WARNING fixed-without-extpos] Fixed expression 'Baas in eigen land - Over identiteit , culturele eigenheid en nationaliteit' does not have the 'ExtPos' feature
+[Line 4795 Sent wiki-6983.p.18.s.1]: [L3 WARNING fixed-without-extpos] Fixed expression 'werk voor eigen volk eerst' does not have the 'ExtPos' feature
+[Line 5592 Sent wiki-6983.p.4.s.3]: [L3 WARNING pron-det-without-prontype] The word 'Datzelfde' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 6099 Sent wiki-6984.p.3.s.3]: [L3 WARNING fixed-without-extpos] Fixed expression 'raad van beheer' does not have the 'ExtPos' feature
+[Line 6543 Sent wiki-737.p.10.s.2]: [L3 WARNING fixed-without-extpos] Fixed expression 'De geheimzinnige ster' does not have the 'ExtPos' feature
+...suppressing further messages regarding WARNING/SYNTAX
+[Line 6654 Sent wiki-737.p.11.s.3]: [L3 WARNING pron-det-without-prontype] The word 'zulke' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 8115 Sent wiki-832.p.15.s.1]: [L3 WARNING pron-det-without-prontype] The word 'datzelfde' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 10239 Sent wiki-832.p.35.s.1]: [L3 WARNING pron-det-without-prontype] The word 'meerdere' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 10571 Sent wiki-832.p.39.s.2]: [L3 WARNING pron-det-without-prontype] The word 'hetzelfde' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 10754 Sent wiki-832.p.41.s.3]: [L3 WARNING pron-det-without-prontype] The word 'hetzelfde' is tagged 'DET' but it lacks the 'PronType' feature
+...suppressing further messages regarding WARNING/MORPHO
 Warnings: 105
 *** PASSED ***
 /net/work/people/zeman/unidep/tools/validate.py --lang nl --max-err=10 UD_Dutch-LassySmall/nl_lassysmall-ud-test.conllu
-[Line 7923 Sent wiki-1808.p.17.s.6]: [L3 Warning pron-det-without-prontype] The word 'wat' is tagged 'DET' but it lacks the 'PronType' feature
-[Line 7974 Sent wiki-1808.p.19.s.1]: [L3 Warning fixed-without-extpos] Fixed expression 'drie vierde' does not have the 'ExtPos' feature
-[Line 12657 Sent wiki-384.p.44.s.1]: [L3 Warning fixed-without-extpos] Fixed expression 'Eerste Kamerfractie' does not have the 'ExtPos' feature
-[Line 12836 Sent wiki-384.p.50.s.1]: [L3 Warning fixed-without-extpos] Fixed expression 'Commissaris van de Koningin' does not have the 'ExtPos' feature
-[Line 13870 Sent wiki-384.p.64.s.9]: [L3 Warning fixed-without-extpos] Fixed expression 'Bestuurlijke vernieuwing en' does not have the 'ExtPos' feature
-[Line 13971 Sent wiki-384.p.68.s.3]: [L3 Warning fixed-without-extpos] Fixed expression 'Tweede Kamerverkiezingen' does not have the 'ExtPos' feature
-[Line 14092 Sent wiki-384.p.6.s.4]: [L3 Warning pron-det-without-prontype] The word 'onvoldoende' is tagged 'DET' but it lacks the 'PronType' feature
-[Line 14241 Sent wiki-384.p.7.s.3]: [L3 Warning pron-det-without-prontype] The word 'tweederde' is tagged 'DET' but it lacks the 'PronType' feature
-[Line 14432 Sent wiki-384.p.8.s.10]: [L3 Warning fixed-without-extpos] Fixed expression 'Tweede Kamerverkiezingen' does not have the 'ExtPos' feature
-[Line 14899 Sent wiki-5090.p.4.s.13]: [L3 Warning fixed-without-extpos] Fixed expression 'Zangen van onmacht' does not have the 'ExtPos' feature
-...suppressing further errors regarding Warning
+[Line 7923 Sent wiki-1808.p.17.s.6]: [L3 WARNING pron-det-without-prontype] The word 'wat' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 7974 Sent wiki-1808.p.19.s.1]: [L3 WARNING fixed-without-extpos] Fixed expression 'drie vierde' does not have the 'ExtPos' feature
+[Line 12657 Sent wiki-384.p.44.s.1]: [L3 WARNING fixed-without-extpos] Fixed expression 'Eerste Kamerfractie' does not have the 'ExtPos' feature
+[Line 12836 Sent wiki-384.p.50.s.1]: [L3 WARNING fixed-without-extpos] Fixed expression 'Commissaris van de Koningin' does not have the 'ExtPos' feature
+[Line 13870 Sent wiki-384.p.64.s.9]: [L3 WARNING fixed-without-extpos] Fixed expression 'Bestuurlijke vernieuwing en' does not have the 'ExtPos' feature
+[Line 13971 Sent wiki-384.p.68.s.3]: [L3 WARNING fixed-without-extpos] Fixed expression 'Tweede Kamerverkiezingen' does not have the 'ExtPos' feature
+[Line 14092 Sent wiki-384.p.6.s.4]: [L3 WARNING pron-det-without-prontype] The word 'onvoldoende' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 14241 Sent wiki-384.p.7.s.3]: [L3 WARNING pron-det-without-prontype] The word 'tweederde' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 14432 Sent wiki-384.p.8.s.10]: [L3 WARNING fixed-without-extpos] Fixed expression 'Tweede Kamerverkiezingen' does not have the 'ExtPos' feature
+[Line 14899 Sent wiki-5090.p.4.s.13]: [L3 WARNING fixed-without-extpos] Fixed expression 'Zangen van onmacht' does not have the 'ExtPos' feature
+[Line 14925 Sent wiki-5090.p.4.s.2]: [L3 WARNING fixed-without-extpos] Fixed expression 'De bomen zijn paars en de hemel' does not have the 'ExtPos' feature
+[Line 14997 Sent wiki-5090.p.4.s.6]: [L3 WARNING fixed-without-extpos] Fixed expression 'De droefheid is in handbereik' does not have the 'ExtPos' feature
+[Line 15046 Sent wiki-5090.p.4.s.9]: [L3 WARNING fixed-without-extpos] Fixed expression 'De zomer staat hoog en rijp' does not have the 'ExtPos' feature
+[Line 17235 Sent wiki-572.p.5.s.1]: [L3 WARNING pron-det-without-prontype] The word 'datzelfde' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 18203 Sent wiki-659.p.8.s.3]: [L3 WARNING pron-det-without-prontype] The word 'datzelfde' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 18574 Sent wiki-7298.p.4.s.1]: [L3 WARNING pron-det-without-prontype] The word 'dezelfde' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 19294 Sent wiki-90.p.5.s.2]: [L3 WARNING pron-det-without-prontype] The word 'dezelfde' is tagged 'DET' but it lacks the 'PronType' feature
+...suppressing further messages regarding WARNING/SYNTAX
+[Line 20898 Sent WR-P-E-I-0000004258.p.7.s.120]: [L3 WARNING pron-det-without-prontype] The word 'allerlei' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 24486 Sent WR-P-E-I-0000004258.p.7.s.6]: [L3 WARNING pron-det-without-prontype] The word 'dezelfde' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 26305 Sent WR-P-E-I-0000020972.p.4.s.114]: [L3 WARNING pron-det-without-prontype] The word 'dezelfde' is tagged 'DET' but it lacks the 'PronType' feature
+...suppressing further messages regarding WARNING/MORPHO
 Warnings: 56
 *** PASSED ***
 /net/work/people/zeman/unidep/tools/validate.py --lang nl --max-err=10 UD_Dutch-LassySmall/nl_lassysmall-ud-train.conllu
-[Line 1094 Sent wiki-1058.p.31.s.1]: [L3 Warning pron-det-without-prontype] The word 'wat' is tagged 'DET' but it lacks the 'PronType' feature
-[Line 2223 Sent wiki-11.p.16.s.2]: [L3 Warning pron-det-without-prontype] The word '+11,77' is tagged 'DET' but it lacks the 'PronType' feature
-[Line 2258 Sent wiki-11.p.16.s.3]: [L3 Warning pron-det-without-prontype] The word '+46,29' is tagged 'DET' but it lacks the 'PronType' feature
-[Line 2283 Sent wiki-11.p.16.s.4]: [L3 Warning pron-det-without-prontype] The word '+52,93' is tagged 'DET' but it lacks the 'PronType' feature
-[Line 2316 Sent wiki-11.p.16.s.5]: [L3 Warning pron-det-without-prontype] The word '+64,68' is tagged 'DET' but it lacks the 'PronType' feature
-[Line 4442 Sent wiki-11.p.47.s.7]: [L3 Warning fixed-without-extpos] Fixed expression 'art deco' does not have the 'ExtPos' feature
-[Line 6903 Sent wiki-1250.p.6.s.2]: [L3 Warning fixed-without-extpos] Fixed expression 'Eerste Kamerlid' does not have the 'ExtPos' feature
-[Line 6971 Sent wiki-1250.p.7.s.1]: [L3 Warning fixed-without-extpos] Fixed expression 'Eerste Kamerlid' does not have the 'ExtPos' feature
-[Line 9621 Sent wiki-138.p.33.s.1]: [L3 Warning fixed-without-extpos] Fixed expression '18de eeuws' does not have the 'ExtPos' feature
-[Line 12340 Sent wiki-1400.p.17.s.3]: [L3 Warning pron-det-without-prontype] The word 'wat' is tagged 'DET' but it lacks the 'PronType' feature
-...suppressing further errors regarding Warning
-Warnings: 539
+[Line 1094 Sent wiki-1058.p.31.s.1]: [L3 WARNING pron-det-without-prontype] The word 'wat' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 2223 Sent wiki-11.p.16.s.2]: [L3 WARNING pron-det-without-prontype] The word '+11,77' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 2258 Sent wiki-11.p.16.s.3]: [L3 WARNING pron-det-without-prontype] The word '+46,29' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 2283 Sent wiki-11.p.16.s.4]: [L3 WARNING pron-det-without-prontype] The word '+52,93' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 2316 Sent wiki-11.p.16.s.5]: [L3 WARNING pron-det-without-prontype] The word '+64,68' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 4442 Sent wiki-11.p.47.s.7]: [L3 WARNING fixed-without-extpos] Fixed expression 'art deco' does not have the 'ExtPos' feature
+[Line 6903 Sent wiki-1250.p.6.s.2]: [L3 WARNING fixed-without-extpos] Fixed expression 'Eerste Kamerlid' does not have the 'ExtPos' feature
+[Line 6971 Sent wiki-1250.p.7.s.1]: [L3 WARNING fixed-without-extpos] Fixed expression 'Eerste Kamerlid' does not have the 'ExtPos' feature
+[Line 9621 Sent wiki-138.p.33.s.1]: [L3 WARNING fixed-without-extpos] Fixed expression '18de eeuws' does not have the 'ExtPos' feature
+[Line 12340 Sent wiki-1400.p.17.s.3]: [L3 WARNING pron-det-without-prontype] The word 'wat' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 12733 Sent wiki-1400.p.22.s.3]: [L3 WARNING pron-det-without-prontype] The word 'diezelfde' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 14505 Sent wiki-1400.p.3.s.3]: [L3 WARNING fixed-without-extpos] Fixed expression 'hel van het noorden' does not have the 'ExtPos' feature
+[Line 14549 Sent wiki-1400.p.3.s.4]: [L3 WARNING fixed-without-extpos] Fixed expression 'hel van het noorden' does not have the 'ExtPos' feature
+[Line 15931 Sent wiki-1532.p.7.s.5]: [L3 WARNING pron-det-without-prontype] The word 'Datzelfde' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 16223 Sent wiki-1532.p.9.s.2]: [L3 WARNING fixed-without-extpos] Fixed expression 'Het zotte geweld' does not have the 'ExtPos' feature
+[Line 16229 Sent wiki-1532.p.9.s.2]: [L3 WARNING fixed-without-extpos] Fixed expression 'Huiselijke zorgen' does not have the 'ExtPos' feature
+[Line 16296 Sent wiki-1532.p.9.s.4]: [L3 WARNING pron-det-without-prontype] The word 'datzelfde' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 16942 Sent wiki-1541.p.20.s.1]: [L3 WARNING fixed-without-extpos] Fixed expression 'Het verraad van de voorstelling' does not have the 'ExtPos' feature
+[Line 17781 Sent wiki-1541.p.30.s.13]: [L3 WARNING fixed-without-extpos] Fixed expression 'De boom' does not have the 'ExtPos' feature
+...suppressing further messages regarding WARNING/SYNTAX
+[Line 19191 Sent wiki-154.p.12.s.8]: [L3 WARNING pron-det-without-prontype] The word 'ettelijke' is tagged 'DET' but it lacks the 'PronType' feature
+...suppressing further messages regarding WARNING/MORPHO
+Warnings: 537
 *** PASSED ***
 Validity: 1
 (weight=0.111111111111111) * (score{features}=0.8) = 0.0888888888888889
